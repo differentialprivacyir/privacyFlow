@@ -1,0 +1,140 @@
+"""Client Implementation of Privacy Flow framework
+"""
+import math
+import numpy as np
+
+def leaf_nodes_per_tree(total_number_of_nodes):
+    """Computes "a" values where a_i + 1 denotes the height of i'th tree and 
+        2^(a_i) nodes are available in i'th tree.
+    Also there is another relation:
+        t = 2^(a_m_t) + ... + 2^(a_i) + 2^(a_1)
+    where t is denoting time or number of reports gathered.
+
+
+    Args:
+        total_number_of_nodes (int): The total nodes available in all difference trees.
+
+    Returns:
+        int[]: a_i values
+    """
+    if total_number_of_nodes == 0:
+        return []
+    leaf_nodes_in_current_tree = math.floor(math.log2(total_number_of_nodes))
+    remaning_nodes = total_number_of_nodes - math.pow(2, leaf_nodes_in_current_tree)
+    return np.concatenate(([leaf_nodes_in_current_tree], leaf_nodes_per_tree(remaning_nodes)))
+
+
+class Client:
+    """Implements functionalities of Privacy Flow Client.
+    """
+    def __init__(self, epsilon, report_limit):
+        self.R = []
+        self.previous_value = 0
+        self.t = 0
+        self.m_t_1 = 0
+        self.epsilon = epsilon
+        self.changes = 0
+        self.global_eps = report_limit * self.epsilon
+        self.a_m_t = 0
+        self.count = 0
+
+    def calcualte_budget(self):
+        """Returns the privacy budget for current calculation.
+            You can replace it with a dynamic mechanism later.j
+
+
+        Returns:
+            Float: Current budget to be used.
+        """
+        if (self.count * self.epsilon) > self.global_eps:
+            return 0
+        else:
+            self.count += 1
+            return self.epsilon
+
+
+    def new_value(self, v):
+        """Get the new value of the client and calculate new R array and a_mt.
+        Also it updates previous values.
+
+        Args:
+            v (int): The value of new data
+        """
+        self.t = self.t + 1
+        aArray = leaf_nodes_per_tree(self.t)
+        aArray = aArray.astype(np.int64)
+        previousR = self.R.copy()
+        a_1 = aArray[0]
+        self.a_m_t = aArray[len(aArray) - 1]
+        self.R = [previousR[j] \
+                    if j > self.a_m_t \
+                    else np.sum(previousR[0:j]) + v - self.previous_value \
+                    for j  in range(a_1 + 1)]
+        if self.previous_value != v:
+            self.changes+=1
+        self.previous_value = v
+
+    def select(self):
+        """This is node selection strategy.
+            Each node can report root of associated difference tree or the leaf node.
+            NOTE: This function should be call after new_value function to make sure 
+                    a_m_t is updated.
+
+        Returns:
+            [int, int]: The level of node to report and its value.
+        """
+        r_t = self.a_m_t
+        h_t = np.random.randint(0, 2)
+        if h_t >= 1:
+            h_t = r_t
+        else:
+            h_t = 0
+        return [self.R[h_t], h_t]
+
+    def perturbation(self, v):
+        """The perturbation mechanism.
+            Having the new value of data, it will purturbe it and reports it either according to
+            root node or leaf node.
+
+
+        Args:
+            v (int): The new value of data
+
+        Returns:
+           int: Either 1 or -1 is returned based on data changes and amount of budget usage.
+        """
+        rand = np.random.random()
+        eps = self.calcualte_budget()
+        if v == 0 or eps == 0:
+            if rand < 0.5:
+                return 1
+            else:
+                return -1
+        else:
+            set_to_one_p = 0.5 + (v/2) * ( (math.exp(self.epsilon) - 1) / \
+                                (math.exp(self.epsilon) + 1) )
+            if rand < set_to_one_p:
+                return 1
+            else:
+                return -1
+    def report(self, data):
+        """Outer function which bundles internal functionalities.
+
+        Args:
+            data (int): The new value to report
+
+        Returns:
+            [int, int]: return both value and level of node respectively
+        """
+        self.new_value(data)
+        [v, h] = self.select()
+        v = self.perturbation(v)
+        return [v, h]
+    def how_many_changes(self):
+        """In sparse dataset, data changes almost rarely.
+            and here we return number of changes during reports.
+
+        Returns:
+            int: Number of times that data actually changed.
+        """
+        return self.changes
