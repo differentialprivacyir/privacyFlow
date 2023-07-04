@@ -27,16 +27,35 @@ def leaf_nodes_per_tree(total_number_of_nodes):
 class Client:
     """Implements functionalities of Privacy Flow Client.
     """
-    def __init__(self, epsilon, report_limit):
+    def __init__(self, privacy_levels, selected_level, report_limit):
+        # A list for storing key nodes of difference trees:
         self.R = []
+        # Keep the previous data of client to compute the difference.
         self.previous_value = 0
+        # Keep track of time and number of reports.
         self.t = 0
+        # Indicate the number of difference trees in the current time.
         self.m_t_1 = 0
-        self.epsilon = epsilon
+        # List of all privacy levels
+        self.privacy_levels = privacy_levels
+        # Selected privacy level for this client.
+        self.selected_level = selected_level
+        # Selected epsiolon based on selected level.
+        self.epsilon = self.privacy_levels[self.selected_level]
+        # Stores number of changes in data for this client.
         self.changes = 0
+        # The global epsilon which determines how many reports this client can participate in
         self.global_eps = report_limit * self.epsilon
+        # The root level of last difference tree for this clien.t
         self.a_m_t = 0
+        # Stores how many times we have consumed budget.
         self.count = 0
+        # When there are other clients, we are in a parallel form and there is a parallel composition,
+        #   This variable is true if budget is exhausted in parallel composition and so this client
+        #   should never participate in reports anymore.
+        self.budget_consumed = False
+        # Determines if budget is used in last report or not.
+        self.budget_used = False
 
     def calcualte_budget(self):
         """Returns the privacy budget for current calculation.
@@ -46,10 +65,9 @@ class Client:
         Returns:
             Float: Current budget to be used.
         """
-        if (self.count * self.epsilon) > self.global_eps:
+        if (self.count * self.epsilon) > self.global_eps or self.budget_consumed:
             return 0
         else:
-            self.count += 1
             return self.epsilon
 
 
@@ -111,8 +129,10 @@ class Client:
             else:
                 return -1
         else:
-            set_to_one_p = 0.5 + (v/2) * ( (math.exp(self.epsilon) - 1) / \
-                                (math.exp(self.epsilon) + 1) )
+            self.count += 1
+            self.budget_used = True
+            set_to_one_p = 0.5 + (v/2) * ( (math.exp(eps) - 1) / \
+                                (math.exp(eps) + 1) )
             if rand < set_to_one_p:
                 return 1
             else:
@@ -138,3 +158,24 @@ class Client:
             int: Number of times that data actually changed.
         """
         return self.changes
+    def used_budget(self):
+        """Returns the consumed budget for this bit.
+
+        Returns:
+            float: The consumed budget till now
+        """
+        return self.epsilon * self.count
+    def budget_exhausted(self):
+        """If budget is completely finished in parallel composition, you should call this function
+            to avoid client from participating in next report.
+        """
+        self.budget_consumed = True
+    def is_budget_used(self):
+        """Determines if budget is used in last report and also reset indicator for next report
+
+        Returns:
+            bool: True if budget is used in last report and false otherwise
+        """
+        result = self.budget_used
+        self.budget_used = False
+        return result
