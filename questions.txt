@@ -4,9 +4,11 @@
     NOTE: Currently I never clip the frequency and I just clip a copy of it.
 
 2. How to treat the replicated value?
-    - I prefer to have Central DP algorithm after result of estimator to implement concept of estimator.
+    - I prefer to have Central DP algorithm after result of estimator to implement concept of estimator(Is it an open problem?).
     - Currently I support it at data level in following way:
         * I set the height of replicated value as previous ones.
         * I use the replicated values just for instantaneous estimation and when going to next
             round I ignore them. (Even in this method, we get increase in number of people in certain
             levels of privacy, Is it correct or not?)
+
+3. Replicator in RCF is changing 1 to 0 and 0 to 1 to provide noise but here I replaced it with 1 and -1, Is it correct?
