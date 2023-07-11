@@ -207,6 +207,16 @@ class Server:
         self.sum_of_users_of1 = 0
         self.sum_v_ofh = 0
         self.sum_of_users_ofh = 0
+        return np.clip(freq, 0, 1)
+
+    def get_estimations(self):
+        """Since data should be between -1 and 1, it truncates the data and return the value.
+
+        Returns:
+            float[]: final frequency of this bit.
+        """
+        result = np.clip(self.f, 0, 1)
+        return result
 
     def finish(self):
         """Since data should be between -1 and 1, it truncates the data and return the value.
@@ -214,5 +224,5 @@ class Server:
         Returns:
             float[]: final frequency of this bit.
         """
-        result = np.clip(self.f, 0, 1)
-        return result 
+        self.f = np.clip(self.f, 0, 1)
+        return self.f 
