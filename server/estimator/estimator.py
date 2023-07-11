@@ -27,6 +27,19 @@ class WrappedServer:
         else:
             self.servers[m].replica_new_value(v, h)
 
+    def replica_activasion(self, status):
+        """Change the activasion of replica data in underlying servers.
+
+        Args:
+            status (bool): True activates the replica and false deactivates it.
+        """
+        if status is True:
+            for server in self.servers:
+                server.activate_replica()
+        else:
+            for server in self.servers:
+                server.deactivate_replica()
+
     def predicate(self, go_next):
         """Predicate the current value and prepare servers for next round if called with true
 
