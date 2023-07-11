@@ -1,0 +1,12 @@
+1. In estimator, should we call finish() function after each round or we should call it just when
+    we want to get the estimation and compute the error? The point is that each frequency is 
+    depending on previous ones and if we call finish() we are clipping the frequencies.
+    NOTE: Currently I never clip the frequency and I just clip a copy of it.
+
+2. How to treat the replicated value?
+    - I prefer to have Central DP algorithm after result of estimator to implement concept of estimator.
+    - Currently I support it at data level in following way:
+        * I set the height of replicated value as previous ones.
+        * I use the replicated values just for instantaneous estimation and when going to next
+            round I ignore them. (Even in this method, we get increase in number of people in certain
+            levels of privacy, Is it correct or not?)
