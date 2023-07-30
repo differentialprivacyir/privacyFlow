@@ -8,7 +8,7 @@ from server.combiner.ac import AC
 from server.estimator.estimator import WrappedServer
 
 
-class RCF:
+class PrivacyFlow:
     """This class is responsible for managing different modules of server.
     """
 

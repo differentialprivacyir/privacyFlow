@@ -20,7 +20,7 @@ class WrappedServer:
             v (int): The reported value
             h (int): The height of reported value
             m (int): The position of this bit
-            replicated (int): Determines if this is original value or a replicated one.
+            replicated (bool): Determines if this is original value or a replicated one.
         """
         if replicated is False:
             self.servers[m].new_value(v, h)
