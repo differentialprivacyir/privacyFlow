@@ -17,7 +17,7 @@ dataSet = [[i for i in np.random.randint(2 ** DATA_SET_SIZE - 1, size=N)]]
 # Determine selected privacy level of each client:
 clientSelectedLevel = np.random.randint(len(levels), size=N)
 # Creates actual clients:
-clients = [WrappeedClient(levels, clientSelectedLevel[i]) for i in range(N)]
+clients = [WrappeedClient(DATA_SET_SIZE, levels, clientSelectedLevel[i], 10) for i in range(N)]
 # Initialize Server:
 server = PrivacyFlow(None, levels, DATA_SET_SIZE)
 # Number of rounds to run the code:
@@ -49,7 +49,7 @@ for i in range(ROUND_CHANGES):
     server.next_round()
 
 # Compute bit frequency of real values:
-bitRepresentationOfDataSet = [bin(i)[2:].zfill(DATA_SET_SIZE) for i in dataSet]
+bitRepresentationOfDataSet = [bin(i)[2:].zfill(DATA_SET_SIZE) for i in dataSet[0]]
 numericalBitRepresentationDataSet = [[int(char) for char in list(data)] \
                                         for data in bitRepresentationOfDataSet]
 frequencies = np.sum(numericalBitRepresentationDataSet, axis=0)

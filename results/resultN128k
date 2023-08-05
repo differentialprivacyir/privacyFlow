@@ -1,0 +1,100 @@
+Evaluation for level eps = 0.1
+index: 0 -> Estimated: 0.6214548616959068  Real: 0.498484375  Error: % 12
+index: 1 -> Estimated: 0.3684317197170367  Real: 0.4956796875  Error: % 12
+index: 2 -> Estimated: 0.5335691968058529  Real: 0.4980625  Error: % 3
+index: 3 -> Estimated: 0.4807126937224997  Real: 0.4985546875  Error: % 1
+index: 4 -> Estimated: 0.534194717552403  Real: 0.49840625  Error: % 3
+index: 5 -> Estimated: 0.4885317030543595  Real: 0.4986796875  Error: % 1
+index: 6 -> Estimated: 0.3496660973205833  Real: 0.4981328125  Error: % 14
+index: 7 -> Estimated: 0.4103416097357937  Real: 0.4970703125  Error: % 8
+Global Mean Square Error: 0.007980109695065981
+Evaluation for level eps = 0.2
+index: 0 -> Estimated: 0.5883697073793399  Real: 0.498484375  Error: % 8
+index: 1 -> Estimated: 0.47983677761692056  Real: 0.4956796875  Error: % 1
+index: 2 -> Estimated: 0.501357282174459  Real: 0.4980625  Error: % 0
+index: 3 -> Estimated: 0.530137736642058  Real: 0.4985546875  Error: % 3
+index: 4 -> Estimated: 0.4819772809386965  Real: 0.49840625  Error: % 1
+index: 5 -> Estimated: 0.5009199262297006  Real: 0.4986796875  Error: % 0
+index: 6 -> Estimated: 0.45277889366676327  Real: 0.4981328125  Error: % 4
+index: 7 -> Estimated: 0.47804744005427147  Real: 0.4970703125  Error: % 1
+Global Mean Square Error: 0.0015040615845995225
+Evaluation for level eps = 0.3
+index: 0 -> Estimated: 0.5479585877924158  Real: 0.498484375  Error: % 4
+index: 1 -> Estimated: 0.4611472789618477  Real: 0.4956796875  Error: % 3
+index: 2 -> Estimated: 0.477421699557421  Real: 0.4980625  Error: % 2
+index: 3 -> Estimated: 0.5614650633164303  Real: 0.4985546875  Error: % 6
+index: 4 -> Estimated: 0.5123326797117805  Real: 0.49840625  Error: % 1
+index: 5 -> Estimated: 0.4800608826447417  Real: 0.4986796875  Error: % 1
+index: 6 -> Estimated: 0.43078932774247336  Real: 0.4981328125  Error: % 6
+index: 7 -> Estimated: 0.5072508932259209  Real: 0.4970703125  Error: % 1
+Global Mean Square Error: 0.0016504171876386927
+Evaluation for level eps = 0.4
+index: 0 -> Estimated: 0.5379522085152627  Real: 0.498484375  Error: % 3
+index: 1 -> Estimated: 0.49283138319697184  Real: 0.4956796875  Error: % 0
+index: 2 -> Estimated: 0.47555639143865214  Real: 0.4980625  Error: % 2
+index: 3 -> Estimated: 0.5578002145065952  Real: 0.4985546875  Error: % 5
+index: 4 -> Estimated: 0.49422905784258286  Real: 0.49840625  Error: % 0
+index: 5 -> Estimated: 0.47861829581880944  Real: 0.4986796875  Error: % 2
+index: 6 -> Estimated: 0.4543668604468878  Real: 0.4981328125  Error: % 4
+index: 7 -> Estimated: 0.4861448359580184  Real: 0.4970703125  Error: % 1
+Global Mean Square Error: 0.001004639134993296
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.5398273174908613  Real: 0.498484375  Error: % 4
+index: 1 -> Estimated: 0.49700535742088525  Real: 0.4956796875  Error: % 0
+index: 2 -> Estimated: 0.4810955059450619  Real: 0.4980625  Error: % 1
+index: 3 -> Estimated: 0.5346694539304397  Real: 0.4985546875  Error: % 3
+index: 4 -> Estimated: 0.4922613689106646  Real: 0.49840625  Error: % 0
+index: 5 -> Estimated: 0.5109608803251641  Real: 0.4986796875  Error: % 1
+index: 6 -> Estimated: 0.48199041437017104  Real: 0.4981328125  Error: % 1
+index: 7 -> Estimated: 0.4798188851673437  Real: 0.4970703125  Error: % 1
+Global Mean Square Error: 0.0005062409449167614
+Evaluation for level eps = 0.6
+index: 0 -> Estimated: 0.5405611095609564  Real: 0.498484375  Error: % 4
+index: 1 -> Estimated: 0.4798387505586993  Real: 0.4956796875  Error: % 1
+index: 2 -> Estimated: 0.4823146340212765  Real: 0.4980625  Error: % 1
+index: 3 -> Estimated: 0.5103809523520209  Real: 0.4985546875  Error: % 1
+index: 4 -> Estimated: 0.5019612947166063  Real: 0.49840625  Error: % 0
+index: 5 -> Estimated: 0.5050839353473506  Real: 0.4986796875  Error: % 0
+index: 6 -> Estimated: 0.4892331511536967  Real: 0.4981328125  Error: % 0
+index: 7 -> Estimated: 0.4893914632893915  Real: 0.4970703125  Error: % 0
+Global Mean Square Error: 0.00032513301605386816
+Evaluation for level eps = 0.7
+index: 0 -> Estimated: 0.5337063256341192  Real: 0.498484375  Error: % 3
+index: 1 -> Estimated: 0.4844125986499838  Real: 0.4956796875  Error: % 1
+index: 2 -> Estimated: 0.4799864104689031  Real: 0.4980625  Error: % 1
+index: 3 -> Estimated: 0.5132675822130557  Real: 0.4985546875  Error: % 1
+index: 4 -> Estimated: 0.49916862841003196  Real: 0.49840625  Error: % 0
+index: 5 -> Estimated: 0.49948165073527917  Real: 0.4986796875  Error: % 0
+index: 6 -> Estimated: 0.49214379615675696  Real: 0.4981328125  Error: % 0
+index: 7 -> Estimated: 0.4879735515670936  Real: 0.4970703125  Error: % 0
+Global Mean Square Error: 0.0002538238904126367
+Evaluation for level eps = 0.8
+index: 0 -> Estimated: 0.5257490833457465  Real: 0.498484375  Error: % 2
+index: 1 -> Estimated: 0.48634667015993815  Real: 0.4956796875  Error: % 0
+index: 2 -> Estimated: 0.4726301905355648  Real: 0.4980625  Error: % 2
+index: 3 -> Estimated: 0.5093828649648431  Real: 0.4985546875  Error: % 1
+index: 4 -> Estimated: 0.4960762262075856  Real: 0.49840625  Error: % 0
+index: 5 -> Estimated: 0.5000951653226129  Real: 0.4986796875  Error: % 0
+index: 6 -> Estimated: 0.4927652636925705  Real: 0.4981328125  Error: % 0
+index: 7 -> Estimated: 0.48823547098129305  Real: 0.4970703125  Error: % 0
+Global Mean Square Error: 0.0002136023648692233
+Evaluation for level eps = 0.9
+index: 0 -> Estimated: 0.5206016928371473  Real: 0.498484375  Error: % 2
+index: 1 -> Estimated: 0.48059508047052746  Real: 0.4956796875  Error: % 1
+index: 2 -> Estimated: 0.46892712295233  Real: 0.4980625  Error: % 2
+index: 3 -> Estimated: 0.5078788693316514  Real: 0.4985546875  Error: % 0
+index: 4 -> Estimated: 0.4961815570554617  Real: 0.49840625  Error: % 0
+index: 5 -> Estimated: 0.4951757611867551  Real: 0.4986796875  Error: % 0
+index: 6 -> Estimated: 0.48912394247281976  Real: 0.4981328125  Error: % 0
+index: 7 -> Estimated: 0.48742333859421805  Real: 0.4970703125  Error: % 0
+Global Mean Square Error: 0.0002304977853867744
+Evaluation for level eps = 1.0
+index: 0 -> Estimated: 0.5205339837666215  Real: 0.498484375  Error: % 2
+index: 1 -> Estimated: 0.4820509964162558  Real: 0.4956796875  Error: % 1
+index: 2 -> Estimated: 0.4773571802693585  Real: 0.4980625  Error: % 2
+index: 3 -> Estimated: 0.5081529286284192  Real: 0.4985546875  Error: % 0
+index: 4 -> Estimated: 0.48948659863046  Real: 0.49840625  Error: % 0
+index: 5 -> Estimated: 0.49279832595775175  Real: 0.4986796875  Error: % 0
+index: 6 -> Estimated: 0.4903141193476228  Real: 0.4981328125  Error: % 0
+index: 7 -> Estimated: 0.4907565571906767  Real: 0.4970703125  Error: % 0
+Global Mean Square Error: 0.0001759886285232981

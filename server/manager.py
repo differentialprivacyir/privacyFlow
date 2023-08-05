@@ -30,7 +30,8 @@ class PrivacyFlow:
                  to consider a mapping between each level and its position.')
         self.levels: List[float] = levels
         self.servers:List[WrappedServer] = [WrappedServer(M, lvl) for lvl in self.levels]
-        self.replication = DRPP(self.data, self.levels)
+        # self.replication = DRPP(self.data, self.levels)
+        self.replication = None
 
     def new_data_set(self, data):
         """Get the data of new round and report it to underlying servers.
@@ -42,29 +43,30 @@ class PrivacyFlow:
         """
         self.data = data
         for lvl in self.data:
-            for user in lvl:
-                for index in enumerate(user['value']['v']):
+            for user in self.data[lvl]:
+                for index,_ in enumerate(user['value']['v']):
                     self.servers[self.levels.index(lvl)].new_value(\
                                 user['value']['v'][index], user['value']['h'][index], index, False)
         self.replication = DRPP(self.data, self.levels)
 
-    def estimate(self, level):
+    def estimate(self, l):
         """Computes the result at given level.
 
         Args:
-            level (float): The budget of level
+            l (float): The budget of level
         """
-        _, replicated_group_data = self.replication.recycle(level)
+        level = self.levels.index(l)
+        _, replicated_group_data = self.replication.recycle(l)
         for user in replicated_group_data:
-            for index in enumerate(user['value']['v']):
+            for index,_ in enumerate(user['value']['v']):
                 self.servers[level].new_value(user['value']['v'][index],\
                                                 user['value']['h'][index], index, True)
         self.servers[level].replica_activasion(True)
         estimation_at_level = self.servers[level].predicate(False)
         estimations = []
         for lvl in self.data:
-            if lvl < level:
-                estimations.append(self.servers[lvl].predicate(False))
+            if lvl < l:
+                estimations.append(self.servers[self.levels.index(lvl)].predicate(False))
         estimations.append(estimation_at_level)
         # Fix estimations length:
         for _ in range(len(self.levels) - len(estimations)):
@@ -72,10 +74,7 @@ class PrivacyFlow:
         population = [len(self.data[lvl]) for lvl in self.data]
         # print(estimations)
         ac = AC(estimations, self.levels, population)
-        level_index = None
-        for index, lvl in enumerate(self.levels):
-            if lvl == level:
-                level_index = index
+        level_index = level
         if level_index is None:
             raise ValueError('Error! Unable to find index of level')
         # print(level, level_index, self.levels)
