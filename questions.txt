@@ -18,4 +18,5 @@
     population size of level l?
 
 
-5. I think the sensitivity value of DDRM is 2*[(e^eps + 1)/(e^eps - 1)]^3. So can we add a laplace noise to the final array with given sensitivity.
+5. I think the sensitivity value of DDRM is 2*[(e^eps + 1)/(e^eps - 1)]. So can we add a laplace noise to the final array with given sensitivity.
+NOTE: This value is aquired by a large margine and may introduce larger noise.
