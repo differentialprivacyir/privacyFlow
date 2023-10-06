@@ -2,21 +2,33 @@
     we want to get the estimation and compute the error? The point is that each frequency is 
     depending on previous ones and if we call finish() we are clipping the frequencies.
     NOTE: Currently I never clip the frequency and I just clip a copy of it.
+    ANSWER: I should clip after each round.
 
 2. How to treat the replicated value?
-    - I prefer to have Central DP algorithm after result of estimator to implement concept of estimator(Is it an open problem?).
+    - I prefer to have Central DP algorithm after result of estimator to implement concept of replicator(Is it an open problem?) => Mohammadi
     - Currently I support it at data level in following way:
         * I set the height of replicated value as previous ones.
         * I use the replicated values just for instantaneous estimation and when going to next
             round I ignore them. (Even in this method, we get increase in number of people in certain
             levels of privacy, Is it correct or not?)
+        ANSWER: First Issue is correct => The height is not changed.
+                Second Issue should get tested => We can keep two esitation in each level: 1. One estimation 
+                    just by users who are in the same level which is used in combination process 2. One estimation
+                    with all users having greater epsilon and budget. I mean replicating the other data each time
+                    and then compute frequency.
 
 3. Replicator in RCF is changing 1 to 0 and 0 to 1 to provide noise but here I replaced it with 1 and -1, Is it correct?
+    ANSWER: It is correct.
 
 4. What is the population size of replicated level in Combiner of RCF? Should we consider all users
     who have original value at level l plus all replicated users whose values are replicated as
     population size of level l?
+    ANSWER: No, We should add the number of users with replicated data two.
 
 
 5. I think the sensitivity value of DDRM is 2*[(e^eps + 1)/(e^eps - 1)]. So can we add a laplace noise to the final array with given sensitivity.
 NOTE: This value is aquired by a large margine and may introduce larger noise.
+
+
+TODO:
+CHECK the code because the results are very good.

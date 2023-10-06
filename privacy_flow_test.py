@@ -4,6 +4,7 @@ from sklearn.metrics import mean_squared_error
 import numpy as np
 from server.manager import PrivacyFlow
 from WrappedClient import WrappeedClient
+import math
 
 # Number of users:
 N = 128000
@@ -13,7 +14,8 @@ levels = [(i+1)/10 for i in range(0, 10)]
 # (Each bit is responsible for a separate value)
 DATA_SET_SIZE = 8
 # Creates data for each client:
-dataSet = [[i for i in np.random.randint(2 ** DATA_SET_SIZE - 1, size=N)]]
+# dataSet = [[i for i in np.random.randint(2 ** DATA_SET_SIZE - 1, size=N)]]
+dataSet = [[math.floor(i) for i in np.random.normal(100, 10, size=N)]]
 # Determine selected privacy level of each client:
 clientSelectedLevel = np.random.randint(len(levels), size=N)
 # Creates actual clients:
