@@ -38,11 +38,17 @@ class AC:
         """
         weights = [0] * len(self.privacy_levels)
         main_weight = [0] * len(self.privacy_levels)
+        # Compute the size of population at replicated level:
+        sum_of_users_at_last_allowed_level = 0
+        for i in range(len(self.privacy_levels) - level_index):
+            sum_of_users_at_last_allowed_level += self.population[len(self.privacy_levels) - i - 1]
         # Compute main weights which are weights without any normalization.
         for i in range(level_index + 1):
             eps = self.privacy_levels[i]
             n = self.population[i]
             k = len(self.estimations[i])
+            if i == level_index:
+                n = sum_of_users_at_last_allowed_level
             main_weight[i] = n / (1 - np.sum(self.estimations[i] ** 2 +
                                           k/(math.exp(eps/2) + math.exp(-eps/2) - 2)))
         # Apply normalization on each weight:
