@@ -10,6 +10,7 @@ from WrappedClient import WrappeedClient
 # Number of users:
 N = 128000
 # Privacy Budget Levels:
+# levels = [(i+1)/10 for i in range(0, 10)]
 levels = [0.5, 1, 2]
 # Determines how many different value types are available in dataset: 
 # (Each bit is responsible for a separate value)
