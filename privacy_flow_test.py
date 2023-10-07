@@ -16,7 +16,7 @@ levels = [0.5, 1, 2]
 # (Each bit is responsible for a separate value)
 DATA_SET_SIZE = 8
 # Number of rounds to run the code:
-ROUND_CHANGES = 1
+ROUND_CHANGES = 50
 # Creates data for each client:
 # dataSet = [[i for i in np.random.randint(2 ** DATA_SET_SIZE - 1, size=N)]]
 # dataSet = [[math.floor(i) for i in np.random.normal(100, 10, size=N)]]
