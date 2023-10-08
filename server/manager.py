@@ -29,7 +29,11 @@ class PrivacyFlow:
             raise ValueError('Error! Level array should be sorted in order\
                  to consider a mapping between each level and its position.')
         self.levels: List[float] = levels
+        # Prepare main servers which works with data of original users at that level.
         self.servers:List[WrappedServer] = [WrappedServer(M, lvl) for lvl in self.levels]
+        # Prepare replicatd servers which works with both replicated data and original data all thw way along.
+        self.replicatorServers: List[WrappedServer] = [WrappedServer(M, lvl) for lvl in self.levels]
+        # self.replicatorServers = self.replicatorServers[1:]
         # self.replication = DRPP(self.data, self.levels)
         self.replication = None
 
@@ -47,7 +51,16 @@ class PrivacyFlow:
                 for index,_ in enumerate(user['value']['v']):
                     self.servers[self.levels.index(lvl)].new_value(\
                                 user['value']['v'][index], user['value']['h'][index], index, False)
+        # Prepare replication module:
         self.replication = DRPP(self.data, self.levels)
+        # We works with replicatedServers without activating replica but introducing the replicated
+        #   data as original data becuase we are going to always use the replication data.
+        for lvl in self.data:
+            expanded_group_data, _ = self.replication.recycle(lvl)
+            for user in expanded_group_data:
+                for index,_ in enumerate(user['value']['v']):
+                    self.replicatorServers[self.levels.index(lvl)].new_value(\
+                                user['value']['v'][index], user['value']['h'][index], index, False)
 
     def estimate(self, l):
         """Computes the result at given level.
@@ -56,13 +69,7 @@ class PrivacyFlow:
             l (float): The budget of level
         """
         level = self.levels.index(l)
-        _, replicated_group_data = self.replication.recycle(l)
-        for user in replicated_group_data:
-            for index,_ in enumerate(user['value']['v']):
-                self.servers[level].new_value(user['value']['v'][index],\
-                                                user['value']['h'][index], index, True)
-        self.servers[level].replica_activasion(True)
-        estimation_at_level = self.servers[level].predicate(False)
+        estimation_at_level = self.replicatorServers[level].predicate(False)
         estimations = []
         for lvl in self.data:
             if lvl < l:
@@ -79,12 +86,13 @@ class PrivacyFlow:
             raise ValueError('Error! Unable to find index of level')
         # print(level, level_index, self.levels)
         answer = ac.weighted_estimate(level_index)
-        self.servers[level].replica_activasion(False)
         return answer
     def next_round(self):
         """Annotate next round to underlying servers.
         """
         for server in self.servers:
+            server.predicate(True)
+        for server in self.replicatorServers:
             server.predicate(True)
     def finish(self):
         """Get all recorded frequencies from server and return them to client.
@@ -93,6 +101,7 @@ class PrivacyFlow:
             {eps: float[][]}: Returns etimated frequencies 
                                 for each bit at each level and in each round.
         """
+        raise ValueError('Under Construction! Replicating and combination is not done for estimations of different level.')
         result = {}
         for index in enumerate(self.levels):
             result[self.levels[index]] = self.servers[index].finish()
