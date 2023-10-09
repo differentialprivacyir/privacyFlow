@@ -21,7 +21,7 @@ ROUND_CHANGES = 50
 # dataSet = [[i for i in np.random.randint(2 ** DATA_SET_SIZE - 1, size=N)]]
 # dataSet = [[math.floor(i) for i in np.random.normal(100, 10, size=N)]]
 # Read dataset from file:
-csvContent = pd.read_csv('./normal.csv')
+csvContent = pd.read_csv('./dynamic.csv')
 dataSet = np.transpose(csvContent.to_numpy())
 # Determine selected privacy level of each client:
 # clientSelectedLevel = np.random.randint(len(levels), size=N)
