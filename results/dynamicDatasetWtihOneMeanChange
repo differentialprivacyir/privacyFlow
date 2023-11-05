@@ -1,0 +1,2559 @@
+round 0 started
+round 1 started
+round 2 started
+round 3 started
+round 4 started
+round 5 started
+round 6 started
+round 7 started
+round 8 started
+round 9 started
+round 10 started
+round 11 started
+round 12 started
+round 13 started
+round 14 started
+round 15 started
+round 16 started
+round 17 started
+round 18 started
+round 19 started
+round 20 started
+round 21 started
+round 22 started
+round 23 started
+round 24 started
+round 25 started
+round 26 started
+round 27 started
+round 28 started
+round 29 started
+round 30 started
+round 31 started
+round 32 started
+round 33 started
+round 34 started
+round 35 started
+round 36 started
+round 37 started
+round 38 started
+round 39 started
+round 40 started
+round 41 started
+round 42 started
+round 43 started
+round 44 started
+round 45 started
+round 46 started
+round 47 started
+round 48 started
+round 49 started
+
+
+
+ ========================================== 
+Results of Round 0:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.6527881478319872  Real: 0.87716  Error: % 22
+index: 2 -> Estimated: 0.09684847927554505  Real: 0.14396  Error: % 4
+index: 3 -> Estimated: 0.3068773904869213  Real: 0.42684  Error: % 11
+index: 4 -> Estimated: 0.3620793904787137  Real: 0.49852  Error: % 13
+index: 5 -> Estimated: 0.37824802361240434  Real: 0.50166  Error: % 12
+index: 6 -> Estimated: 0.3898437100012128  Real: 0.49804  Error: % 10
+index: 7 -> Estimated: 0.39539657390571264  Real: 0.50212  Error: % 10
+Global Mean Square Error: 0.015487016725087477
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.6885033882035324  Real: 0.87716  Error: % 18
+index: 2 -> Estimated: 0.1251948565587114  Real: 0.14396  Error: % 1
+index: 3 -> Estimated: 0.3188354921887237  Real: 0.42684  Error: % 10
+index: 4 -> Estimated: 0.39088643250209176  Real: 0.49852  Error: % 10
+index: 5 -> Estimated: 0.39031299656596374  Real: 0.50166  Error: % 11
+index: 6 -> Estimated: 0.3860794757198188  Real: 0.49804  Error: % 11
+index: 7 -> Estimated: 0.3943100355677886  Real: 0.50212  Error: % 10
+Global Mean Square Error: 0.011968713618060633
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8249325196831674  Real: 0.87716  Error: % 5
+index: 2 -> Estimated: 0.14175624498298378  Real: 0.14396  Error: % 0
+index: 3 -> Estimated: 0.3926059068830185  Real: 0.42684  Error: % 3
+index: 4 -> Estimated: 0.4665148262632057  Real: 0.49852  Error: % 3
+index: 5 -> Estimated: 0.46467651802571147  Real: 0.50166  Error: % 3
+index: 6 -> Estimated: 0.47092877488139395  Real: 0.49804  Error: % 2
+index: 7 -> Estimated: 0.47689160869951003  Real: 0.50212  Error: % 2
+Global Mean Square Error: 0.0009585173384837019
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.0001049797675829614  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8770112784715086  Real: 0.87716  Error: % 0
+index: 2 -> Estimated: 0.15185482925180913  Real: 0.14396  Error: % 0
+index: 3 -> Estimated: 0.4213943877472449  Real: 0.42684  Error: % 0
+index: 4 -> Estimated: 0.5038033106599961  Real: 0.49852  Error: % 0
+index: 5 -> Estimated: 0.5000812040354597  Real: 0.50166  Error: % 0
+index: 6 -> Estimated: 0.5028784952550156  Real: 0.49804  Error: % 0
+index: 7 -> Estimated: 0.5041352114636126  Real: 0.50212  Error: % 0
+Global Mean Square Error: 1.8736780296347072e-05
+
+
+
+ ========================================== 
+Results of Round 1:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.6558706182370105  Real: 0.87638  Error: % 22
+index: 2 -> Estimated: 0.11698426308867162  Real: 0.14526  Error: % 2
+index: 3 -> Estimated: 0.3059594405534091  Real: 0.42948  Error: % 12
+index: 4 -> Estimated: 0.3823661649754548  Real: 0.49552  Error: % 11
+index: 5 -> Estimated: 0.4374176871176782  Real: 0.49766  Error: % 6
+index: 6 -> Estimated: 0.39605511662707404  Real: 0.499  Error: % 10
+index: 7 -> Estimated: 0.41309731869926614  Real: 0.50002  Error: % 8
+Global Mean Square Error: 0.012408420191090142
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.007579690438817706  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.7361621060079232  Real: 0.87638  Error: % 14
+index: 2 -> Estimated: 0.12358524681609702  Real: 0.14526  Error: % 2
+index: 3 -> Estimated: 0.3592232936303667  Real: 0.42948  Error: % 7
+index: 4 -> Estimated: 0.4250912389539314  Real: 0.49552  Error: % 7
+index: 5 -> Estimated: 0.4286517864360982  Real: 0.49766  Error: % 6
+index: 6 -> Estimated: 0.4286554333916733  Real: 0.499  Error: % 7
+index: 7 -> Estimated: 0.4120898823353906  Real: 0.50002  Error: % 8
+Global Mean Square Error: 0.0059408395979755335
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.01202982343142978  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.8335092407269317  Real: 0.87638  Error: % 4
+index: 2 -> Estimated: 0.13709837437880962  Real: 0.14526  Error: % 0
+index: 3 -> Estimated: 0.4132121569618752  Real: 0.42948  Error: % 1
+index: 4 -> Estimated: 0.47008099705456885  Real: 0.49552  Error: % 2
+index: 5 -> Estimated: 0.4778812374438339  Real: 0.49766  Error: % 1
+index: 6 -> Estimated: 0.4866166511835441  Real: 0.499  Error: % 1
+index: 7 -> Estimated: 0.4827275272409254  Real: 0.50002  Error: % 1
+Global Mean Square Error: 0.0004755740954348131
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.004200105538924916  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.9576907067200016  Real: 0.87638  Error: % 8
+index: 2 -> Estimated: 0.19781660253262998  Real: 0.14526  Error: % 5
+index: 3 -> Estimated: 0.5672843772428031  Real: 0.42948  Error: % 13
+index: 4 -> Estimated: 0.6627450993838011  Real: 0.49552  Error: % 16
+index: 5 -> Estimated: 0.6671769880098845  Real: 0.49766  Error: % 16
+index: 6 -> Estimated: 0.6671053901170552  Real: 0.499  Error: % 16
+index: 7 -> Estimated: 0.6717533246349923  Real: 0.50002  Error: % 17
+Global Mean Square Error: 0.017854164354419284
+
+
+
+ ========================================== 
+Results of Round 2:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.05512366100133248  Real: 0.0  Error: % 5
+index: 1 -> Estimated: 0.800672499416553  Real: 0.87556  Error: % 7
+index: 2 -> Estimated: 0.12203706146116783  Real: 0.14412  Error: % 2
+index: 3 -> Estimated: 0.42764170407068813  Real: 0.42908  Error: % 0
+index: 4 -> Estimated: 0.4325048666558589  Real: 0.49774  Error: % 6
+index: 5 -> Estimated: 0.5382265211267209  Real: 0.49472  Error: % 4
+index: 6 -> Estimated: 0.5055940204185546  Real: 0.50108  Error: % 0
+index: 7 -> Estimated: 0.5206746491104401  Real: 0.49832  Error: % 2
+Global Mean Square Error: 0.0019756284169604272
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.00659856446935308  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8623443943971046  Real: 0.87556  Error: % 1
+index: 2 -> Estimated: 0.1588135414781382  Real: 0.14412  Error: % 1
+index: 3 -> Estimated: 0.4328210488642124  Real: 0.42908  Error: % 0
+index: 4 -> Estimated: 0.4998848577870191  Real: 0.49774  Error: % 0
+index: 5 -> Estimated: 0.5097699866321522  Real: 0.49472  Error: % 1
+index: 6 -> Estimated: 0.5059587466822806  Real: 0.50108  Error: % 0
+index: 7 -> Estimated: 0.4978033124022814  Real: 0.49832  Error: % 0
+Global Mean Square Error: 8.790756751245979e-05
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.006762510449564321  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8540736396236138  Real: 0.87556  Error: % 2
+index: 2 -> Estimated: 0.13915969258246755  Real: 0.14412  Error: % 0
+index: 3 -> Estimated: 0.42826353884747403  Real: 0.42908  Error: % 0
+index: 4 -> Estimated: 0.485370951589097  Real: 0.49774  Error: % 1
+index: 5 -> Estimated: 0.4888632445956603  Real: 0.49472  Error: % 0
+index: 6 -> Estimated: 0.5097215931436696  Real: 0.50108  Error: % 0
+index: 7 -> Estimated: 0.5144619413176403  Real: 0.49832  Error: % 1
+Global Mean Square Error: 0.00013190010403935055
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.002976124839043263  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8511279231628408  Real: 0.87556  Error: % 2
+index: 2 -> Estimated: 0.1334024656251133  Real: 0.14412  Error: % 1
+index: 3 -> Estimated: 0.4151440943726163  Real: 0.42908  Error: % 1
+index: 4 -> Estimated: 0.4850270623198468  Real: 0.49774  Error: % 1
+index: 5 -> Estimated: 0.5032145827874837  Real: 0.49472  Error: % 0
+index: 6 -> Estimated: 0.5004604301840274  Real: 0.50108  Error: % 0
+index: 7 -> Estimated: 0.5021660867113062  Real: 0.49832  Error: % 0
+Global Mean Square Error: 0.00014547645966340856
+
+
+
+ ========================================== 
+Results of Round 3:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.05934853846774163  Real: 0.0  Error: % 5
+index: 1 -> Estimated: 0.6737493134608247  Real: 0.87824  Error: % 20
+index: 2 -> Estimated: 0.11184906542939428  Real: 0.14242  Error: % 3
+index: 3 -> Estimated: 0.34670076516806797  Real: 0.42814  Error: % 8
+index: 4 -> Estimated: 0.37888447917804113  Real: 0.49994  Error: % 12
+index: 5 -> Estimated: 0.4024740377184919  Real: 0.49986  Error: % 9
+index: 6 -> Estimated: 0.3794847490245313  Real: 0.49628  Error: % 11
+index: 7 -> Estimated: 0.3498593622550852  Real: 0.49444  Error: % 14
+Global Mean Square Error: 0.013948597142771395
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.01515339313495928  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.7288771890313999  Real: 0.87824  Error: % 14
+index: 2 -> Estimated: 0.11531693354894074  Real: 0.14242  Error: % 2
+index: 3 -> Estimated: 0.36758180554370995  Real: 0.42814  Error: % 6
+index: 4 -> Estimated: 0.41766404175326866  Real: 0.49994  Error: % 8
+index: 5 -> Estimated: 0.4159412027297675  Real: 0.49986  Error: % 8
+index: 6 -> Estimated: 0.4100090968256181  Real: 0.49628  Error: % 8
+index: 7 -> Estimated: 0.39863315125182563  Real: 0.49444  Error: % 9
+Global Mean Square Error: 0.007171758074135024
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0002886771041560864  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8395384420911411  Real: 0.87824  Error: % 3
+index: 2 -> Estimated: 0.12808394075977367  Real: 0.14242  Error: % 1
+index: 3 -> Estimated: 0.41139093345307914  Real: 0.42814  Error: % 1
+index: 4 -> Estimated: 0.4725367430004389  Real: 0.49994  Error: % 2
+index: 5 -> Estimated: 0.47061469334129324  Real: 0.49986  Error: % 2
+index: 6 -> Estimated: 0.48026188512604295  Real: 0.49628  Error: % 1
+index: 7 -> Estimated: 0.48083561992083534  Real: 0.49444  Error: % 1
+Global Mean Square Error: 0.0005039791701218915
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.00018258013670359588  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.9623441042997177  Real: 0.87824  Error: % 8
+index: 2 -> Estimated: 0.18171354024249564  Real: 0.14242  Error: % 3
+index: 3 -> Estimated: 0.5617361444901896  Real: 0.42814  Error: % 13
+index: 4 -> Estimated: 0.6593479623347263  Real: 0.49994  Error: % 15
+index: 5 -> Estimated: 0.6669538718103403  Real: 0.49986  Error: % 16
+index: 6 -> Estimated: 0.6695815164486888  Real: 0.49628  Error: % 17
+index: 7 -> Estimated: 0.6743059466947405  Real: 0.49444  Error: % 17
+Global Mean Square Error: 0.017772735082385832
+
+
+
+ ========================================== 
+Results of Round 4:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0751829776565201  Real: 0.0  Error: % 7
+index: 1 -> Estimated: 0.8769567372331923  Real: 0.87326  Error: % 0
+index: 2 -> Estimated: 0.13577655325661842  Real: 0.1473  Error: % 1
+index: 3 -> Estimated: 0.4068907904523014  Real: 0.43064  Error: % 2
+index: 4 -> Estimated: 0.4810181573904499  Real: 0.49836  Error: % 1
+index: 5 -> Estimated: 0.5030242541728671  Real: 0.50064  Error: % 0
+index: 6 -> Estimated: 0.5153781069146802  Real: 0.50004  Error: % 1
+index: 7 -> Estimated: 0.440548139755595  Real: 0.50018  Error: % 5
+Global Mean Square Error: 0.0013075751534312213
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0062266742858323905  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8823680594972674  Real: 0.87326  Error: % 0
+index: 2 -> Estimated: 0.16263966425965787  Real: 0.1473  Error: % 1
+index: 3 -> Estimated: 0.43513424168314696  Real: 0.43064  Error: % 0
+index: 4 -> Estimated: 0.5174268381141489  Real: 0.49836  Error: % 1
+index: 5 -> Estimated: 0.5238931638929775  Real: 0.50064  Error: % 2
+index: 6 -> Estimated: 0.5038757420251747  Real: 0.50004  Error: % 0
+index: 7 -> Estimated: 0.46782201908260906  Real: 0.50018  Error: % 3
+Global Mean Square Error: 0.00029290469012649076
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0019146692597408874  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8838569957778795  Real: 0.87326  Error: % 1
+index: 2 -> Estimated: 0.1396462204144714  Real: 0.1473  Error: % 0
+index: 3 -> Estimated: 0.4274251919503761  Real: 0.43064  Error: % 0
+index: 4 -> Estimated: 0.5049563247888192  Real: 0.49836  Error: % 0
+index: 5 -> Estimated: 0.49772818630591475  Real: 0.50064  Error: % 0
+index: 6 -> Estimated: 0.5047498474496952  Real: 0.50004  Error: % 0
+index: 7 -> Estimated: 0.5123062062630575  Real: 0.50018  Error: % 1
+Global Mean Square Error: 5.076191395908001e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.0001447685073875836  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8755462264029987  Real: 0.87326  Error: % 0
+index: 2 -> Estimated: 0.1491400437510718  Real: 0.1473  Error: % 0
+index: 3 -> Estimated: 0.41047363223508543  Real: 0.43064  Error: % 2
+index: 4 -> Estimated: 0.49209522352904456  Real: 0.49836  Error: % 0
+index: 5 -> Estimated: 0.5024904696605427  Real: 0.50064  Error: % 0
+index: 6 -> Estimated: 0.4980569864779114  Real: 0.50004  Error: % 0
+index: 7 -> Estimated: 0.5071272812032568  Real: 0.50018  Error: % 0
+Global Mean Square Error: 6.377308248296034e-05
+
+
+
+ ========================================== 
+Results of Round 5:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.09561324967236368  Real: 0.0  Error: % 9
+index: 1 -> Estimated: 0.8100210479766015  Real: 0.87452  Error: % 6
+index: 2 -> Estimated: 0.14542508514608601  Real: 0.1449  Error: % 0
+index: 3 -> Estimated: 0.41026356700642963  Real: 0.428  Error: % 1
+index: 4 -> Estimated: 0.4684150852113519  Real: 0.4985  Error: % 3
+index: 5 -> Estimated: 0.5036275304424922  Real: 0.50556  Error: % 0
+index: 6 -> Estimated: 0.5140689002895169  Real: 0.50142  Error: % 1
+index: 7 -> Estimated: 0.4899777101593944  Real: 0.49824  Error: % 0
+Global Mean Square Error: 0.001844245217893462
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0015049841587441207  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.870212970094598  Real: 0.87452  Error: % 0
+index: 2 -> Estimated: 0.16535916817416677  Real: 0.1449  Error: % 2
+index: 3 -> Estimated: 0.4263851409141929  Real: 0.428  Error: % 0
+index: 4 -> Estimated: 0.5126625720928478  Real: 0.4985  Error: % 1
+index: 5 -> Estimated: 0.510774273636035  Real: 0.50556  Error: % 0
+index: 6 -> Estimated: 0.4957672340430557  Real: 0.50142  Error: % 0
+index: 7 -> Estimated: 0.4888802562805495  Real: 0.49824  Error: % 0
+Global Mean Square Error: 9.866580993303663e-05
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.00026083887969149895  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8698566654868709  Real: 0.87452  Error: % 0
+index: 2 -> Estimated: 0.14458149201744094  Real: 0.1449  Error: % 0
+index: 3 -> Estimated: 0.4288554588720213  Real: 0.428  Error: % 0
+index: 4 -> Estimated: 0.4978684832841972  Real: 0.4985  Error: % 0
+index: 5 -> Estimated: 0.5038339693332736  Real: 0.50556  Error: % 0
+index: 6 -> Estimated: 0.5059463493184482  Real: 0.50142  Error: % 0
+index: 7 -> Estimated: 0.5155560666972904  Real: 0.49824  Error: % 1
+Global Mean Square Error: 4.329499777020201e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 8.80663113191909e-05  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8664690299217007  Real: 0.87452  Error: % 0
+index: 2 -> Estimated: 0.1480023741676981  Real: 0.1449  Error: % 0
+index: 3 -> Estimated: 0.4086211919045892  Real: 0.428  Error: % 1
+index: 4 -> Estimated: 0.501061708314787  Real: 0.4985  Error: % 0
+index: 5 -> Estimated: 0.5144740987064419  Real: 0.50556  Error: % 0
+index: 6 -> Estimated: 0.4962789331036138  Real: 0.50142  Error: % 0
+index: 7 -> Estimated: 0.5123965417331376  Real: 0.49824  Error: % 1
+Global Mean Square Error: 9.535631893318027e-05
+
+
+
+ ========================================== 
+Results of Round 6:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.07574317048597409  Real: 0.0  Error: % 7
+index: 1 -> Estimated: 0.7950229427325101  Real: 0.87446  Error: % 7
+index: 2 -> Estimated: 0.11451428709478711  Real: 0.14558  Error: % 3
+index: 3 -> Estimated: 0.48587460308850017  Real: 0.43134  Error: % 5
+index: 4 -> Estimated: 0.46271893469468695  Real: 0.49798  Error: % 3
+index: 5 -> Estimated: 0.5393810278055333  Real: 0.49684  Error: % 4
+index: 6 -> Estimated: 0.52766321989713  Real: 0.502  Error: % 2
+index: 7 -> Estimated: 0.4696368048228116  Real: 0.5013  Error: % 3
+Global Mean Square Error: 0.002587576994056133
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0004131961461774779  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8784667758182313  Real: 0.87446  Error: % 0
+index: 2 -> Estimated: 0.16666132073617232  Real: 0.14558  Error: % 2
+index: 3 -> Estimated: 0.40537022746017354  Real: 0.43134  Error: % 2
+index: 4 -> Estimated: 0.5121296796152098  Real: 0.49798  Error: % 1
+index: 5 -> Estimated: 0.49506651546513325  Real: 0.49684  Error: % 0
+index: 6 -> Estimated: 0.4988888260485618  Real: 0.502  Error: % 0
+index: 7 -> Estimated: 0.4805614828617721  Real: 0.5013  Error: % 2
+Global Mean Square Error: 0.00022227504129020617
+Evaluation for level eps = 5
+index: 0 -> Estimated: 7.14302663530447e-05  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8728153056257031  Real: 0.87446  Error: % 0
+index: 2 -> Estimated: 0.13727137440572543  Real: 0.14558  Error: % 0
+index: 3 -> Estimated: 0.42421317469978587  Real: 0.43134  Error: % 0
+index: 4 -> Estimated: 0.4908143896922666  Real: 0.49798  Error: % 0
+index: 5 -> Estimated: 0.4930569341404827  Real: 0.49684  Error: % 0
+index: 6 -> Estimated: 0.499206818899026  Real: 0.502  Error: % 0
+index: 7 -> Estimated: 0.5178037164825193  Real: 0.5013  Error: % 1
+Global Mean Square Error: 5.854588709642021e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 2.3712840767855327e-05  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8584871295380908  Real: 0.87446  Error: % 1
+index: 2 -> Estimated: 0.14320377097899142  Real: 0.14558  Error: % 0
+index: 3 -> Estimated: 0.410209302572348  Real: 0.43134  Error: % 2
+index: 4 -> Estimated: 0.48963141563787554  Real: 0.49798  Error: % 0
+index: 5 -> Estimated: 0.500718382395541  Real: 0.49684  Error: % 0
+index: 6 -> Estimated: 0.4961807681682494  Real: 0.502  Error: % 0
+index: 7 -> Estimated: 0.5191285706767896  Real: 0.5013  Error: % 1
+Global Mean Square Error: 0.00014296851169718825
+
+
+
+ ========================================== 
+Results of Round 7:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0053695613206940634  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.6519778898926608  Real: 0.87396  Error: % 22
+index: 2 -> Estimated: 0.0467234076904913  Real: 0.14612  Error: % 9
+index: 3 -> Estimated: 0.3321168123627185  Real: 0.43224  Error: % 10
+index: 4 -> Estimated: 0.3637019128917107  Real: 0.50132  Error: % 13
+index: 5 -> Estimated: 0.4213089260014714  Real: 0.50056  Error: % 7
+index: 6 -> Estimated: 0.3596755545544273  Real: 0.49594  Error: % 13
+index: 7 -> Estimated: 0.38570820497288666  Real: 0.5011  Error: % 11
+Global Mean Square Error: 0.01578899509291378
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0006280302118510807  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.7105853739981862  Real: 0.87396  Error: % 16
+index: 2 -> Estimated: 0.12116721908114274  Real: 0.14612  Error: % 2
+index: 3 -> Estimated: 0.3451390363788994  Real: 0.43224  Error: % 8
+index: 4 -> Estimated: 0.40279186594816874  Real: 0.50132  Error: % 9
+index: 5 -> Estimated: 0.4056348476143401  Real: 0.50056  Error: % 9
+index: 6 -> Estimated: 0.39893427679206755  Real: 0.49594  Error: % 9
+index: 7 -> Estimated: 0.401535159156243  Real: 0.5011  Error: % 9
+Global Mean Square Error: 0.009117840950625167
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.00010714237067177984  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8252106955798656  Real: 0.87396  Error: % 4
+index: 2 -> Estimated: 0.1300033553558872  Real: 0.14612  Error: % 1
+index: 3 -> Estimated: 0.4096931013637885  Real: 0.43224  Error: % 2
+index: 4 -> Estimated: 0.4876821802052469  Real: 0.50132  Error: % 1
+index: 5 -> Estimated: 0.48280630095131366  Real: 0.50056  Error: % 1
+index: 6 -> Estimated: 0.4788035449932677  Real: 0.49594  Error: % 1
+index: 7 -> Estimated: 0.47419476232689367  Real: 0.5011  Error: % 2
+Global Mean Square Error: 0.0005829186120925396
+Evaluation for level eps = 10
+index: 0 -> Estimated: 6.880901454725287e-05  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.9576150634149325  Real: 0.87396  Error: % 8
+index: 2 -> Estimated: 0.18708206307073433  Real: 0.14612  Error: % 4
+index: 3 -> Estimated: 0.5608419437093612  Real: 0.43224  Error: % 12
+index: 4 -> Estimated: 0.6698732874041373  Real: 0.50132  Error: % 16
+index: 5 -> Estimated: 0.6721379170508607  Real: 0.50056  Error: % 17
+index: 6 -> Estimated: 0.6668401357370906  Real: 0.49594  Error: % 17
+index: 7 -> Estimated: 0.679894116310795  Real: 0.5011  Error: % 17
+Global Mean Square Error: 0.018029738705380154
+
+
+
+ ========================================== 
+Results of Round 8:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.04744602786835539  Real: 0.0  Error: % 4
+index: 1 -> Estimated: 0.8202975875377029  Real: 0.87706  Error: % 5
+index: 2 -> Estimated: 0.0939465026190457  Real: 0.14336  Error: % 4
+index: 3 -> Estimated: 0.46662887907820344  Real: 0.42694  Error: % 3
+index: 4 -> Estimated: 0.441358923011724  Real: 0.50156  Error: % 6
+index: 5 -> Estimated: 0.5226059168363661  Real: 0.4993  Error: % 2
+index: 6 -> Estimated: 0.47586722098301726  Real: 0.50142  Error: % 2
+index: 7 -> Estimated: 0.4474792416101564  Real: 0.49602  Error: % 4
+Global Mean Square Error: 0.0020833103807013
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0011753813816751677  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.9004440668534125  Real: 0.87706  Error: % 2
+index: 2 -> Estimated: 0.14234916434141642  Real: 0.14336  Error: % 0
+index: 3 -> Estimated: 0.41262251645692205  Real: 0.42694  Error: % 1
+index: 4 -> Estimated: 0.49829444047319005  Real: 0.50156  Error: % 0
+index: 5 -> Estimated: 0.5040544282541615  Real: 0.4993  Error: % 0
+index: 6 -> Estimated: 0.49276956453460896  Real: 0.50142  Error: % 0
+index: 7 -> Estimated: 0.5006944581634557  Real: 0.49602  Error: % 0
+Global Mean Square Error: 0.00011051966095526595
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.00020310751684431355  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8784635204187412  Real: 0.87706  Error: % 0
+index: 2 -> Estimated: 0.13313099396411018  Real: 0.14336  Error: % 1
+index: 3 -> Estimated: 0.4162230996409041  Real: 0.42694  Error: % 1
+index: 4 -> Estimated: 0.5046110030709539  Real: 0.50156  Error: % 0
+index: 5 -> Estimated: 0.4973771247244494  Real: 0.4993  Error: % 0
+index: 6 -> Estimated: 0.5111321351976078  Real: 0.50142  Error: % 0
+index: 7 -> Estimated: 0.4921594843664002  Real: 0.49602  Error: % 0
+Global Mean Square Error: 4.296635751705713e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 7.111610036512764e-05  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8741297183658784  Real: 0.87706  Error: % 0
+index: 2 -> Estimated: 0.12340838440433434  Real: 0.14336  Error: % 1
+index: 3 -> Estimated: 0.416551014984242  Real: 0.42694  Error: % 1
+index: 4 -> Estimated: 0.5165762859180996  Real: 0.50156  Error: % 1
+index: 5 -> Estimated: 0.5091719671566289  Real: 0.4993  Error: % 0
+index: 6 -> Estimated: 0.519791023887713  Real: 0.50142  Error: % 1
+index: 7 -> Estimated: 0.5054899613932848  Real: 0.49602  Error: % 0
+Global Mean Square Error: 0.00015808860603484467
+
+
+
+ ========================================== 
+Results of Round 9:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.039110219706442434  Real: 0.0  Error: % 3
+index: 1 -> Estimated: 0.7899235107300049  Real: 0.88004  Error: % 9
+index: 2 -> Estimated: 0.14792283220131874  Real: 0.14044  Error: % 0
+index: 3 -> Estimated: 0.393788786697327  Real: 0.42704  Error: % 3
+index: 4 -> Estimated: 0.45385440739706034  Real: 0.49954  Error: % 4
+index: 5 -> Estimated: 0.5052299076167324  Real: 0.49688  Error: % 0
+index: 6 -> Estimated: 0.46164082478781326  Real: 0.49468  Error: % 3
+index: 7 -> Estimated: 0.5083630736819185  Real: 0.50188  Error: % 0
+Global Mean Square Error: 0.0017628423199305997
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.005126511727926756  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8775159608215525  Real: 0.88004  Error: % 0
+index: 2 -> Estimated: 0.1615734915111674  Real: 0.14044  Error: % 2
+index: 3 -> Estimated: 0.41248510716961756  Real: 0.42704  Error: % 1
+index: 4 -> Estimated: 0.5068156904127921  Real: 0.49954  Error: % 0
+index: 5 -> Estimated: 0.5016093096124423  Real: 0.49688  Error: % 0
+index: 6 -> Estimated: 0.4946247646280308  Real: 0.49468  Error: % 0
+index: 7 -> Estimated: 0.5026795471708223  Real: 0.50188  Error: % 0
+Global Mean Square Error: 9.588320400565386e-05
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.017733874771138778  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.8730443373680091  Real: 0.88004  Error: % 0
+index: 2 -> Estimated: 0.14332855004394393  Real: 0.14044  Error: % 0
+index: 3 -> Estimated: 0.41627110818910973  Real: 0.42704  Error: % 1
+index: 4 -> Estimated: 0.49604941433995053  Real: 0.49954  Error: % 0
+index: 5 -> Estimated: 0.4893132332569508  Real: 0.49688  Error: % 0
+index: 6 -> Estimated: 0.5017519835444957  Real: 0.49468  Error: % 0
+index: 7 -> Estimated: 0.506915678488874  Real: 0.50188  Error: % 0
+Global Mean Square Error: 7.906918981760971e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.004621790287405362  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8770532563599396  Real: 0.88004  Error: % 0
+index: 2 -> Estimated: 0.12789952770155966  Real: 0.14044  Error: % 1
+index: 3 -> Estimated: 0.3994984704755244  Real: 0.42704  Error: % 2
+index: 4 -> Estimated: 0.5151100169508979  Real: 0.49954  Error: % 1
+index: 5 -> Estimated: 0.5064536691174083  Real: 0.49688  Error: % 0
+index: 6 -> Estimated: 0.5176313621178559  Real: 0.49468  Error: % 2
+index: 7 -> Estimated: 0.5089343027200056  Real: 0.50188  Error: % 0
+Global Mean Square Error: 0.0002320862068998749
+
+
+
+ ========================================== 
+Results of Round 10:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.06550926049062254  Real: 0.0  Error: % 6
+index: 1 -> Estimated: 0.8222980468964222  Real: 0.87588  Error: % 5
+index: 2 -> Estimated: 0.14600236319020676  Real: 0.1436  Error: % 0
+index: 3 -> Estimated: 0.33752171835625927  Real: 0.42422  Error: % 8
+index: 4 -> Estimated: 0.4156066738974776  Real: 0.49934  Error: % 8
+index: 5 -> Estimated: 0.5062486735462909  Real: 0.49826  Error: % 0
+index: 6 -> Estimated: 0.4849136041376177  Real: 0.5006  Error: % 1
+index: 7 -> Estimated: 0.45495293709808365  Real: 0.50122  Error: % 4
+Global Mean Square Error: 0.0030183306534048906
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.001547589489775889  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8809762285584533  Real: 0.87588  Error: % 0
+index: 2 -> Estimated: 0.15691345546851504  Real: 0.1436  Error: % 1
+index: 3 -> Estimated: 0.4146494571968293  Real: 0.42422  Error: % 0
+index: 4 -> Estimated: 0.48913634830582675  Real: 0.49934  Error: % 1
+index: 5 -> Estimated: 0.510477149346773  Real: 0.49826  Error: % 1
+index: 6 -> Estimated: 0.515395294940008  Real: 0.5006  Error: % 1
+index: 7 -> Estimated: 0.5054063611770963  Real: 0.50122  Error: % 0
+Global Mean Square Error: 9.83761978915751e-05
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.033714541656383865  Real: 0.0  Error: % 3
+index: 1 -> Estimated: 0.8717892740909747  Real: 0.87588  Error: % 0
+index: 2 -> Estimated: 0.14413078349315978  Real: 0.1436  Error: % 0
+index: 3 -> Estimated: 0.42416071059502375  Real: 0.42422  Error: % 0
+index: 4 -> Estimated: 0.4949338051587427  Real: 0.49934  Error: % 0
+index: 5 -> Estimated: 0.4876346858163576  Real: 0.49826  Error: % 1
+index: 6 -> Estimated: 0.5108374872809294  Real: 0.5006  Error: % 1
+index: 7 -> Estimated: 0.5148167117811985  Real: 0.50122  Error: % 1
+Global Mean Square Error: 0.00019695977193517157
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.013008733824982681  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.878098307909118  Real: 0.87588  Error: % 0
+index: 2 -> Estimated: 0.13546299148589688  Real: 0.1436  Error: % 0
+index: 3 -> Estimated: 0.39763874032200763  Real: 0.42422  Error: % 2
+index: 4 -> Estimated: 0.501395808342417  Real: 0.49934  Error: % 0
+index: 5 -> Estimated: 0.4956126291739812  Real: 0.49826  Error: % 0
+index: 6 -> Estimated: 0.5056987446102638  Real: 0.5006  Error: % 0
+index: 7 -> Estimated: 0.5091386243013611  Real: 0.50122  Error: % 0
+Global Mean Square Error: 0.00013085738087429506
+
+
+
+ ========================================== 
+Results of Round 11:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.06310353112292832  Real: 0.0  Error: % 6
+index: 1 -> Estimated: 0.8729189501878991  Real: 0.8758  Error: % 0
+index: 2 -> Estimated: 0.09638460011292804  Real: 0.14452  Error: % 4
+index: 3 -> Estimated: 0.3922024367023586  Real: 0.4285  Error: % 3
+index: 4 -> Estimated: 0.4165104760538033  Real: 0.49622  Error: % 7
+index: 5 -> Estimated: 0.5098699119399093  Real: 0.4974  Error: % 1
+index: 6 -> Estimated: 0.4973155711059406  Real: 0.49974  Error: % 0
+index: 7 -> Estimated: 0.46752516489785934  Real: 0.50086  Error: % 3
+Global Mean Square Error: 0.0019063852387630567
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0008634909855385066  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.882909989725743  Real: 0.8758  Error: % 0
+index: 2 -> Estimated: 0.15171556250576335  Real: 0.14452  Error: % 0
+index: 3 -> Estimated: 0.4334068277801775  Real: 0.4285  Error: % 0
+index: 4 -> Estimated: 0.4925410644518283  Real: 0.49622  Error: % 0
+index: 5 -> Estimated: 0.5212538792238007  Real: 0.4974  Error: % 2
+index: 6 -> Estimated: 0.5215395527610495  Real: 0.49974  Error: % 2
+index: 7 -> Estimated: 0.4916660752729299  Real: 0.50086  Error: % 0
+Global Mean Square Error: 0.00015868019031012843
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.00014956590694739533  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8790389608036044  Real: 0.8758  Error: % 0
+index: 2 -> Estimated: 0.13932426808144535  Real: 0.14452  Error: % 0
+index: 3 -> Estimated: 0.43218476926852234  Real: 0.4285  Error: % 0
+index: 4 -> Estimated: 0.4962793531408223  Real: 0.49622  Error: % 0
+index: 5 -> Estimated: 0.4915011103392202  Real: 0.4974  Error: % 0
+index: 6 -> Estimated: 0.5159863701138216  Real: 0.49974  Error: % 1
+index: 7 -> Estimated: 0.5029447725374725  Real: 0.50086  Error: % 0
+Global Mean Square Error: 4.427220402664968e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.0010719966016020112  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8809417059004372  Real: 0.8758  Error: % 0
+index: 2 -> Estimated: 0.14442175126037746  Real: 0.14452  Error: % 0
+index: 3 -> Estimated: 0.3997199054808993  Real: 0.4285  Error: % 2
+index: 4 -> Estimated: 0.4990922307782679  Real: 0.49622  Error: % 0
+index: 5 -> Estimated: 0.4968015664343378  Real: 0.4974  Error: % 0
+index: 6 -> Estimated: 0.5142293532746498  Real: 0.49974  Error: % 1
+index: 7 -> Estimated: 0.5103301644510796  Real: 0.50086  Error: % 0
+Global Mean Square Error: 0.00014551537688098508
+
+
+
+ ========================================== 
+Results of Round 12:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.011615221113177046  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.880426284836038  Real: 0.874  Error: % 0
+index: 2 -> Estimated: 0.12099440280824919  Real: 0.14722  Error: % 2
+index: 3 -> Estimated: 0.3504822562620524  Real: 0.43154  Error: % 8
+index: 4 -> Estimated: 0.4569604586256288  Real: 0.50114  Error: % 4
+index: 5 -> Estimated: 0.5869543523094095  Real: 0.4981  Error: % 8
+index: 6 -> Estimated: 0.5597283880337968  Real: 0.50172  Error: % 5
+index: 7 -> Estimated: 0.5297414051275412  Real: 0.5004  Error: % 2
+Global Mean Square Error: 0.002688396150470639
+Evaluation for level eps = 2
+index: 0 -> Estimated: 9.783559402693322e-06  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8656015966689488  Real: 0.874  Error: % 0
+index: 2 -> Estimated: 0.13924835282240755  Real: 0.14722  Error: % 0
+index: 3 -> Estimated: 0.43619838299851105  Real: 0.43154  Error: % 0
+index: 4 -> Estimated: 0.4890474348076561  Real: 0.50114  Error: % 1
+index: 5 -> Estimated: 0.5236422409483831  Real: 0.4981  Error: % 2
+index: 6 -> Estimated: 0.50787018454681  Real: 0.50172  Error: % 0
+index: 7 -> Estimated: 0.4800603548924818  Real: 0.5004  Error: % 2
+Global Mean Square Error: 0.0001757428879712294
+Evaluation for level eps = 5
+index: 0 -> Estimated: 1.7001430845910994e-06  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8802171984281529  Real: 0.874  Error: % 0
+index: 2 -> Estimated: 0.14482556319422674  Real: 0.14722  Error: % 0
+index: 3 -> Estimated: 0.4294867991030869  Real: 0.43154  Error: % 0
+index: 4 -> Estimated: 0.5040408655975593  Real: 0.50114  Error: % 0
+index: 5 -> Estimated: 0.5023099656760153  Real: 0.4981  Error: % 0
+index: 6 -> Estimated: 0.5080938492091378  Real: 0.50172  Error: % 0
+index: 7 -> Estimated: 0.5069163557603539  Real: 0.5004  Error: % 0
+Global Mean Square Error: 1.9728774883761714e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 5.742151974297624e-07  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8706761553451958  Real: 0.874  Error: % 0
+index: 2 -> Estimated: 0.15235255201616885  Real: 0.14722  Error: % 0
+index: 3 -> Estimated: 0.41414826511650776  Real: 0.43154  Error: % 1
+index: 4 -> Estimated: 0.5022028453545602  Real: 0.50114  Error: % 0
+index: 5 -> Estimated: 0.4985587423193626  Real: 0.4981  Error: % 0
+index: 6 -> Estimated: 0.5105712625498159  Real: 0.50172  Error: % 0
+index: 7 -> Estimated: 0.5058586263995241  Real: 0.5004  Error: % 0
+Global Mean Square Error: 5.6168126466748784e-05
+
+
+
+ ========================================== 
+Results of Round 13:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.04125058435767644  Real: 0.0  Error: % 4
+index: 1 -> Estimated: 0.8530782549191597  Real: 0.8786  Error: % 2
+index: 2 -> Estimated: 0.1370582085586197  Real: 0.14176  Error: % 0
+index: 3 -> Estimated: 0.4080736357873984  Real: 0.42556  Error: % 1
+index: 4 -> Estimated: 0.46921249291962513  Real: 0.498  Error: % 2
+index: 5 -> Estimated: 0.5485222905517453  Real: 0.50146  Error: % 4
+index: 6 -> Estimated: 0.5545685929690612  Real: 0.49914  Error: % 5
+index: 7 -> Estimated: 0.47071547069162745  Real: 0.50112  Error: % 3
+Global Mean Square Error: 0.0012151492543535313
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.004896209785605142  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8688218087795073  Real: 0.8786  Error: % 0
+index: 2 -> Estimated: 0.15056655026347202  Real: 0.14176  Error: % 0
+index: 3 -> Estimated: 0.4157456600330753  Real: 0.42556  Error: % 0
+index: 4 -> Estimated: 0.4933606140411766  Real: 0.498  Error: % 0
+index: 5 -> Estimated: 0.5041710373693961  Real: 0.50146  Error: % 0
+index: 6 -> Estimated: 0.5158861545517812  Real: 0.49914  Error: % 1
+index: 7 -> Estimated: 0.48053483196666763  Real: 0.50112  Error: % 2
+Global Mean Square Error: 0.00012831486890805925
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0004529174304387488  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8821160141197034  Real: 0.8786  Error: % 0
+index: 2 -> Estimated: 0.1297945221908287  Real: 0.14176  Error: % 1
+index: 3 -> Estimated: 0.4237691014520791  Real: 0.42556  Error: % 0
+index: 4 -> Estimated: 0.4980610143196632  Real: 0.498  Error: % 0
+index: 5 -> Estimated: 0.5009716123693159  Real: 0.50146  Error: % 0
+index: 6 -> Estimated: 0.5146482441967583  Real: 0.49914  Error: % 1
+index: 7 -> Estimated: 0.5153090790745501  Real: 0.50112  Error: % 1
+Global Mean Square Error: 7.512816432182465e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.00015213352865333206  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8758055022549623  Real: 0.8786  Error: % 0
+index: 2 -> Estimated: 0.14571783250992668  Real: 0.14176  Error: % 0
+index: 3 -> Estimated: 0.40266262056586133  Real: 0.42556  Error: % 2
+index: 4 -> Estimated: 0.495933086476371  Real: 0.498  Error: % 0
+index: 5 -> Estimated: 0.5014688283285182  Real: 0.50146  Error: % 0
+index: 6 -> Estimated: 0.5090505929420788  Real: 0.49914  Error: % 0
+index: 7 -> Estimated: 0.5072368952631093  Real: 0.50112  Error: % 0
+Global Mean Square Error: 8.59619068702608e-05
+
+
+
+ ========================================== 
+Results of Round 14:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8529995108810108  Real: 0.87428  Error: % 2
+index: 2 -> Estimated: 0.1685572427024383  Real: 0.14588  Error: % 2
+index: 3 -> Estimated: 0.44537636691476734  Real: 0.42764  Error: % 1
+index: 4 -> Estimated: 0.48965669876275614  Real: 0.501  Error: % 1
+index: 5 -> Estimated: 0.551578006602813  Real: 0.50148  Error: % 5
+index: 6 -> Estimated: 0.594361971750712  Real: 0.49804  Error: % 9
+index: 7 -> Estimated: 0.43014742313089993  Real: 0.49798  Error: % 6
+Global Mean Square Error: 0.0022249195925307056
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.006584825581099542  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8834456882610792  Real: 0.87428  Error: % 0
+index: 2 -> Estimated: 0.15657721763375226  Real: 0.14588  Error: % 1
+index: 3 -> Estimated: 0.4357239144016254  Real: 0.42764  Error: % 0
+index: 4 -> Estimated: 0.48626449956918166  Real: 0.501  Error: % 1
+index: 5 -> Estimated: 0.506792453235679  Real: 0.50148  Error: % 0
+index: 6 -> Estimated: 0.5292366424088963  Real: 0.49804  Error: % 3
+index: 7 -> Estimated: 0.4804860481226441  Real: 0.49798  Error: % 1
+Global Mean Square Error: 0.00022897198607414645
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.003884293199915452  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8737176902867604  Real: 0.87428  Error: % 0
+index: 2 -> Estimated: 0.13156432062899273  Real: 0.14588  Error: % 1
+index: 3 -> Estimated: 0.4318297761793778  Real: 0.42764  Error: % 0
+index: 4 -> Estimated: 0.5010087344748726  Real: 0.501  Error: % 0
+index: 5 -> Estimated: 0.5026130874625407  Real: 0.50148  Error: % 0
+index: 6 -> Estimated: 0.5107428220945079  Real: 0.49804  Error: % 1
+index: 7 -> Estimated: 0.5195531240432766  Real: 0.49798  Error: % 2
+Global Mean Square Error: 0.00010824276997542683
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.0007215644169648028  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8586583588835989  Real: 0.87428  Error: % 1
+index: 2 -> Estimated: 0.14788879188954415  Real: 0.14588  Error: % 0
+index: 3 -> Estimated: 0.41074023059499104  Real: 0.42764  Error: % 1
+index: 4 -> Estimated: 0.5044297773299673  Real: 0.501  Error: % 0
+index: 5 -> Estimated: 0.49423971293035174  Real: 0.50148  Error: % 0
+index: 6 -> Estimated: 0.49892540309962546  Real: 0.49804  Error: % 0
+index: 7 -> Estimated: 0.4983110145643127  Real: 0.49798  Error: % 0
+Global Mean Square Error: 7.490905198126572e-05
+
+
+
+ ========================================== 
+Results of Round 15:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.6675895485298664  Real: 0.87294  Error: % 20
+index: 2 -> Estimated: 0.09754593406657508  Real: 0.14772  Error: % 5
+index: 3 -> Estimated: 0.3168784792234721  Real: 0.42876  Error: % 11
+index: 4 -> Estimated: 0.3994444655862617  Real: 0.49922  Error: % 9
+index: 5 -> Estimated: 0.38883195692368994  Real: 0.50168  Error: % 11
+index: 6 -> Estimated: 0.4064705525744576  Real: 0.50336  Error: % 9
+index: 7 -> Estimated: 0.38416388268621643  Real: 0.5011  Error: % 11
+Global Mean Square Error: 0.012869397268887217
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0002319125808694984  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.7151089337550051  Real: 0.87294  Error: % 15
+index: 2 -> Estimated: 0.12552618584185  Real: 0.14772  Error: % 2
+index: 3 -> Estimated: 0.3435745346553782  Real: 0.42876  Error: % 8
+index: 4 -> Estimated: 0.404201596725008  Real: 0.49922  Error: % 9
+index: 5 -> Estimated: 0.4205002888173836  Real: 0.50168  Error: % 8
+index: 6 -> Estimated: 0.4279427573969143  Real: 0.50336  Error: % 7
+index: 7 -> Estimated: 0.4112773614490284  Real: 0.5011  Error: % 8
+Global Mean Square Error: 0.007754292186884578
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.004077459510544529  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8353103638896863  Real: 0.87294  Error: % 3
+index: 2 -> Estimated: 0.13988897940733735  Real: 0.14772  Error: % 0
+index: 3 -> Estimated: 0.4107944166067313  Real: 0.42876  Error: % 1
+index: 4 -> Estimated: 0.48592124222064975  Real: 0.49922  Error: % 1
+index: 5 -> Estimated: 0.48528370107210717  Real: 0.50168  Error: % 1
+index: 6 -> Estimated: 0.49701142230071704  Real: 0.50336  Error: % 0
+index: 7 -> Estimated: 0.46992649431080136  Real: 0.5011  Error: % 3
+Global Mean Square Error: 0.0004093112166003674
+Evaluation for level eps = 10
+index: 0 -> Estimated: 2.52176691589831e-05  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.9595677561237093  Real: 0.87294  Error: % 8
+index: 2 -> Estimated: 0.1989861043465064  Real: 0.14772  Error: % 5
+index: 3 -> Estimated: 0.5628707347586341  Real: 0.42876  Error: % 13
+index: 4 -> Estimated: 0.6740219843103736  Real: 0.49922  Error: % 17
+index: 5 -> Estimated: 0.670254049189751  Real: 0.50168  Error: % 16
+index: 6 -> Estimated: 0.6817985642710872  Real: 0.50336  Error: % 17
+index: 7 -> Estimated: 0.6573435138945906  Real: 0.5011  Error: % 15
+Global Mean Square Error: 0.017917946503956998
+
+
+
+ ========================================== 
+Results of Round 16:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8298755194696323  Real: 0.87378  Error: % 4
+index: 2 -> Estimated: 0.11975551642981244  Real: 0.1458  Error: % 2
+index: 3 -> Estimated: 0.42223478751984544  Real: 0.42828  Error: % 0
+index: 4 -> Estimated: 0.49200568419040824  Real: 0.50286  Error: % 1
+index: 5 -> Estimated: 0.574804167135975  Real: 0.4995  Error: % 7
+index: 6 -> Estimated: 0.6125672032725274  Real: 0.50038  Error: % 11
+index: 7 -> Estimated: 0.5071973558008793  Real: 0.49732  Error: % 0
+Global Mean Square Error: 0.0026393159530593976
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8773054709352838  Real: 0.87378  Error: % 0
+index: 2 -> Estimated: 0.15910112023538886  Real: 0.1458  Error: % 1
+index: 3 -> Estimated: 0.4200596177821038  Real: 0.42828  Error: % 0
+index: 4 -> Estimated: 0.5021733773100686  Real: 0.50286  Error: % 0
+index: 5 -> Estimated: 0.4906790003673877  Real: 0.4995  Error: % 0
+index: 6 -> Estimated: 0.5143416541155529  Real: 0.50038  Error: % 1
+index: 7 -> Estimated: 0.4978194574225641  Real: 0.49732  Error: % 0
+Global Mean Square Error: 6.629776965453343e-05
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8792375031773466  Real: 0.87378  Error: % 0
+index: 2 -> Estimated: 0.16027103424834446  Real: 0.1458  Error: % 1
+index: 3 -> Estimated: 0.4268206381157552  Real: 0.42828  Error: % 0
+index: 4 -> Estimated: 0.5124142689283412  Real: 0.50286  Error: % 0
+index: 5 -> Estimated: 0.5005844044425358  Real: 0.4995  Error: % 0
+index: 6 -> Estimated: 0.514692403839692  Real: 0.50038  Error: % 1
+index: 7 -> Estimated: 0.48836776928916664  Real: 0.49732  Error: % 0
+Global Mean Square Error: 7.734652954714572e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.012004920250217259  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.8700372193646146  Real: 0.87378  Error: % 0
+index: 2 -> Estimated: 0.15003789976438536  Real: 0.1458  Error: % 0
+index: 3 -> Estimated: 0.42433202115206486  Real: 0.42828  Error: % 0
+index: 4 -> Estimated: 0.5062247334724038  Real: 0.50286  Error: % 0
+index: 5 -> Estimated: 0.5015110267309236  Real: 0.4995  Error: % 0
+index: 6 -> Estimated: 0.5121334890966805  Real: 0.50038  Error: % 1
+index: 7 -> Estimated: 0.48981869501973396  Real: 0.49732  Error: % 0
+Global Mean Square Error: 5.0181573837621016e-05
+
+
+
+ ========================================== 
+Results of Round 17:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.019234316022610637  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.8436377651138951  Real: 0.87274  Error: % 2
+index: 2 -> Estimated: 0.1453904793816202  Real: 0.1476  Error: % 0
+index: 3 -> Estimated: 0.4718201379177194  Real: 0.4305  Error: % 4
+index: 4 -> Estimated: 0.4267263223252638  Real: 0.50066  Error: % 7
+index: 5 -> Estimated: 0.5358682772283749  Real: 0.49634  Error: % 3
+index: 6 -> Estimated: 0.5023793985970674  Real: 0.49716  Error: % 0
+index: 7 -> Estimated: 0.5299750870230884  Real: 0.50148  Error: % 2
+Global Mean Square Error: 0.0013496275335561957
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0005777588528200082  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8680475015628586  Real: 0.87274  Error: % 0
+index: 2 -> Estimated: 0.15180247352155293  Real: 0.1476  Error: % 0
+index: 3 -> Estimated: 0.43164220757483196  Real: 0.4305  Error: % 0
+index: 4 -> Estimated: 0.5061444388421216  Real: 0.50066  Error: % 0
+index: 5 -> Estimated: 0.4915465119139864  Real: 0.49634  Error: % 0
+index: 6 -> Estimated: 0.499992654191428  Real: 0.49716  Error: % 0
+index: 7 -> Estimated: 0.4929741137803108  Real: 0.50148  Error: % 0
+Global Mean Square Error: 2.1843674539022885e-05
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.00579069334993075  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8751758207716074  Real: 0.87274  Error: % 0
+index: 2 -> Estimated: 0.15044928756748183  Real: 0.1476  Error: % 0
+index: 3 -> Estimated: 0.4347016305690621  Real: 0.4305  Error: % 0
+index: 4 -> Estimated: 0.4872575569206343  Real: 0.50066  Error: % 1
+index: 5 -> Estimated: 0.48214254369703413  Real: 0.49634  Error: % 1
+index: 6 -> Estimated: 0.49954216825722386  Real: 0.49716  Error: % 0
+index: 7 -> Estimated: 0.502267564168046  Real: 0.50148  Error: % 0
+Global Mean Square Error: 5.659071503502334e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.020079642973548428  Real: 0.0  Error: % 2
+index: 1 -> Estimated: 0.8766054451496539  Real: 0.87274  Error: % 0
+index: 2 -> Estimated: 0.15447056809007575  Real: 0.1476  Error: % 0
+index: 3 -> Estimated: 0.43103378909973517  Real: 0.4305  Error: % 0
+index: 4 -> Estimated: 0.4907134992016672  Real: 0.50066  Error: % 0
+index: 5 -> Estimated: 0.4843786649934575  Real: 0.49634  Error: % 1
+index: 6 -> Estimated: 0.5070090317317294  Real: 0.49716  Error: % 0
+index: 7 -> Estimated: 0.49697196309989555  Real: 0.50148  Error: % 0
+Global Mean Square Error: 0.00010311945010610123
+
+
+
+ ========================================== 
+Results of Round 18:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8694620671729876  Real: 0.87708  Error: % 0
+index: 2 -> Estimated: 0.15618241259451246  Real: 0.14304  Error: % 1
+index: 3 -> Estimated: 0.5079182760902806  Real: 0.42804  Error: % 7
+index: 4 -> Estimated: 0.4437217910642639  Real: 0.50194  Error: % 5
+index: 5 -> Estimated: 0.5581694574920735  Real: 0.5017  Error: % 5
+index: 6 -> Estimated: 0.46773747350655576  Real: 0.49842  Error: % 3
+index: 7 -> Estimated: 0.5153056065590143  Real: 0.49808  Error: % 1
+Global Mean Square Error: 0.001803449166874669
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.872586154319975  Real: 0.87708  Error: % 0
+index: 2 -> Estimated: 0.13162466174603488  Real: 0.14304  Error: % 1
+index: 3 -> Estimated: 0.4334235415305381  Real: 0.42804  Error: % 0
+index: 4 -> Estimated: 0.49418606926572034  Real: 0.50194  Error: % 0
+index: 5 -> Estimated: 0.5068709850786793  Real: 0.5017  Error: % 0
+index: 6 -> Estimated: 0.49651956159413985  Real: 0.49842  Error: % 0
+index: 7 -> Estimated: 0.48147251717055467  Real: 0.49808  Error: % 1
+Global Mean Square Error: 6.822122455500863e-05
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.871607693043727  Real: 0.87708  Error: % 0
+index: 2 -> Estimated: 0.1334387735214725  Real: 0.14304  Error: % 0
+index: 3 -> Estimated: 0.42964726566529016  Real: 0.42804  Error: % 0
+index: 4 -> Estimated: 0.48815279365851516  Real: 0.50194  Error: % 1
+index: 5 -> Estimated: 0.495392685455107  Real: 0.5017  Error: % 0
+index: 6 -> Estimated: 0.4999672687235511  Real: 0.49842  Error: % 0
+index: 7 -> Estimated: 0.49659674653570784  Real: 0.49808  Error: % 0
+Global Mean Square Error: 4.4897044130948354e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.012700670083486784  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.8774640300500784  Real: 0.87708  Error: % 0
+index: 2 -> Estimated: 0.14603629334975732  Real: 0.14304  Error: % 0
+index: 3 -> Estimated: 0.4251632187739124  Real: 0.42804  Error: % 0
+index: 4 -> Estimated: 0.48194271571243463  Real: 0.50194  Error: % 1
+index: 5 -> Estimated: 0.4940554305597859  Real: 0.5017  Error: % 0
+index: 6 -> Estimated: 0.5075007169596499  Real: 0.49842  Error: % 0
+index: 7 -> Estimated: 0.502016976949494  Real: 0.49808  Error: % 0
+Global Mean Square Error: 9.187477156444965e-05
+
+
+
+ ========================================== 
+Results of Round 19:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.08009695857253187  Real: 0.0  Error: % 8
+index: 1 -> Estimated: 0.8399089476780609  Real: 0.87364  Error: % 3
+index: 2 -> Estimated: 0.12497627244707846  Real: 0.14554  Error: % 2
+index: 3 -> Estimated: 0.454116719722897  Real: 0.42848  Error: % 2
+index: 4 -> Estimated: 0.43208172683162316  Real: 0.5039  Error: % 7
+index: 5 -> Estimated: 0.492815550971894  Real: 0.49984  Error: % 0
+index: 6 -> Estimated: 0.5149337966387298  Real: 0.50124  Error: % 1
+index: 7 -> Estimated: 0.4907300593079791  Real: 0.49908  Error: % 0
+Global Mean Square Error: 0.0017622329716644564
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0008072645254775913  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8717182044132212  Real: 0.87364  Error: % 0
+index: 2 -> Estimated: 0.13920599973507386  Real: 0.14554  Error: % 0
+index: 3 -> Estimated: 0.42743753109818833  Real: 0.42848  Error: % 0
+index: 4 -> Estimated: 0.5160051319310239  Real: 0.5039  Error: % 1
+index: 5 -> Estimated: 0.5076582257962806  Real: 0.49984  Error: % 0
+index: 6 -> Estimated: 0.5137335058712532  Real: 0.50124  Error: % 1
+index: 7 -> Estimated: 0.47270520880153805  Real: 0.49908  Error: % 2
+Global Mean Square Error: 0.0001381159310556767
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.00013951233813416713  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8858832998480471  Real: 0.87364  Error: % 1
+index: 2 -> Estimated: 0.12001898018855482  Real: 0.14554  Error: % 2
+index: 3 -> Estimated: 0.4286195305675664  Real: 0.42848  Error: % 0
+index: 4 -> Estimated: 0.48898948978299384  Real: 0.5039  Error: % 1
+index: 5 -> Estimated: 0.48811574034898997  Real: 0.49984  Error: % 1
+index: 6 -> Estimated: 0.499853004086273  Real: 0.50124  Error: % 0
+index: 7 -> Estimated: 0.5028455153118477  Real: 0.49908  Error: % 0
+Global Mean Square Error: 0.00014714302729766865
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.011173039542337886  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.8820164429432154  Real: 0.87364  Error: % 0
+index: 2 -> Estimated: 0.1440159908923148  Real: 0.14554  Error: % 0
+index: 3 -> Estimated: 0.42548385513886844  Real: 0.42848  Error: % 0
+index: 4 -> Estimated: 0.4734894909515937  Real: 0.5039  Error: % 3
+index: 5 -> Estimated: 0.489845918334026  Real: 0.49984  Error: % 0
+index: 6 -> Estimated: 0.5021603184711649  Real: 0.50124  Error: % 0
+index: 7 -> Estimated: 0.5024887910471534  Real: 0.49908  Error: % 0
+Global Mean Square Error: 0.00015543108352570763
+
+
+
+ ========================================== 
+Results of Round 20:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.07599824571370539  Real: 0.0  Error: % 7
+index: 1 -> Estimated: 0.849012049361998  Real: 0.87368  Error: % 2
+index: 2 -> Estimated: 0.12570796917824875  Real: 0.1468  Error: % 2
+index: 3 -> Estimated: 0.43893517129519677  Real: 0.42884  Error: % 1
+index: 4 -> Estimated: 0.4268757040910703  Real: 0.49918  Error: % 7
+index: 5 -> Estimated: 0.5375774705365751  Real: 0.502  Error: % 3
+index: 6 -> Estimated: 0.4716969134780483  Real: 0.50308  Error: % 3
+index: 7 -> Estimated: 0.4420888250755934  Real: 0.50254  Error: % 6
+Global Mean Square Error: 0.0022579922092446454
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0005058117817889153  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8699058623382253  Real: 0.87368  Error: % 0
+index: 2 -> Estimated: 0.12569475794455298  Real: 0.1468  Error: % 2
+index: 3 -> Estimated: 0.42520684944640663  Real: 0.42884  Error: % 0
+index: 4 -> Estimated: 0.5049941485263439  Real: 0.49918  Error: % 0
+index: 5 -> Estimated: 0.5039305605047081  Real: 0.502  Error: % 0
+index: 6 -> Estimated: 0.5038455098374653  Real: 0.50308  Error: % 0
+index: 7 -> Estimated: 0.4634716576473984  Real: 0.50254  Error: % 3
+Global Mean Square Error: 0.0002546979690315968
+Evaluation for level eps = 5
+index: 0 -> Estimated: 8.759197255811782e-05  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8877150879380423  Real: 0.87368  Error: % 1
+index: 2 -> Estimated: 0.11957452324005752  Real: 0.1468  Error: % 2
+index: 3 -> Estimated: 0.42939285338835526  Real: 0.42884  Error: % 0
+index: 4 -> Estimated: 0.48505075292842925  Real: 0.49918  Error: % 1
+index: 5 -> Estimated: 0.4985033340628081  Real: 0.502  Error: % 0
+index: 6 -> Estimated: 0.4996946149010941  Real: 0.50308  Error: % 0
+index: 7 -> Estimated: 0.5029595175246433  Real: 0.50254  Error: % 0
+Global Mean Square Error: 0.00014525284002057598
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.015125562279080053  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.8800580131044127  Real: 0.87368  Error: % 0
+index: 2 -> Estimated: 0.14397704632171449  Real: 0.1468  Error: % 0
+index: 3 -> Estimated: 0.4286966351883511  Real: 0.42884  Error: % 0
+index: 4 -> Estimated: 0.47942777334125786  Real: 0.49918  Error: % 1
+index: 5 -> Estimated: 0.4873019638904628  Real: 0.502  Error: % 1
+index: 6 -> Estimated: 0.4909290749165464  Real: 0.50308  Error: % 1
+index: 7 -> Estimated: 0.4996998061424872  Real: 0.50254  Error: % 0
+Global Mean Square Error: 0.0001299182139181114
+
+
+
+ ========================================== 
+Results of Round 21:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.07050293519924551  Real: 0.0  Error: % 7
+index: 1 -> Estimated: 0.8244262987925408  Real: 0.87432  Error: % 4
+index: 2 -> Estimated: 0.15139473730787606  Real: 0.14626  Error: % 0
+index: 3 -> Estimated: 0.45555605975428093  Real: 0.4295  Error: % 2
+index: 4 -> Estimated: 0.4472606696141355  Real: 0.50268  Error: % 5
+index: 5 -> Estimated: 0.5631644094477338  Real: 0.49874  Error: % 6
+index: 6 -> Estimated: 0.5316299810759282  Real: 0.5029  Error: % 2
+index: 7 -> Estimated: 0.43057689238216657  Real: 0.49764  Error: % 6
+Global Mean Square Error: 0.002588750999764867
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.003623770679888405  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8786054482754773  Real: 0.87432  Error: % 0
+index: 2 -> Estimated: 0.14820156645964377  Real: 0.14626  Error: % 0
+index: 3 -> Estimated: 0.4169302040326247  Real: 0.4295  Error: % 1
+index: 4 -> Estimated: 0.5168322188709401  Real: 0.50268  Error: % 1
+index: 5 -> Estimated: 0.5064423442797591  Real: 0.49874  Error: % 0
+index: 6 -> Estimated: 0.5101946429452936  Real: 0.5029  Error: % 0
+index: 7 -> Estimated: 0.48473005777745365  Real: 0.49764  Error: % 1
+Global Mean Square Error: 8.409450776307563e-05
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0006152035860893852  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8757648212128453  Real: 0.87432  Error: % 0
+index: 2 -> Estimated: 0.1259311175061363  Real: 0.14626  Error: % 2
+index: 3 -> Estimated: 0.4195940003204156  Real: 0.4295  Error: % 0
+index: 4 -> Estimated: 0.4850000223228486  Real: 0.50268  Error: % 1
+index: 5 -> Estimated: 0.49874683957238  Real: 0.49874  Error: % 0
+index: 6 -> Estimated: 0.5211737509955279  Real: 0.5029  Error: % 1
+index: 7 -> Estimated: 0.5100407657504187  Real: 0.49764  Error: % 1
+Global Mean Square Error: 0.00016426861262228783
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.019782159596315504  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.880970038434052  Real: 0.87432  Error: % 0
+index: 2 -> Estimated: 0.14683362265221278  Real: 0.14626  Error: % 0
+index: 3 -> Estimated: 0.42540403306637303  Real: 0.4295  Error: % 0
+index: 4 -> Estimated: 0.4812197881106022  Real: 0.50268  Error: % 2
+index: 5 -> Estimated: 0.4792718480348553  Real: 0.49874  Error: % 1
+index: 6 -> Estimated: 0.5012918716355065  Real: 0.5029  Error: % 0
+index: 7 -> Estimated: 0.5106487515095557  Real: 0.49764  Error: % 1
+Global Mean Square Error: 0.00018300327068585497
+
+
+
+ ========================================== 
+Results of Round 22:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.011175149419019639  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.7707014170782053  Real: 0.87266  Error: % 10
+index: 2 -> Estimated: 0.15154796831779357  Real: 0.14684  Error: % 0
+index: 3 -> Estimated: 0.48967522070117986  Real: 0.42818  Error: % 6
+index: 4 -> Estimated: 0.47996572053691966  Real: 0.50232  Error: % 2
+index: 5 -> Estimated: 0.5404193379296365  Real: 0.50468  Error: % 3
+index: 6 -> Estimated: 0.5172714291002019  Real: 0.49856  Error: % 1
+index: 7 -> Estimated: 0.4326219285204409  Real: 0.4994  Error: % 6
+Global Mean Square Error: 0.002613838278273663
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.006683547174509067  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8755699258380062  Real: 0.87266  Error: % 0
+index: 2 -> Estimated: 0.14106484364373367  Real: 0.14684  Error: % 0
+index: 3 -> Estimated: 0.4301750226088559  Real: 0.42818  Error: % 0
+index: 4 -> Estimated: 0.5184064489155659  Real: 0.50232  Error: % 1
+index: 5 -> Estimated: 0.5246616199539959  Real: 0.50468  Error: % 1
+index: 6 -> Estimated: 0.4825765840964805  Real: 0.49856  Error: % 1
+index: 7 -> Estimated: 0.4888711044738071  Real: 0.4994  Error: % 1
+Global Mean Square Error: 0.00013935452712639414
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0012757724490066306  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8710375853267892  Real: 0.87266  Error: % 0
+index: 2 -> Estimated: 0.13391099676586493  Real: 0.14684  Error: % 1
+index: 3 -> Estimated: 0.4284319405973998  Real: 0.42818  Error: % 0
+index: 4 -> Estimated: 0.4762206290714542  Real: 0.50232  Error: % 2
+index: 5 -> Estimated: 0.5060803178591867  Real: 0.50468  Error: % 0
+index: 6 -> Estimated: 0.5066190430960439  Real: 0.49856  Error: % 0
+index: 7 -> Estimated: 0.5080776779506849  Real: 0.4994  Error: % 0
+Global Mean Square Error: 0.00012435884332733278
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.010175489095791494  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.8787062492257809  Real: 0.87266  Error: % 0
+index: 2 -> Estimated: 0.1515915673737873  Real: 0.14684  Error: % 0
+index: 3 -> Estimated: 0.41525403389321086  Real: 0.42818  Error: % 1
+index: 4 -> Estimated: 0.4930586806557975  Real: 0.50232  Error: % 0
+index: 5 -> Estimated: 0.5175475171582917  Real: 0.50468  Error: % 1
+index: 6 -> Estimated: 0.5009357791967528  Real: 0.49856  Error: % 0
+index: 7 -> Estimated: 0.5141271289527283  Real: 0.4994  Error: % 1
+Global Mean Square Error: 0.00010045417351707131
+
+
+
+ ========================================== 
+Results of Round 23:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.04810668099678507  Real: 0.0  Error: % 4
+index: 1 -> Estimated: 0.816292690570374  Real: 0.87722  Error: % 6
+index: 2 -> Estimated: 0.10670178445442084  Real: 0.1422  Error: % 3
+index: 3 -> Estimated: 0.4347033789323176  Real: 0.42142  Error: % 1
+index: 4 -> Estimated: 0.45701393384973565  Real: 0.49828  Error: % 4
+index: 5 -> Estimated: 0.5105965761459166  Real: 0.49962  Error: % 1
+index: 6 -> Estimated: 0.48582718347373927  Real: 0.50288  Error: % 1
+index: 7 -> Estimated: 0.44384606640504215  Real: 0.50046  Error: % 5
+Global Mean Square Error: 0.0015977838402021845
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.019313309623076567  Real: 0.0  Error: % 1
+index: 1 -> Estimated: 0.891564129249287  Real: 0.87722  Error: % 1
+index: 2 -> Estimated: 0.14004708178318206  Real: 0.1422  Error: % 0
+index: 3 -> Estimated: 0.4184150913627066  Real: 0.42142  Error: % 0
+index: 4 -> Estimated: 0.49763374184575443  Real: 0.49828  Error: % 0
+index: 5 -> Estimated: 0.5020372956442233  Real: 0.49962  Error: % 0
+index: 6 -> Estimated: 0.4885009772107465  Real: 0.50288  Error: % 1
+index: 7 -> Estimated: 0.4909816721627953  Real: 0.50046  Error: % 0
+Global Mean Square Error: 0.00011190980851009624
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.001382500159228824  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8763626791045485  Real: 0.87722  Error: % 0
+index: 2 -> Estimated: 0.14121569860400074  Real: 0.1422  Error: % 0
+index: 3 -> Estimated: 0.4329222608748979  Real: 0.42142  Error: % 1
+index: 4 -> Estimated: 0.4907352452803817  Real: 0.49828  Error: % 0
+index: 5 -> Estimated: 0.4956983333570088  Real: 0.49962  Error: % 0
+index: 6 -> Estimated: 0.5011065138858665  Real: 0.50288  Error: % 0
+index: 7 -> Estimated: 0.48942610174837287  Real: 0.50046  Error: % 1
+Global Mean Square Error: 4.163901461783192e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.007991785156495125  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8918210467148698  Real: 0.87722  Error: % 1
+index: 2 -> Estimated: 0.15454037535558995  Real: 0.1422  Error: % 1
+index: 3 -> Estimated: 0.41801701734136576  Real: 0.42142  Error: % 0
+index: 4 -> Estimated: 0.4981452120172032  Real: 0.49828  Error: % 0
+index: 5 -> Estimated: 0.5066808903869771  Real: 0.49962  Error: % 0
+index: 6 -> Estimated: 0.4982546904151198  Real: 0.50288  Error: % 0
+index: 7 -> Estimated: 0.49889085978201164  Real: 0.50046  Error: % 0
+Global Mean Square Error: 6.43317975857636e-05
+
+
+
+ ========================================== 
+Results of Round 24:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0508372432856782  Real: 0.0  Error: % 5
+index: 1 -> Estimated: 0.7725800027832734  Real: 0.8746  Error: % 10
+index: 2 -> Estimated: 0.10601054169540769  Real: 0.14586  Error: % 3
+index: 3 -> Estimated: 0.3840042132486591  Real: 0.42988  Error: % 4
+index: 4 -> Estimated: 0.5047267732217258  Real: 0.49824  Error: % 0
+index: 5 -> Estimated: 0.5875315849646434  Real: 0.49838  Error: % 8
+index: 6 -> Estimated: 0.4523395003121171  Real: 0.50056  Error: % 4
+index: 7 -> Estimated: 0.4116212971811187  Real: 0.49806  Error: % 8
+Global Mean Square Error: 0.004309002692238776
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.03693869268519408  Real: 0.0  Error: % 3
+index: 1 -> Estimated: 0.8927329370261063  Real: 0.8746  Error: % 1
+index: 2 -> Estimated: 0.1264687042880184  Real: 0.14586  Error: % 1
+index: 3 -> Estimated: 0.4245998618076513  Real: 0.42988  Error: % 0
+index: 4 -> Estimated: 0.4825041023490585  Real: 0.49824  Error: % 1
+index: 5 -> Estimated: 0.4974188368787784  Real: 0.49838  Error: % 0
+index: 6 -> Estimated: 0.4913515926460308  Real: 0.50056  Error: % 0
+index: 7 -> Estimated: 0.5150488835374888  Real: 0.49806  Error: % 1
+Global Mean Square Error: 0.00033989148380965715
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0027476428142833914  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8765911450970307  Real: 0.8746  Error: % 0
+index: 2 -> Estimated: 0.13535770873750272  Real: 0.14586  Error: % 1
+index: 3 -> Estimated: 0.4380736347853016  Real: 0.42988  Error: % 0
+index: 4 -> Estimated: 0.4856935949010103  Real: 0.49824  Error: % 1
+index: 5 -> Estimated: 0.49001491661827085  Real: 0.49838  Error: % 0
+index: 6 -> Estimated: 0.5110457344169893  Real: 0.50056  Error: % 1
+index: 7 -> Estimated: 0.4988374953940102  Real: 0.49806  Error: % 0
+Global Mean Square Error: 6.586124985401517e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.000962448118532274  Real: 0.0  Error: % 0
+index: 1 -> Estimated: 0.8870796966712248  Real: 0.8746  Error: % 1
+index: 2 -> Estimated: 0.14960459493589334  Real: 0.14586  Error: % 0
+index: 3 -> Estimated: 0.43524936826461735  Real: 0.42988  Error: % 0
+index: 4 -> Estimated: 0.5088965923570619  Real: 0.49824  Error: % 1
+index: 5 -> Estimated: 0.49452711758059126  Real: 0.49838  Error: % 0
+index: 6 -> Estimated: 0.5094333277956696  Real: 0.50056  Error: % 0
+index: 7 -> Estimated: 0.4947742313203902  Real: 0.49806  Error: % 0
+Global Mean Square Error: 5.2182640971165965e-05
+
+
+
+ ========================================== 
+Results of Round 25:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.7712379121894031  Real: 1.0  Error: % 22
+index: 1 -> Estimated: 0.1876830663511282  Real: 0.0509  Error: % 13
+index: 2 -> Estimated: 0.6562789276465708  Real: 0.88982  Error: % 23
+index: 3 -> Estimated: 0.4183949426824244  Real: 0.48746  Error: % 6
+index: 4 -> Estimated: 0.42304115146284016  Real: 0.49904  Error: % 7
+index: 5 -> Estimated: 0.5378692315420581  Real: 0.49932  Error: % 3
+index: 6 -> Estimated: 0.4282553155143819  Real: 0.50392  Error: % 7
+index: 7 -> Estimated: 0.42170254908028426  Real: 0.4977  Error: % 7
+Global Mean Square Error: 0.018639467491776272
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.7788969362274688  Real: 1.0  Error: % 22
+index: 1 -> Estimated: 0.23257693569292712  Real: 0.0509  Error: % 18
+index: 2 -> Estimated: 0.728879865415256  Real: 0.88982  Error: % 16
+index: 3 -> Estimated: 0.47279131686436404  Real: 0.48746  Error: % 1
+index: 4 -> Estimated: 0.4904521551614843  Real: 0.49904  Error: % 0
+index: 5 -> Estimated: 0.5123456511908259  Real: 0.49932  Error: % 1
+index: 6 -> Estimated: 0.48501952562706946  Real: 0.50392  Error: % 1
+index: 7 -> Estimated: 0.4978794992270349  Real: 0.4977  Error: % 0
+Global Mean Square Error: 0.013576331222108877
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.9510556205225889  Real: 1.0  Error: % 4
+index: 1 -> Estimated: 0.10478703247532332  Real: 0.0509  Error: % 5
+index: 2 -> Estimated: 0.8356655383542542  Real: 0.88982  Error: % 5
+index: 3 -> Estimated: 0.4868042634045945  Real: 0.48746  Error: % 0
+index: 4 -> Estimated: 0.49359790780729684  Real: 0.49904  Error: % 0
+index: 5 -> Estimated: 0.4878696747056459  Real: 0.49932  Error: % 1
+index: 6 -> Estimated: 0.5057293702746373  Real: 0.50392  Error: % 0
+index: 7 -> Estimated: 0.5088628374572821  Real: 0.4977  Error: % 1
+Global Mean Square Error: 0.0010651386669646675
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.9916266875276145  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.06877126547635329  Real: 0.0509  Error: % 1
+index: 2 -> Estimated: 0.8905930075805024  Real: 0.88982  Error: % 0
+index: 3 -> Estimated: 0.49281424776475563  Real: 0.48746  Error: % 0
+index: 4 -> Estimated: 0.5069120894415922  Real: 0.49904  Error: % 0
+index: 5 -> Estimated: 0.49310852913904235  Real: 0.49932  Error: % 0
+index: 6 -> Estimated: 0.5066830647476119  Real: 0.50392  Error: % 0
+index: 7 -> Estimated: 0.5039873141113752  Real: 0.4977  Error: % 0
+Global Mean Square Error: 7.080962616249431e-05
+
+
+
+ ========================================== 
+Results of Round 26:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 1.0  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.0  Real: 0.04998  Error: % 4
+index: 2 -> Estimated: 0.8490906010300764  Real: 0.89038  Error: % 4
+index: 3 -> Estimated: 0.44984592103653387  Real: 0.49022  Error: % 4
+index: 4 -> Estimated: 0.3968518938152199  Real: 0.49674  Error: % 9
+index: 5 -> Estimated: 0.5603271956317102  Real: 0.49884  Error: % 6
+index: 6 -> Estimated: 0.4269360525861527  Real: 0.50036  Error: % 7
+index: 7 -> Estimated: 0.38383477877885536  Real: 0.49922  Error: % 11
+Global Mean Square Error: 0.004787001929170467
+Evaluation for level eps = 2
+index: 0 -> Estimated: 1.0  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.041739841630975286  Real: 0.04998  Error: % 0
+index: 2 -> Estimated: 0.8953212960418745  Real: 0.89038  Error: % 0
+index: 3 -> Estimated: 0.4826506911502698  Real: 0.49022  Error: % 0
+index: 4 -> Estimated: 0.4906017166793376  Real: 0.49674  Error: % 0
+index: 5 -> Estimated: 0.524175581312214  Real: 0.49884  Error: % 2
+index: 6 -> Estimated: 0.47782217898936935  Real: 0.50036  Error: % 2
+index: 7 -> Estimated: 0.5056676406780017  Real: 0.49922  Error: % 0
+Global Mean Square Error: 0.00017233833771937912
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.9992997019072607  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.04289364076466975  Real: 0.04998  Error: % 0
+index: 2 -> Estimated: 0.8944702728452198  Real: 0.89038  Error: % 0
+index: 3 -> Estimated: 0.5029410799502242  Real: 0.49022  Error: % 1
+index: 4 -> Estimated: 0.4891742687464228  Real: 0.49674  Error: % 0
+index: 5 -> Estimated: 0.49540797525466507  Real: 0.49884  Error: % 0
+index: 6 -> Estimated: 0.5065141554810367  Real: 0.50036  Error: % 0
+index: 7 -> Estimated: 0.5060073712797022  Real: 0.49922  Error: % 0
+Global Mean Square Error: 4.777802918830388e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.9946690237734768  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.05706905425706543  Real: 0.04998  Error: % 0
+index: 2 -> Estimated: 0.8953369800940294  Real: 0.89038  Error: % 0
+index: 3 -> Estimated: 0.4854675977301625  Real: 0.49022  Error: % 0
+index: 4 -> Estimated: 0.49537555617335227  Real: 0.49674  Error: % 0
+index: 5 -> Estimated: 0.4992034404761664  Real: 0.49884  Error: % 0
+index: 6 -> Estimated: 0.5075639197847105  Real: 0.50036  Error: % 0
+index: 7 -> Estimated: 0.5086514820390038  Real: 0.49922  Error: % 0
+Global Mean Square Error: 3.3584260803340156e-05
+
+
+
+ ========================================== 
+Results of Round 27:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.8823275391022957  Real: 1.0  Error: % 11
+index: 1 -> Estimated: 0.16651041870464303  Real: 0.04906  Error: % 11
+index: 2 -> Estimated: 0.7292200320477729  Real: 0.89056  Error: % 16
+index: 3 -> Estimated: 0.3893854042198953  Real: 0.4888  Error: % 9
+index: 4 -> Estimated: 0.43737634793953684  Real: 0.5019  Error: % 6
+index: 5 -> Estimated: 0.5554544586172242  Real: 0.49904  Error: % 5
+index: 6 -> Estimated: 0.5040887154622219  Real: 0.49998  Error: % 0
+index: 7 -> Estimated: 0.4574162505478082  Real: 0.50156  Error: % 4
+Global Mean Square Error: 0.009108337624413328
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.8732465401587536  Real: 1.0  Error: % 12
+index: 1 -> Estimated: 0.15876267756235946  Real: 0.04906  Error: % 10
+index: 2 -> Estimated: 0.7917692895155519  Real: 0.89056  Error: % 9
+index: 3 -> Estimated: 0.4935721079781686  Real: 0.4888  Error: % 0
+index: 4 -> Estimated: 0.48027531108754284  Real: 0.5019  Error: % 2
+index: 5 -> Estimated: 0.5153523370024191  Real: 0.49904  Error: % 1
+index: 6 -> Estimated: 0.4992013011664242  Real: 0.49998  Error: % 0
+index: 7 -> Estimated: 0.48885922060061165  Real: 0.50156  Error: % 1
+Global Mean Square Error: 0.00484739127711515
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.968880298613347  Real: 1.0  Error: % 3
+index: 1 -> Estimated: 0.09351604655208187  Real: 0.04906  Error: % 4
+index: 2 -> Estimated: 0.8648473606311599  Real: 0.89056  Error: % 2
+index: 3 -> Estimated: 0.4937110676912577  Real: 0.4888  Error: % 0
+index: 4 -> Estimated: 0.5149658435643296  Real: 0.5019  Error: % 1
+index: 5 -> Estimated: 0.48971980425766537  Real: 0.49904  Error: % 0
+index: 6 -> Estimated: 0.5059446028572449  Real: 0.49998  Error: % 0
+index: 7 -> Estimated: 0.5084865434616989  Real: 0.50156  Error: % 0
+Global Mean Square Error: 0.0004963962633637362
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.9995238229469501  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.01677118634153517  Real: 0.04906  Error: % 3
+index: 2 -> Estimated: 0.970315287814193  Real: 0.89056  Error: % 7
+index: 3 -> Estimated: 0.5095670448407128  Real: 0.4888  Error: % 2
+index: 4 -> Estimated: 0.5126818509057942  Real: 0.5019  Error: % 1
+index: 5 -> Estimated: 0.4990630161881524  Real: 0.49904  Error: % 0
+index: 6 -> Estimated: 0.5020317677907777  Real: 0.49998  Error: % 0
+index: 7 -> Estimated: 0.5107590028583797  Real: 0.50156  Error: % 0
+Global Mean Square Error: 0.001005006320144161
+
+
+
+ ========================================== 
+Results of Round 28:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 1.0  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.044181039301651535  Real: 0.05016  Error: % 0
+index: 2 -> Estimated: 0.921514344948344  Real: 0.89018  Error: % 3
+index: 3 -> Estimated: 0.4186623450663929  Real: 0.48938  Error: % 7
+index: 4 -> Estimated: 0.4786215493551036  Real: 0.50062  Error: % 2
+index: 5 -> Estimated: 0.49973529109661563  Real: 0.50078  Error: % 0
+index: 6 -> Estimated: 0.5244584386507741  Real: 0.49752  Error: % 2
+index: 7 -> Estimated: 0.47408727902976683  Real: 0.50126  Error: % 2
+Global Mean Square Error: 0.0009959544191274201
+Evaluation for level eps = 2
+index: 0 -> Estimated: 1.0  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.04036086941792694  Real: 0.05016  Error: % 0
+index: 2 -> Estimated: 0.8955619360931998  Real: 0.89018  Error: % 0
+index: 3 -> Estimated: 0.5131737325441724  Real: 0.48938  Error: % 2
+index: 4 -> Estimated: 0.476437231286207  Real: 0.50062  Error: % 2
+index: 5 -> Estimated: 0.5123588043783665  Real: 0.50078  Error: % 1
+index: 6 -> Estimated: 0.49075846393662215  Real: 0.49752  Error: % 0
+index: 7 -> Estimated: 0.4820781173870827  Real: 0.50126  Error: % 1
+Global Mean Square Error: 0.00022795848858359958
+Evaluation for level eps = 5
+index: 0 -> Estimated: 1.0  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.05990960735861273  Real: 0.05016  Error: % 0
+index: 2 -> Estimated: 0.8874245330372122  Real: 0.89018  Error: % 0
+index: 3 -> Estimated: 0.49748212104636724  Real: 0.48938  Error: % 0
+index: 4 -> Estimated: 0.5127221091976326  Real: 0.50062  Error: % 1
+index: 5 -> Estimated: 0.4968612201443684  Real: 0.50078  Error: % 0
+index: 6 -> Estimated: 0.507429758165675  Real: 0.49752  Error: % 0
+index: 7 -> Estimated: 0.49752104328679675  Real: 0.50126  Error: % 0
+Global Mean Square Error: 5.5286599259227146e-05
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.9989911759833345  Real: 1.0  Error: % 0
+index: 1 -> Estimated: 0.06142965124041956  Real: 0.05016  Error: % 1
+index: 2 -> Estimated: 0.8974282996262032  Real: 0.89018  Error: % 0
+index: 3 -> Estimated: 0.48937342150735597  Real: 0.48938  Error: % 0
+index: 4 -> Estimated: 0.5112686236222952  Real: 0.50062  Error: % 1
+index: 5 -> Estimated: 0.4996785721551059  Real: 0.50078  Error: % 0
+index: 6 -> Estimated: 0.511413681900551  Real: 0.49752  Error: % 1
+index: 7 -> Estimated: 0.49730922466467864  Real: 0.50126  Error: % 0
+Global Mean Square Error: 6.297625082197115e-05
+
+
+
+ ========================================== 
+Results of Round 29:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.42196324902737686  Real: 1.0  Error: % 57
+index: 1 -> Estimated: 0.501697192253027  Real: 0.05064  Error: % 45
+index: 2 -> Estimated: 0.49227720859923624  Real: 0.88662  Error: % 39
+index: 3 -> Estimated: 0.45425685541140287  Real: 0.4937  Error: % 3
+index: 4 -> Estimated: 0.45317233699521586  Real: 0.49908  Error: % 4
+index: 5 -> Estimated: 0.5233939481670117  Real: 0.50122  Error: % 2
+index: 6 -> Estimated: 0.5643725266108981  Real: 0.49914  Error: % 6
+index: 7 -> Estimated: 0.4484745881676654  Real: 0.50058  Error: % 5
+Global Mean Square Error: 0.08802631611413583
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.43297565999452403  Real: 1.0  Error: % 56
+index: 1 -> Estimated: 0.5191099608306653  Real: 0.05064  Error: % 46
+index: 2 -> Estimated: 0.47035899704053047  Real: 0.88662  Error: % 41
+index: 3 -> Estimated: 0.4613344695158383  Real: 0.4937  Error: % 3
+index: 4 -> Estimated: 0.47087508944336415  Real: 0.49908  Error: % 2
+index: 5 -> Estimated: 0.5137523038822074  Real: 0.50122  Error: % 1
+index: 6 -> Estimated: 0.5171277855982985  Real: 0.49914  Error: % 1
+index: 7 -> Estimated: 0.4781320833175234  Real: 0.50058  Error: % 2
+Global Mean Square Error: 0.08963518769023662
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.4375028768474013  Real: 1.0  Error: % 56
+index: 1 -> Estimated: 0.5335804736361406  Real: 0.05064  Error: % 48
+index: 2 -> Estimated: 0.4612242999817728  Real: 0.88662  Error: % 42
+index: 3 -> Estimated: 0.463598748004104  Real: 0.4937  Error: % 3
+index: 4 -> Estimated: 0.4979463770437088  Real: 0.49908  Error: % 0
+index: 5 -> Estimated: 0.5054903364185509  Real: 0.50122  Error: % 0
+index: 6 -> Estimated: 0.5082368131365455  Real: 0.49914  Error: % 0
+index: 7 -> Estimated: 0.5171458931244665  Real: 0.50058  Error: % 1
+Global Mean Square Error: 0.09148485041186932
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.8444579723757221  Real: 1.0  Error: % 15
+index: 1 -> Estimated: 0.20238736577428662  Real: 0.05064  Error: % 15
+index: 2 -> Estimated: 0.7817542400380719  Real: 0.88662  Error: % 10
+index: 3 -> Estimated: 0.48956593275966154  Real: 0.4937  Error: % 0
+index: 4 -> Estimated: 0.5013746131117643  Real: 0.49908  Error: % 0
+index: 5 -> Estimated: 0.5083111492452721  Real: 0.50122  Error: % 0
+index: 6 -> Estimated: 0.5113060623404194  Real: 0.49914  Error: % 1
+index: 7 -> Estimated: 0.5048356923053  Real: 0.50058  Error: % 0
+Global Mean Square Error: 0.007307022142258361
+
+
+
+ ========================================== 
+Results of Round 30:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.425799524027282  Real: 1.0  Error: % 57
+index: 1 -> Estimated: 0.4468370423671887  Real: 0.04992  Error: % 39
+index: 2 -> Estimated: 0.5321945918258196  Real: 0.88924  Error: % 35
+index: 3 -> Estimated: 0.39576274731573674  Real: 0.49368  Error: % 9
+index: 4 -> Estimated: 0.5194161632668103  Real: 0.49838  Error: % 2
+index: 5 -> Estimated: 0.4889861428608257  Real: 0.50036  Error: % 1
+index: 6 -> Estimated: 0.5366817988563868  Real: 0.4947  Error: % 4
+index: 7 -> Estimated: 0.43998178693533113  Real: 0.50244  Error: % 6
+Global Mean Square Error: 0.07881924020074668
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.4633530953212438  Real: 1.0  Error: % 53
+index: 1 -> Estimated: 0.48876524687760725  Real: 0.04992  Error: % 43
+index: 2 -> Estimated: 0.4756473205726897  Real: 0.88924  Error: % 41
+index: 3 -> Estimated: 0.46087686882253726  Real: 0.49368  Error: % 3
+index: 4 -> Estimated: 0.4876729091531818  Real: 0.49838  Error: % 1
+index: 5 -> Estimated: 0.5353482431967036  Real: 0.50036  Error: % 3
+index: 6 -> Estimated: 0.5138257859352202  Real: 0.4947  Error: % 1
+index: 7 -> Estimated: 0.47081821152847325  Real: 0.50244  Error: % 3
+Global Mean Square Error: 0.08192681913117966
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.45345003247659016  Real: 1.0  Error: % 54
+index: 1 -> Estimated: 0.5163348871619833  Real: 0.04992  Error: % 46
+index: 2 -> Estimated: 0.4751829914498222  Real: 0.88924  Error: % 41
+index: 3 -> Estimated: 0.4533294394469772  Real: 0.49368  Error: % 4
+index: 4 -> Estimated: 0.49747437735251876  Real: 0.49838  Error: % 0
+index: 5 -> Estimated: 0.5062219126362698  Real: 0.50036  Error: % 0
+index: 6 -> Estimated: 0.4995744134797703  Real: 0.4947  Error: % 0
+index: 7 -> Estimated: 0.5159502962367308  Real: 0.50244  Error: % 1
+Global Mean Square Error: 0.08619656977699275
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.44072102450035167  Real: 1.0  Error: % 55
+index: 1 -> Estimated: 0.5101781126653612  Real: 0.04992  Error: % 46
+index: 2 -> Estimated: 0.4773976523357184  Real: 0.88924  Error: % 41
+index: 3 -> Estimated: 0.44472731485821054  Real: 0.49368  Error: % 4
+index: 4 -> Estimated: 0.48422901779248595  Real: 0.49838  Error: % 1
+index: 5 -> Estimated: 0.5267075907029981  Real: 0.50036  Error: % 2
+index: 6 -> Estimated: 0.5000283503199499  Real: 0.4947  Error: % 0
+index: 7 -> Estimated: 0.503700404037098  Real: 0.50244  Error: % 0
+Global Mean Square Error: 0.0871956766488992
+
+
+
+ ========================================== 
+Results of Round 31:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.7202084821973744  Real: 1.0  Error: % 27
+index: 1 -> Estimated: 0.08490690403162308  Real: 0.04904  Error: % 3
+index: 2 -> Estimated: 0.6082514031563332  Real: 0.88846  Error: % 28
+index: 3 -> Estimated: 0.3931449786137482  Real: 0.49454  Error: % 10
+index: 4 -> Estimated: 0.3720284866867441  Real: 0.4952  Error: % 12
+index: 5 -> Estimated: 0.32300062487766246  Real: 0.503  Error: % 17
+index: 6 -> Estimated: 0.40766020661552793  Real: 0.50274  Error: % 9
+index: 7 -> Estimated: 0.3835036902873371  Real: 0.50318  Error: % 11
+Global Mean Square Error: 0.02991263991236379
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.7376524985233426  Real: 1.0  Error: % 26
+index: 1 -> Estimated: 0.09421619757658835  Real: 0.04904  Error: % 4
+index: 2 -> Estimated: 0.6608423797290512  Real: 0.88846  Error: % 22
+index: 3 -> Estimated: 0.40802714089581943  Real: 0.49454  Error: % 8
+index: 4 -> Estimated: 0.39705082911114126  Real: 0.4952  Error: % 9
+index: 5 -> Estimated: 0.4091864028807753  Real: 0.503  Error: % 9
+index: 6 -> Estimated: 0.41425458865933623  Real: 0.50274  Error: % 8
+index: 7 -> Estimated: 0.397551480491421  Real: 0.50318  Error: % 10
+Global Mean Square Error: 0.02094783238887908
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.8429554981055551  Real: 1.0  Error: % 15
+index: 1 -> Estimated: 0.12774477668074513  Real: 0.04904  Error: % 7
+index: 2 -> Estimated: 0.7654258922683186  Real: 0.88846  Error: % 12
+index: 3 -> Estimated: 0.4775060644256514  Real: 0.49454  Error: % 1
+index: 4 -> Estimated: 0.4645652185656946  Real: 0.4952  Error: % 3
+index: 5 -> Estimated: 0.472834411825642  Real: 0.503  Error: % 3
+index: 6 -> Estimated: 0.4716744919448975  Real: 0.50274  Error: % 3
+index: 7 -> Estimated: 0.48279425986094593  Real: 0.50318  Error: % 2
+Global Mean Square Error: 0.006189257601161701
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.8998210618731258  Real: 1.0  Error: % 10
+index: 1 -> Estimated: 0.39005792796558325  Real: 0.04904  Error: % 34
+index: 2 -> Estimated: 0.8653649915522756  Real: 0.88846  Error: % 2
+index: 3 -> Estimated: 0.619857710270863  Real: 0.49454  Error: % 12
+index: 4 -> Estimated: 0.6279626054751004  Real: 0.4952  Error: % 13
+index: 5 -> Estimated: 0.6677591280450555  Real: 0.503  Error: % 16
+index: 6 -> Estimated: 0.6627212630690192  Real: 0.50274  Error: % 15
+index: 7 -> Estimated: 0.6625250676581529  Real: 0.50318  Error: % 15
+Global Mean Square Error: 0.029790411195968064
+
+
+
+ ========================================== 
+Results of Round 32:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.8537552194018784  Real: 1.0  Error: % 14
+index: 1 -> Estimated: 0.18214030807174406  Real: 0.04964  Error: % 13
+index: 2 -> Estimated: 0.7973631930396651  Real: 0.89046  Error: % 9
+index: 3 -> Estimated: 0.5311112369598433  Real: 0.49012  Error: % 4
+index: 4 -> Estimated: 0.4626595273477546  Real: 0.50128  Error: % 3
+index: 5 -> Estimated: 0.46026139924659626  Real: 0.50112  Error: % 4
+index: 6 -> Estimated: 0.5409965267325818  Real: 0.49566  Error: % 4
+index: 7 -> Estimated: 0.48659173062378397  Real: 0.50416  Error: % 1
+Global Mean Square Error: 0.006852021921683248
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.8488099097533539  Real: 1.0  Error: % 15
+index: 1 -> Estimated: 0.15044583761050023  Real: 0.04964  Error: % 10
+index: 2 -> Estimated: 0.7784656859098535  Real: 0.89046  Error: % 11
+index: 3 -> Estimated: 0.5099731064470305  Real: 0.49012  Error: % 1
+index: 4 -> Estimated: 0.5045787682177243  Real: 0.50128  Error: % 0
+index: 5 -> Estimated: 0.5161816819323529  Real: 0.50112  Error: % 1
+index: 6 -> Estimated: 0.5254928499426741  Real: 0.49566  Error: % 2
+index: 7 -> Estimated: 0.46834260965718216  Real: 0.50416  Error: % 3
+Global Mean Square Error: 0.0060459691287900715
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.8406713297815709  Real: 1.0  Error: % 15
+index: 1 -> Estimated: 0.16163332821258064  Real: 0.04964  Error: % 11
+index: 2 -> Estimated: 0.7816324952983433  Real: 0.89046  Error: % 10
+index: 3 -> Estimated: 0.4982078785147019  Real: 0.49012  Error: % 0
+index: 4 -> Estimated: 0.4959367732411069  Real: 0.50128  Error: % 0
+index: 5 -> Estimated: 0.49536804132308615  Real: 0.50112  Error: % 0
+index: 6 -> Estimated: 0.49512263710925375  Real: 0.49566  Error: % 0
+index: 7 -> Estimated: 0.5062813860040387  Real: 0.50416  Error: % 0
+Global Mean Square Error: 0.006237924301804225
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.8317587492305424  Real: 1.0  Error: % 16
+index: 1 -> Estimated: 0.17509831413878385  Real: 0.04964  Error: % 12
+index: 2 -> Estimated: 0.7801067034090428  Real: 0.89046  Error: % 11
+index: 3 -> Estimated: 0.48324678234305124  Real: 0.49012  Error: % 0
+index: 4 -> Estimated: 0.4890931778367591  Real: 0.50128  Error: % 1
+index: 5 -> Estimated: 0.4995679536594927  Real: 0.50112  Error: % 0
+index: 6 -> Estimated: 0.5027651609417042  Real: 0.49566  Error: % 0
+index: 7 -> Estimated: 0.4957767355873301  Real: 0.50416  Error: % 0
+Global Mean Square Error: 0.007067711019121334
+
+
+
+ ========================================== 
+Results of Round 33:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.4019463973184998  Real: 1.0  Error: % 59
+index: 1 -> Estimated: 0.5862593956477814  Real: 0.04944  Error: % 53
+index: 2 -> Estimated: 0.3972809018880732  Real: 0.88778  Error: % 49
+index: 3 -> Estimated: 0.40857553050354145  Real: 0.493  Error: % 8
+index: 4 -> Estimated: 0.4490848872118034  Real: 0.49766  Error: % 4
+index: 5 -> Estimated: 0.4775946178636741  Real: 0.49944  Error: % 2
+index: 6 -> Estimated: 0.48375364511386926  Real: 0.50106  Error: % 1
+index: 7 -> Estimated: 0.5206242086100108  Real: 0.50226  Error: % 1
+Global Mean Square Error: 0.11212919348784099
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.32997584674938507  Real: 1.0  Error: % 67
+index: 1 -> Estimated: 0.6161852211660829  Real: 0.04944  Error: % 56
+index: 2 -> Estimated: 0.390246187822284  Real: 0.88778  Error: % 49
+index: 3 -> Estimated: 0.470304617383344  Real: 0.493  Error: % 2
+index: 4 -> Estimated: 0.5077737997233279  Real: 0.49766  Error: % 1
+index: 5 -> Estimated: 0.509977912049204  Real: 0.49944  Error: % 1
+index: 6 -> Estimated: 0.5043157354125832  Real: 0.50106  Error: % 0
+index: 7 -> Estimated: 0.4821889572809315  Real: 0.50226  Error: % 2
+Global Mean Square Error: 0.12735178367626382
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.34939703374538794  Real: 1.0  Error: % 65
+index: 1 -> Estimated: 0.608630349099164  Real: 0.04944  Error: % 55
+index: 2 -> Estimated: 0.40516618447867675  Real: 0.88778  Error: % 48
+index: 3 -> Estimated: 0.44713606040046217  Real: 0.493  Error: % 4
+index: 4 -> Estimated: 0.49285732320381465  Real: 0.49766  Error: % 0
+index: 5 -> Estimated: 0.491163934455858  Real: 0.49944  Error: % 0
+index: 6 -> Estimated: 0.49245335700175913  Real: 0.50106  Error: % 0
+index: 7 -> Estimated: 0.5065689667091742  Real: 0.50226  Error: % 0
+Global Mean Square Error: 0.12139773282196051
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.722806036557052  Real: 1.0  Error: % 27
+index: 1 -> Estimated: 0.29328575378624716  Real: 0.04944  Error: % 24
+index: 2 -> Estimated: 0.6926214813429831  Real: 0.88778  Error: % 19
+index: 3 -> Estimated: 0.4670398393681794  Real: 0.493  Error: % 2
+index: 4 -> Estimated: 0.49670496137207776  Real: 0.49766  Error: % 0
+index: 5 -> Estimated: 0.5081087736470924  Real: 0.49944  Error: % 0
+index: 6 -> Estimated: 0.5011335189364684  Real: 0.50106  Error: % 0
+index: 7 -> Estimated: 0.49884361486593043  Real: 0.50226  Error: % 0
+Global Mean Square Error: 0.021893219897621035
+
+
+
+ ========================================== 
+Results of Round 34:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.38107262577829065  Real: 1.0  Error: % 61
+index: 1 -> Estimated: 0.5671754500075499  Real: 0.04784  Error: % 51
+index: 2 -> Estimated: 0.4474779585279424  Real: 0.89  Error: % 44
+index: 3 -> Estimated: 0.43371296174906976  Real: 0.49764  Error: % 6
+index: 4 -> Estimated: 0.4775578043141745  Real: 0.49826  Error: % 2
+index: 5 -> Estimated: 0.5165254458610749  Real: 0.49932  Error: % 1
+index: 6 -> Estimated: 0.46406297694646764  Real: 0.50088  Error: % 3
+index: 7 -> Estimated: 0.45832986502756845  Real: 0.49796  Error: % 3
+Global Mean Square Error: 0.10704293458270096
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.356227379115983  Real: 1.0  Error: % 64
+index: 1 -> Estimated: 0.582617788304173  Real: 0.04784  Error: % 53
+index: 2 -> Estimated: 0.4421453852865172  Real: 0.89  Error: % 44
+index: 3 -> Estimated: 0.4740103447667621  Real: 0.49764  Error: % 2
+index: 4 -> Estimated: 0.5100993044148343  Real: 0.49826  Error: % 1
+index: 5 -> Estimated: 0.5199468936509127  Real: 0.49932  Error: % 2
+index: 6 -> Estimated: 0.5097512038896872  Real: 0.50088  Error: % 0
+index: 7 -> Estimated: 0.4697368688442829  Real: 0.49796  Error: % 2
+Global Mean Square Error: 0.11287543350642268
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.371669948081939  Real: 1.0  Error: % 62
+index: 1 -> Estimated: 0.5992786002409635  Real: 0.04784  Error: % 55
+index: 2 -> Estimated: 0.43166642376708564  Real: 0.89  Error: % 45
+index: 3 -> Estimated: 0.45688507768500386  Real: 0.49764  Error: % 4
+index: 4 -> Estimated: 0.4908526999786344  Real: 0.49826  Error: % 0
+index: 5 -> Estimated: 0.46856938647524743  Real: 0.49932  Error: % 3
+index: 6 -> Estimated: 0.5005256078395545  Real: 0.50088  Error: % 0
+index: 7 -> Estimated: 0.48168588580857297  Real: 0.49796  Error: % 1
+Global Mean Square Error: 0.11398490693583684
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.3571495625882065  Real: 1.0  Error: % 64
+index: 1 -> Estimated: 0.6021318638139863  Real: 0.04784  Error: % 55
+index: 2 -> Estimated: 0.42100862387371824  Real: 0.89  Error: % 46
+index: 3 -> Estimated: 0.4580042878849407  Real: 0.49764  Error: % 3
+index: 4 -> Estimated: 0.5050198099790852  Real: 0.49826  Error: % 0
+index: 5 -> Estimated: 0.5074827713063825  Real: 0.49932  Error: % 0
+index: 6 -> Estimated: 0.510631596179276  Real: 0.50088  Error: % 0
+index: 7 -> Estimated: 0.48158894895824456  Real: 0.49796  Error: % 1
+Global Mean Square Error: 0.11781193581665217
+
+
+
+ ========================================== 
+Results of Round 35:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.1899333916708215  Real: 1.0  Error: % 81
+index: 1 -> Estimated: 0.7173585745672794  Real: 0.05  Error: % 66
+index: 2 -> Estimated: 0.23316345562782725  Real: 0.88916  Error: % 65
+index: 3 -> Estimated: 0.47230524324263634  Real: 0.4909  Error: % 1
+index: 4 -> Estimated: 0.49218976865947467  Real: 0.49984  Error: % 0
+index: 5 -> Estimated: 0.48308231753908815  Real: 0.49594  Error: % 1
+index: 6 -> Estimated: 0.4704653867989399  Real: 0.50308  Error: % 3
+index: 7 -> Estimated: 0.4598137707403726  Real: 0.50064  Error: % 4
+Global Mean Square Error: 0.19190086852664384
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.13211274062214187  Real: 1.0  Error: % 86
+index: 1 -> Estimated: 0.7709354485750342  Real: 0.05  Error: % 72
+index: 2 -> Estimated: 0.24940138824831642  Real: 0.88916  Error: % 63
+index: 3 -> Estimated: 0.4610299106441482  Real: 0.4909  Error: % 2
+index: 4 -> Estimated: 0.51943707387138  Real: 0.49984  Error: % 1
+index: 5 -> Estimated: 0.5128433387772714  Real: 0.49594  Error: % 1
+index: 6 -> Estimated: 0.5004497294757427  Real: 0.50308  Error: % 0
+index: 7 -> Estimated: 0.48448823434432164  Real: 0.50064  Error: % 1
+Global Mean Square Error: 0.2105121356967537
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.15596912867365628  Real: 1.0  Error: % 84
+index: 1 -> Estimated: 0.7744516116645336  Real: 0.05  Error: % 72
+index: 2 -> Estimated: 0.23651907042853632  Real: 0.88916  Error: % 65
+index: 3 -> Estimated: 0.4385240617666737  Real: 0.4909  Error: % 5
+index: 4 -> Estimated: 0.4960148936664678  Real: 0.49984  Error: % 0
+index: 5 -> Estimated: 0.4805610263622324  Real: 0.49594  Error: % 1
+index: 6 -> Estimated: 0.5019595124281498  Real: 0.50308  Error: % 0
+index: 7 -> Estimated: 0.5012476556884486  Real: 0.50064  Error: % 0
+Global Mean Square Error: 0.20826930503242763
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.32852501211804286  Real: 1.0  Error: % 67
+index: 1 -> Estimated: 0.6370142520619492  Real: 0.05  Error: % 58
+index: 2 -> Estimated: 0.3802342861574453  Real: 0.88916  Error: % 50
+index: 3 -> Estimated: 0.4440117020645748  Real: 0.4909  Error: % 4
+index: 4 -> Estimated: 0.507318120998671  Real: 0.49984  Error: % 0
+index: 5 -> Estimated: 0.5042754386850372  Real: 0.49594  Error: % 0
+index: 6 -> Estimated: 0.5073595088005246  Real: 0.50308  Error: % 0
+index: 7 -> Estimated: 0.4862213605518483  Real: 0.50064  Error: % 1
+Global Mean Square Error: 0.1321274874199014
+
+
+
+ ========================================== 
+Results of Round 36:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.1354219855594635  Real: 1.0  Error: % 86
+index: 1 -> Estimated: 0.67963856364501  Real: 0.04968  Error: % 62
+index: 2 -> Estimated: 0.25849096750726347  Real: 0.8904  Error: % 63
+index: 3 -> Estimated: 0.3984718777572434  Real: 0.48888  Error: % 9
+index: 4 -> Estimated: 0.4682707958088642  Real: 0.50004  Error: % 3
+index: 5 -> Estimated: 0.4636515615685407  Real: 0.49686  Error: % 3
+index: 6 -> Estimated: 0.4905600669556899  Real: 0.5001  Error: % 0
+index: 7 -> Estimated: 0.3635830453824852  Real: 0.49944  Error: % 13
+Global Mean Square Error: 0.19656072425442772
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.13441439494894986  Real: 1.0  Error: % 86
+index: 1 -> Estimated: 0.7371427237917839  Real: 0.04968  Error: % 68
+index: 2 -> Estimated: 0.24773114594521004  Real: 0.8904  Error: % 64
+index: 3 -> Estimated: 0.4696389155608206  Real: 0.48888  Error: % 1
+index: 4 -> Estimated: 0.5119000007447466  Real: 0.50004  Error: % 1
+index: 5 -> Estimated: 0.5001588135151658  Real: 0.49686  Error: % 0
+index: 6 -> Estimated: 0.492018592478507  Real: 0.5001  Error: % 0
+index: 7 -> Estimated: 0.5014300107703741  Real: 0.49944  Error: % 0
+Global Mean Square Error: 0.20443221533199643
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.16244919547065534  Real: 1.0  Error: % 83
+index: 1 -> Estimated: 0.7555432221777675  Real: 0.04968  Error: % 70
+index: 2 -> Estimated: 0.25189559634741227  Real: 0.8904  Error: % 63
+index: 3 -> Estimated: 0.44075714972914076  Real: 0.48888  Error: % 4
+index: 4 -> Estimated: 0.4866417301933364  Real: 0.50004  Error: % 1
+index: 5 -> Estimated: 0.4863201443668684  Real: 0.49686  Error: % 1
+index: 6 -> Estimated: 0.4932818919306014  Real: 0.5001  Error: % 0
+index: 7 -> Estimated: 0.5054397260705958  Real: 0.49944  Error: % 0
+Global Mean Square Error: 0.20126387578675237
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.1424445132088594  Real: 1.0  Error: % 85
+index: 1 -> Estimated: 0.7550393500732443  Real: 0.04968  Error: % 70
+index: 2 -> Estimated: 0.24732144980870724  Real: 0.8904  Error: % 64
+index: 3 -> Estimated: 0.4281643864059075  Real: 0.48888  Error: % 6
+index: 4 -> Estimated: 0.49199819404409273  Real: 0.50004  Error: % 0
+index: 5 -> Estimated: 0.5039753726326337  Real: 0.49686  Error: % 0
+index: 6 -> Estimated: 0.49881883012196604  Real: 0.5001  Error: % 0
+index: 7 -> Estimated: 0.49257587333238656  Real: 0.49944  Error: % 0
+Global Mean Square Error: 0.20629171123918508
+
+
+
+ ========================================== 
+Results of Round 37:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.12274495846510133  Real: 1.0  Error: % 87
+index: 1 -> Estimated: 0.7953339510180938  Real: 0.05014  Error: % 74
+index: 2 -> Estimated: 0.20812690970557107  Real: 0.8898  Error: % 68
+index: 3 -> Estimated: 0.4374768496741622  Real: 0.48938  Error: % 5
+index: 4 -> Estimated: 0.42412462388063704  Real: 0.49792  Error: % 7
+index: 5 -> Estimated: 0.49907446026988334  Real: 0.49692  Error: % 0
+index: 6 -> Estimated: 0.48765164682047524  Real: 0.49698  Error: % 0
+index: 7 -> Estimated: 0.409322015434299  Real: 0.50108  Error: % 9
+Global Mean Square Error: 0.22577743958973892
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.042072381466083046  Real: 1.0  Error: % 95
+index: 1 -> Estimated: 0.8191830756895045  Real: 0.05014  Error: % 76
+index: 2 -> Estimated: 0.1989050843668502  Real: 0.8898  Error: % 69
+index: 3 -> Estimated: 0.4410138932897584  Real: 0.48938  Error: % 4
+index: 4 -> Estimated: 0.5040397499457411  Real: 0.49792  Error: % 0
+index: 5 -> Estimated: 0.4920253296993472  Real: 0.49692  Error: % 0
+index: 6 -> Estimated: 0.4916898586025293  Real: 0.49698  Error: % 0
+index: 7 -> Estimated: 0.4890882573010411  Real: 0.50108  Error: % 1
+Global Mean Square Error: 0.24862010449597402
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.06407301669438199  Real: 1.0  Error: % 93
+index: 1 -> Estimated: 0.8268196911780034  Real: 0.05014  Error: % 77
+index: 2 -> Estimated: 0.18241204694918903  Real: 0.8898  Error: % 70
+index: 3 -> Estimated: 0.4352536178351022  Real: 0.48938  Error: % 5
+index: 4 -> Estimated: 0.48717201653328046  Real: 0.49792  Error: % 1
+index: 5 -> Estimated: 0.5051762620709642  Real: 0.49692  Error: % 0
+index: 6 -> Estimated: 0.49826044580772944  Real: 0.49698  Error: % 0
+index: 7 -> Estimated: 0.5218530617136071  Real: 0.50108  Error: % 2
+Global Mean Square Error: 0.24789186084774995
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.12082363915795552  Real: 1.0  Error: % 87
+index: 1 -> Estimated: 0.7644047645868822  Real: 0.05014  Error: % 71
+index: 2 -> Estimated: 0.2500042966598492  Real: 0.8898  Error: % 63
+index: 3 -> Estimated: 0.4239728099452578  Real: 0.48938  Error: % 6
+index: 4 -> Estimated: 0.4843562212515907  Real: 0.49792  Error: % 1
+index: 5 -> Estimated: 0.5249168760852926  Real: 0.49692  Error: % 2
+index: 6 -> Estimated: 0.49180826338567074  Real: 0.49698  Error: % 0
+index: 7 -> Estimated: 0.4980272518338126  Real: 0.50108  Error: % 0
+Global Mean Square Error: 0.21221821715157946
+
+
+
+ ========================================== 
+Results of Round 38:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.16047742448520486  Real: 1.0  Error: % 83
+index: 1 -> Estimated: 0.7472571956900858  Real: 0.04892  Error: % 69
+index: 2 -> Estimated: 0.2615519909850977  Real: 0.89036  Error: % 62
+index: 3 -> Estimated: 0.48873343789063667  Real: 0.49442  Error: % 0
+index: 4 -> Estimated: 0.40888508175702076  Real: 0.50212  Error: % 9
+index: 5 -> Estimated: 0.5406010960911495  Real: 0.49826  Error: % 4
+index: 6 -> Estimated: 0.47144508867248175  Real: 0.50198  Error: % 3
+index: 7 -> Estimated: 0.3320079124459214  Real: 0.49868  Error: % 16
+Global Mean Square Error: 0.20338779085632328
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.05153940038670447  Real: 1.0  Error: % 94
+index: 1 -> Estimated: 0.8098933935550627  Real: 0.04892  Error: % 76
+index: 2 -> Estimated: 0.19038657252536836  Real: 0.89036  Error: % 69
+index: 3 -> Estimated: 0.44879177164479683  Real: 0.49442  Error: % 4
+index: 4 -> Estimated: 0.5171455499637705  Real: 0.50212  Error: % 1
+index: 5 -> Estimated: 0.4810843308539054  Real: 0.49826  Error: % 1
+index: 6 -> Estimated: 0.501654570802549  Real: 0.50198  Error: % 0
+index: 7 -> Estimated: 0.4869935641697912  Real: 0.49868  Error: % 1
+Global Mean Square Error: 0.24642002481998057
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.07569962770687645  Real: 1.0  Error: % 92
+index: 1 -> Estimated: 0.8148272390045039  Real: 0.04892  Error: % 76
+index: 2 -> Estimated: 0.16304351288043425  Real: 0.89036  Error: % 72
+index: 3 -> Estimated: 0.4370549399170228  Real: 0.49442  Error: % 5
+index: 4 -> Estimated: 0.4892493143269874  Real: 0.50212  Error: % 1
+index: 5 -> Estimated: 0.49615374128886713  Real: 0.49826  Error: % 0
+index: 6 -> Estimated: 0.5194054610517641  Real: 0.50198  Error: % 1
+index: 7 -> Estimated: 0.5095288434249564  Real: 0.49868  Error: % 1
+Global Mean Square Error: 0.24672706681336948
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.04715896446581884  Real: 1.0  Error: % 95
+index: 1 -> Estimated: 0.8144071740801814  Real: 0.04892  Error: % 76
+index: 2 -> Estimated: 0.19101409738186576  Real: 0.89036  Error: % 69
+index: 3 -> Estimated: 0.4290734000231775  Real: 0.49442  Error: % 6
+index: 4 -> Estimated: 0.48058873586584794  Real: 0.50212  Error: % 2
+index: 5 -> Estimated: 0.523000963484535  Real: 0.49826  Error: % 2
+index: 6 -> Estimated: 0.5055490676372494  Real: 0.50198  Error: % 0
+index: 7 -> Estimated: 0.49347034474848206  Real: 0.49868  Error: % 0
+Global Mean Square Error: 0.24854338895967668
+
+
+
+ ========================================== 
+Results of Round 39:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.06761579055758365  Real: 1.0  Error: % 93
+index: 1 -> Estimated: 0.7803350627760974  Real: 0.04838  Error: % 73
+index: 2 -> Estimated: 0.12168279579574147  Real: 0.89226  Error: % 77
+index: 3 -> Estimated: 0.4654356505562548  Real: 0.49568  Error: % 3
+index: 4 -> Estimated: 0.4277156708434249  Real: 0.49594  Error: % 6
+index: 5 -> Estimated: 0.5204472899368437  Real: 0.50178  Error: % 1
+index: 6 -> Estimated: 0.5101226435322287  Real: 0.5  Error: % 1
+index: 7 -> Estimated: 0.3679114126976111  Real: 0.50126  Error: % 13
+Global Mean Square Error: 0.2528362270879652
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.016757213973846698  Real: 1.0  Error: % 98
+index: 1 -> Estimated: 0.8560293163998987  Real: 0.04838  Error: % 80
+index: 2 -> Estimated: 0.16232122759792006  Real: 0.89226  Error: % 72
+index: 3 -> Estimated: 0.4425144176842819  Real: 0.49568  Error: % 5
+index: 4 -> Estimated: 0.4957654227854404  Real: 0.49594  Error: % 0
+index: 5 -> Estimated: 0.51221372758153  Real: 0.50178  Error: % 1
+index: 6 -> Estimated: 0.48279213129556797  Real: 0.5  Error: % 1
+index: 7 -> Estimated: 0.5006484273606047  Real: 0.50126  Error: % 0
+Global Mean Square Error: 0.2693882953834265
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.023458124437188286  Real: 1.0  Error: % 97
+index: 1 -> Estimated: 0.8521024767716814  Real: 0.04838  Error: % 80
+index: 2 -> Estimated: 0.1577733710828648  Real: 0.89226  Error: % 73
+index: 3 -> Estimated: 0.43721290204228286  Real: 0.49568  Error: % 5
+index: 4 -> Estimated: 0.49769610855413227  Real: 0.49594  Error: % 0
+index: 5 -> Estimated: 0.4987186164196512  Real: 0.50178  Error: % 0
+index: 6 -> Estimated: 0.502515252575337  Real: 0.5  Error: % 0
+index: 7 -> Estimated: 0.4967274825699002  Real: 0.50126  Error: % 0
+Global Mean Square Error: 0.2678165237742308
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.023674795699933218  Real: 1.0  Error: % 97
+index: 1 -> Estimated: 0.8289647444399362  Real: 0.04838  Error: % 78
+index: 2 -> Estimated: 0.19192874792118783  Real: 0.89226  Error: % 70
+index: 3 -> Estimated: 0.4295861928980077  Real: 0.49568  Error: % 6
+index: 4 -> Estimated: 0.47890748658734955  Real: 0.49594  Error: % 1
+index: 5 -> Estimated: 0.5162465216288711  Real: 0.50178  Error: % 1
+index: 6 -> Estimated: 0.502713222457435  Real: 0.5  Error: % 0
+index: 7 -> Estimated: 0.48476153784240084  Real: 0.50126  Error: % 1
+Global Mean Square Error: 0.25726683117128746
+
+
+
+ ========================================== 
+Results of Round 40:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0859880680332021  Real: 1.0  Error: % 91
+index: 1 -> Estimated: 0.7695242077133683  Real: 0.05156  Error: % 71
+index: 2 -> Estimated: 0.1341912391316707  Real: 0.8867  Error: % 75
+index: 3 -> Estimated: 0.42911672084072106  Real: 0.48942  Error: % 6
+index: 4 -> Estimated: 0.43981654987606555  Real: 0.4987  Error: % 5
+index: 5 -> Estimated: 0.5144050583518793  Real: 0.50096  Error: % 1
+index: 6 -> Estimated: 0.49220929198264163  Real: 0.50048  Error: % 0
+index: 7 -> Estimated: 0.335217092881267  Real: 0.5016  Error: % 16
+Global Mean Square Error: 0.24402450533513576
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0064394154706605335  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8406821747428089  Real: 0.05156  Error: % 78
+index: 2 -> Estimated: 0.15765006798198733  Real: 0.8867  Error: % 72
+index: 3 -> Estimated: 0.42938533361370684  Real: 0.48942  Error: % 6
+index: 4 -> Estimated: 0.513515269701126  Real: 0.4987  Error: % 1
+index: 5 -> Estimated: 0.5143192240369661  Real: 0.50096  Error: % 1
+index: 6 -> Estimated: 0.47145737857767755  Real: 0.50048  Error: % 2
+index: 7 -> Estimated: 0.50949764247957  Real: 0.5016  Error: % 0
+Global Mean Square Error: 0.2682871315923539
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.027344175989219472  Real: 1.0  Error: % 97
+index: 1 -> Estimated: 0.8572453001236119  Real: 0.05156  Error: % 80
+index: 2 -> Estimated: 0.16249579371618597  Real: 0.8867  Error: % 72
+index: 3 -> Estimated: 0.42544280770299425  Real: 0.48942  Error: % 6
+index: 4 -> Estimated: 0.498188438432301  Real: 0.4987  Error: % 0
+index: 5 -> Estimated: 0.49866490336463765  Real: 0.50096  Error: % 0
+index: 6 -> Estimated: 0.5074334635901804  Real: 0.50048  Error: % 0
+index: 7 -> Estimated: 0.5078986550117327  Real: 0.5016  Error: % 0
+Global Mean Square Error: 0.2654808151531753
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.005303269734170134  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8529405106252452  Real: 0.05156  Error: % 80
+index: 2 -> Estimated: 0.16193325309020395  Real: 0.8867  Error: % 72
+index: 3 -> Estimated: 0.4172256623574109  Real: 0.48942  Error: % 7
+index: 4 -> Estimated: 0.4937241213312604  Real: 0.4987  Error: % 0
+index: 5 -> Estimated: 0.5035339833595884  Real: 0.50096  Error: % 0
+index: 6 -> Estimated: 0.5007256439653155  Real: 0.50048  Error: % 0
+index: 7 -> Estimated: 0.506501141707052  Real: 0.5016  Error: % 0
+Global Mean Square Error: 0.27027332926440295
+
+
+
+ ========================================== 
+Results of Round 41:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.08652356445376778  Real: 1.0  Error: % 91
+index: 1 -> Estimated: 0.813678032534008  Real: 0.05058  Error: % 76
+index: 2 -> Estimated: 0.12641464343670805  Real: 0.8884  Error: % 76
+index: 3 -> Estimated: 0.3847562419423997  Real: 0.48774  Error: % 10
+index: 4 -> Estimated: 0.42448179451468815  Real: 0.49998  Error: % 7
+index: 5 -> Estimated: 0.49113435003887695  Real: 0.49522  Error: % 0
+index: 6 -> Estimated: 0.49243016704652065  Real: 0.50034  Error: % 0
+index: 7 -> Estimated: 0.3947628864411407  Real: 0.5033  Error: % 10
+Global Mean Square Error: 0.2531930857050281
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0020568902322437564  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.870491175421609  Real: 0.05058  Error: % 81
+index: 2 -> Estimated: 0.16313009621282756  Real: 0.8884  Error: % 72
+index: 3 -> Estimated: 0.4292114433812135  Real: 0.48774  Error: % 5
+index: 4 -> Estimated: 0.4916703492506466  Real: 0.49998  Error: % 0
+index: 5 -> Estimated: 0.5067008899418537  Real: 0.49522  Error: % 1
+index: 6 -> Estimated: 0.48933549910735546  Real: 0.50034  Error: % 1
+index: 7 -> Estimated: 0.5102002196433837  Real: 0.5033  Error: % 0
+Global Mean Square Error: 0.27474454804924675
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.03905294752206078  Real: 1.0  Error: % 96
+index: 1 -> Estimated: 0.8712617901207627  Real: 0.05058  Error: % 82
+index: 2 -> Estimated: 0.15179451330410365  Real: 0.8884  Error: % 73
+index: 3 -> Estimated: 0.41624666149508266  Real: 0.48774  Error: % 7
+index: 4 -> Estimated: 0.4932456323206144  Real: 0.49998  Error: % 0
+index: 5 -> Estimated: 0.48616979649639486  Real: 0.49522  Error: % 0
+index: 6 -> Estimated: 0.498210266954976  Real: 0.50034  Error: % 0
+index: 7 -> Estimated: 0.5118287684099835  Real: 0.5033  Error: % 0
+Global Mean Square Error: 0.2681051640409835
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.006502832293122843  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8482079016526267  Real: 0.05058  Error: % 79
+index: 2 -> Estimated: 0.16147415669562706  Real: 0.8884  Error: % 72
+index: 3 -> Estimated: 0.4087279559455395  Real: 0.48774  Error: % 7
+index: 4 -> Estimated: 0.4870874273882358  Real: 0.49998  Error: % 1
+index: 5 -> Estimated: 0.4955233345007373  Real: 0.49522  Error: % 0
+index: 6 -> Estimated: 0.4960229232444644  Real: 0.50034  Error: % 0
+index: 7 -> Estimated: 0.5082488136375399  Real: 0.5033  Error: % 0
+Global Mean Square Error: 0.2697650518567873
+
+
+
+ ========================================== 
+Results of Round 42:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.14070440554776584  Real: 1.0  Error: % 85
+index: 1 -> Estimated: 0.7873680577878179  Real: 0.05  Error: % 73
+index: 2 -> Estimated: 0.14442835026497597  Real: 0.88976  Error: % 74
+index: 3 -> Estimated: 0.3845025780872721  Real: 0.4907  Error: % 10
+index: 4 -> Estimated: 0.3595862089023963  Real: 0.50168  Error: % 14
+index: 5 -> Estimated: 0.550820279484799  Real: 0.50014  Error: % 5
+index: 6 -> Estimated: 0.48411598780642284  Real: 0.49826  Error: % 1
+index: 7 -> Estimated: 0.40061807561445084  Real: 0.49904  Error: % 9
+Global Mean Square Error: 0.23519297453578417
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0027474413386215017  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8753886700845855  Real: 0.05  Error: % 82
+index: 2 -> Estimated: 0.1603244583619214  Real: 0.88976  Error: % 72
+index: 3 -> Estimated: 0.4269525941945391  Real: 0.4907  Error: % 6
+index: 4 -> Estimated: 0.49347780337509883  Real: 0.50168  Error: % 0
+index: 5 -> Estimated: 0.5145715408885251  Real: 0.50014  Error: % 1
+index: 6 -> Estimated: 0.48529158165162656  Real: 0.49826  Error: % 1
+index: 7 -> Estimated: 0.5190355679708972  Real: 0.49904  Error: % 1
+Global Mean Square Error: 0.27659532645340723
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.051885204981840176  Real: 1.0  Error: % 94
+index: 1 -> Estimated: 0.889379161063546  Real: 0.05  Error: % 83
+index: 2 -> Estimated: 0.15934029343845843  Real: 0.88976  Error: % 73
+index: 3 -> Estimated: 0.41363253278808193  Real: 0.4907  Error: % 7
+index: 4 -> Estimated: 0.5014054335526144  Real: 0.50168  Error: % 0
+index: 5 -> Estimated: 0.4736348569891042  Real: 0.50014  Error: % 2
+index: 6 -> Estimated: 0.4997916340542338  Real: 0.49826  Error: % 0
+index: 7 -> Estimated: 0.5254885718722213  Real: 0.49904  Error: % 2
+Global Mean Square Error: 0.26804198170571203
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.011390858144500663  Real: 1.0  Error: % 98
+index: 1 -> Estimated: 0.8632630524353789  Real: 0.05  Error: % 81
+index: 2 -> Estimated: 0.16316877629626864  Real: 0.88976  Error: % 72
+index: 3 -> Estimated: 0.39360843941499896  Real: 0.4907  Error: % 9
+index: 4 -> Estimated: 0.4985008902723943  Real: 0.50168  Error: % 0
+index: 5 -> Estimated: 0.49169767813236964  Real: 0.50014  Error: % 0
+index: 6 -> Estimated: 0.49841274112593476  Real: 0.49826  Error: % 0
+index: 7 -> Estimated: 0.5197988276675556  Real: 0.49904  Error: % 2
+Global Mean Square Error: 0.27207734213875656
+
+
+
+ ========================================== 
+Results of Round 43:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.08837283210529148  Real: 1.0  Error: % 91
+index: 1 -> Estimated: 0.8741837090088944  Real: 0.04934  Error: % 82
+index: 2 -> Estimated: 0.14367430148556157  Real: 0.88994  Error: % 74
+index: 3 -> Estimated: 0.31697514285792394  Real: 0.4883  Error: % 17
+index: 4 -> Estimated: 0.452054599678555  Real: 0.50266  Error: % 5
+index: 5 -> Estimated: 0.5750510989095164  Real: 0.50142  Error: % 7
+index: 6 -> Estimated: 0.5526172668648244  Real: 0.49874  Error: % 5
+index: 7 -> Estimated: 0.46378277840245546  Real: 0.50466  Error: % 4
+Global Mean Square Error: 0.2637815111734934
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0023830534873011695  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8669235006071587  Real: 0.04934  Error: % 81
+index: 2 -> Estimated: 0.13951326730570962  Real: 0.88994  Error: % 75
+index: 3 -> Estimated: 0.42597439795024816  Real: 0.4883  Error: % 6
+index: 4 -> Estimated: 0.4970863293483151  Real: 0.50266  Error: % 0
+index: 5 -> Estimated: 0.5201559996463903  Real: 0.50142  Error: % 1
+index: 6 -> Estimated: 0.49702082110046153  Real: 0.49874  Error: % 0
+index: 7 -> Estimated: 0.4933077701038021  Real: 0.50466  Error: % 1
+Global Mean Square Error: 0.2789026308043071
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.027153045792316064  Real: 1.0  Error: % 97
+index: 1 -> Estimated: 0.8811981176047684  Real: 0.04934  Error: % 83
+index: 2 -> Estimated: 0.13295933838271778  Real: 0.88994  Error: % 75
+index: 3 -> Estimated: 0.4126787763559024  Real: 0.4883  Error: % 7
+index: 4 -> Estimated: 0.5012980538789671  Real: 0.50266  Error: % 0
+index: 5 -> Estimated: 0.4818551469855958  Real: 0.50142  Error: % 1
+index: 6 -> Estimated: 0.49964164687221657  Real: 0.49874  Error: % 0
+index: 7 -> Estimated: 0.5110516399833951  Real: 0.50466  Error: % 0
+Global Mean Square Error: 0.2771979650079446
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.00514124101209064  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8620303852929186  Real: 0.04934  Error: % 81
+index: 2 -> Estimated: 0.14349770843472448  Real: 0.88994  Error: % 74
+index: 3 -> Estimated: 0.38041931525626516  Real: 0.4883  Error: % 10
+index: 4 -> Estimated: 0.5126918135563543  Real: 0.50266  Error: % 1
+index: 5 -> Estimated: 0.4965875504391057  Real: 0.50142  Error: % 0
+index: 6 -> Estimated: 0.4944781365870246  Real: 0.49874  Error: % 0
+index: 7 -> Estimated: 0.5233122106296748  Real: 0.50466  Error: % 1
+Global Mean Square Error: 0.2774392509692032
+
+
+
+ ========================================== 
+Results of Round 44:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.10793736975859966  Real: 1.0  Error: % 89
+index: 1 -> Estimated: 0.7927277665858501  Real: 0.04946  Error: % 74
+index: 2 -> Estimated: 0.13005309004483237  Real: 0.8885  Error: % 75
+index: 3 -> Estimated: 0.37489515250660593  Real: 0.48922  Error: % 11
+index: 4 -> Estimated: 0.4667856675308385  Real: 0.49816  Error: % 3
+index: 5 -> Estimated: 0.6233305876651392  Real: 0.50378  Error: % 11
+index: 6 -> Estimated: 0.5919238133423442  Real: 0.49942  Error: % 9
+index: 7 -> Estimated: 0.4662597741364081  Real: 0.5051  Error: % 3
+Global Mean Square Error: 0.24523460068382857
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.00274809053153385  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8639771167394337  Real: 0.04946  Error: % 81
+index: 2 -> Estimated: 0.17101428147306083  Real: 0.8885  Error: % 71
+index: 3 -> Estimated: 0.44031753706360416  Real: 0.48922  Error: % 4
+index: 4 -> Estimated: 0.5054302139507447  Real: 0.49816  Error: % 0
+index: 5 -> Estimated: 0.523452610650713  Real: 0.50378  Error: % 1
+index: 6 -> Estimated: 0.5120827081731217  Real: 0.49942  Error: % 1
+index: 7 -> Estimated: 0.48480794191528076  Real: 0.5051  Error: % 2
+Global Mean Square Error: 0.27201733637396014
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.0337128158737151  Real: 1.0  Error: % 96
+index: 1 -> Estimated: 0.8619683364707458  Real: 0.04946  Error: % 81
+index: 2 -> Estimated: 0.13547291549625512  Real: 0.8885  Error: % 75
+index: 3 -> Estimated: 0.42291051698491805  Real: 0.48922  Error: % 6
+index: 4 -> Estimated: 0.49952561358845776  Real: 0.49816  Error: % 0
+index: 5 -> Estimated: 0.47431623066004813  Real: 0.50378  Error: % 2
+index: 6 -> Estimated: 0.49031807710074016  Real: 0.49942  Error: % 0
+index: 7 -> Estimated: 0.5176497510987612  Real: 0.5051  Error: % 1
+Global Mean Square Error: 0.2708047220540496
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.00602916341815451  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8570667004848513  Real: 0.04946  Error: % 80
+index: 2 -> Estimated: 0.13856770656286876  Real: 0.8885  Error: % 74
+index: 3 -> Estimated: 0.3976072641822418  Real: 0.48922  Error: % 9
+index: 4 -> Estimated: 0.5008618595336868  Real: 0.49816  Error: % 0
+index: 5 -> Estimated: 0.49463310338540833  Real: 0.50378  Error: % 0
+index: 6 -> Estimated: 0.5061132880672279  Real: 0.49942  Error: % 0
+index: 7 -> Estimated: 0.5248174105216865  Real: 0.5051  Error: % 1
+Global Mean Square Error: 0.27644031086157267
+
+
+
+ ========================================== 
+Results of Round 45:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.05625404375601262  Real: 1.0  Error: % 94
+index: 1 -> Estimated: 0.8468765445881887  Real: 0.04834  Error: % 79
+index: 2 -> Estimated: 0.14258801807765223  Real: 0.88986  Error: % 74
+index: 3 -> Estimated: 0.4092700630173227  Real: 0.4944  Error: % 8
+index: 4 -> Estimated: 0.5569616436232536  Real: 0.50182  Error: % 5
+index: 5 -> Estimated: 0.569470606624956  Real: 0.50046  Error: % 6
+index: 6 -> Estimated: 0.5940456821927497  Real: 0.49858  Error: % 9
+index: 7 -> Estimated: 0.4269557494001833  Real: 0.5019  Error: % 7
+Global Mean Square Error: 0.26456412074615804
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0016905163769095973  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8731163609301262  Real: 0.04834  Error: % 82
+index: 2 -> Estimated: 0.14701105594696687  Real: 0.88986  Error: % 74
+index: 3 -> Estimated: 0.44761735259438057  Real: 0.4944  Error: % 4
+index: 4 -> Estimated: 0.4894974806022766  Real: 0.50182  Error: % 1
+index: 5 -> Estimated: 0.5089792592776117  Real: 0.50046  Error: % 0
+index: 6 -> Estimated: 0.5237628176186571  Real: 0.49858  Error: % 2
+index: 7 -> Estimated: 0.4727430611644918  Real: 0.5019  Error: % 2
+Global Mean Square Error: 0.2790749705085433
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.018503916699789274  Real: 1.0  Error: % 98
+index: 1 -> Estimated: 0.8788849139127538  Real: 0.04834  Error: % 83
+index: 2 -> Estimated: 0.12133717074934085  Real: 0.88986  Error: % 76
+index: 3 -> Estimated: 0.4311210018466445  Real: 0.4944  Error: % 6
+index: 4 -> Estimated: 0.506520734655848  Real: 0.50182  Error: % 0
+index: 5 -> Estimated: 0.4904602390489698  Real: 0.50046  Error: % 0
+index: 6 -> Estimated: 0.5114204917659834  Real: 0.49858  Error: % 1
+index: 7 -> Estimated: 0.5044168569292407  Real: 0.5019  Error: % 0
+Global Mean Square Error: 0.28100803639621313
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.0021090963404371134  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8610129181016926  Real: 0.04834  Error: % 81
+index: 2 -> Estimated: 0.12249503921214008  Real: 0.88986  Error: % 76
+index: 3 -> Estimated: 0.4042107863460561  Real: 0.4944  Error: % 9
+index: 4 -> Estimated: 0.4955975805894487  Real: 0.50182  Error: % 0
+index: 5 -> Estimated: 0.48540823560889784  Real: 0.50046  Error: % 1
+index: 6 -> Estimated: 0.5017922272853395  Real: 0.49858  Error: % 0
+index: 7 -> Estimated: 0.5217859579121585  Real: 0.5019  Error: % 1
+Global Mean Square Error: 0.28173470607096407
+
+
+
+ ========================================== 
+Results of Round 46:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.06623471233791672  Real: 1.0  Error: % 93
+index: 1 -> Estimated: 0.8009939632297589  Real: 0.05046  Error: % 75
+index: 2 -> Estimated: 0.11096158563284136  Real: 0.88942  Error: % 77
+index: 3 -> Estimated: 0.38751303057691755  Real: 0.49046  Error: % 10
+index: 4 -> Estimated: 0.5376894141766043  Real: 0.50024  Error: % 3
+index: 5 -> Estimated: 0.5322989882866843  Real: 0.50238  Error: % 2
+index: 6 -> Estimated: 0.6180894103603567  Real: 0.50344  Error: % 11
+index: 7 -> Estimated: 0.47743180154562004  Real: 0.49884  Error: % 2
+Global Mean Square Error: 0.25846435331946993
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.009470360861455534  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8713705215014839  Real: 0.05046  Error: % 82
+index: 2 -> Estimated: 0.14155148433382475  Real: 0.88942  Error: % 74
+index: 3 -> Estimated: 0.4555576262252593  Real: 0.49046  Error: % 3
+index: 4 -> Estimated: 0.5155840568249153  Real: 0.50024  Error: % 1
+index: 5 -> Estimated: 0.5197903142725887  Real: 0.50238  Error: % 1
+index: 6 -> Estimated: 0.5378288032676243  Real: 0.50344  Error: % 3
+index: 7 -> Estimated: 0.4596699829445766  Real: 0.49884  Error: % 3
+Global Mean Square Error: 0.27735299773660393
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.017906927183912298  Real: 1.0  Error: % 98
+index: 1 -> Estimated: 0.8721961775590674  Real: 0.05046  Error: % 82
+index: 2 -> Estimated: 0.13246287651216657  Real: 0.88942  Error: % 75
+index: 3 -> Estimated: 0.4301904043994142  Real: 0.49046  Error: % 6
+index: 4 -> Estimated: 0.5139039992870476  Real: 0.50024  Error: % 1
+index: 5 -> Estimated: 0.49436580903043614  Real: 0.50238  Error: % 0
+index: 6 -> Estimated: 0.5155114618617971  Real: 0.50344  Error: % 1
+index: 7 -> Estimated: 0.4866331764730513  Real: 0.49884  Error: % 1
+Global Mean Square Error: 0.27711491487513473
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.0037857059885123097  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8721841131856292  Real: 0.05046  Error: % 82
+index: 2 -> Estimated: 0.12936815425852516  Real: 0.88942  Error: % 76
+index: 3 -> Estimated: 0.40872271499750074  Real: 0.49046  Error: % 8
+index: 4 -> Estimated: 0.49270945631446583  Real: 0.50024  Error: % 0
+index: 5 -> Estimated: 0.5033367760848408  Real: 0.50238  Error: % 0
+index: 6 -> Estimated: 0.5079906169188233  Real: 0.50344  Error: % 0
+index: 7 -> Estimated: 0.5064072571600737  Real: 0.49884  Error: % 0
+Global Mean Square Error: 0.2815211032202578
+
+
+
+ ========================================== 
+Results of Round 47:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.019027556472387866  Real: 1.0  Error: % 98
+index: 1 -> Estimated: 0.8482789861981135  Real: 0.0482  Error: % 80
+index: 2 -> Estimated: 0.1365285208810343  Real: 0.88974  Error: % 75
+index: 3 -> Estimated: 0.3988421595085652  Real: 0.49052  Error: % 9
+index: 4 -> Estimated: 0.4993122481503895  Real: 0.50278  Error: % 0
+index: 5 -> Estimated: 0.561353725524819  Real: 0.50022  Error: % 6
+index: 6 -> Estimated: 0.6240372283091438  Real: 0.50066  Error: % 12
+index: 7 -> Estimated: 0.5176398878713719  Real: 0.50328  Error: % 1
+Global Mean Square Error: 0.2746678977968059
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0004140195060463009  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8875310860770936  Real: 0.0482  Error: % 83
+index: 2 -> Estimated: 0.1432017460216772  Real: 0.88974  Error: % 74
+index: 3 -> Estimated: 0.43116251399794997  Real: 0.49052  Error: % 5
+index: 4 -> Estimated: 0.5233768835191926  Real: 0.50278  Error: % 2
+index: 5 -> Estimated: 0.5076861562842468  Real: 0.50022  Error: % 0
+index: 6 -> Estimated: 0.532175820156466  Real: 0.50066  Error: % 3
+index: 7 -> Estimated: 0.49871361141762394  Real: 0.50328  Error: % 0
+Global Mean Square Error: 0.2832481942722603
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.010790886627400206  Real: 1.0  Error: % 98
+index: 1 -> Estimated: 0.8755654221234318  Real: 0.0482  Error: % 82
+index: 2 -> Estimated: 0.14467380569015056  Real: 0.88974  Error: % 74
+index: 3 -> Estimated: 0.4282573436085898  Real: 0.49052  Error: % 6
+index: 4 -> Estimated: 0.5248524768065239  Real: 0.50278  Error: % 2
+index: 5 -> Estimated: 0.49177110580985894  Real: 0.50022  Error: % 0
+index: 6 -> Estimated: 0.5215820557530468  Real: 0.50066  Error: % 2
+index: 7 -> Estimated: 0.4836473170695433  Real: 0.50328  Error: % 1
+Global Mean Square Error: 0.2779312795863198
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.0022251028609889937  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8758836179356371  Real: 0.0482  Error: % 82
+index: 2 -> Estimated: 0.12839786518512378  Real: 0.88974  Error: % 76
+index: 3 -> Estimated: 0.4014692742271957  Real: 0.49052  Error: % 8
+index: 4 -> Estimated: 0.4890188010338497  Real: 0.50278  Error: % 1
+index: 5 -> Estimated: 0.4882452272322094  Real: 0.50022  Error: % 1
+index: 6 -> Estimated: 0.4989298287799764  Real: 0.50066  Error: % 0
+index: 7 -> Estimated: 0.49796426002763716  Real: 0.50328  Error: % 0
+Global Mean Square Error: 0.28356885139108207
+
+
+
+ ========================================== 
+Results of Round 48:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.01908250620879191  Real: 0.99998  Error: % 98
+index: 1 -> Estimated: 0.8429779745674435  Real: 0.05014  Error: % 79
+index: 2 -> Estimated: 0.1568103295719248  Real: 0.89092  Error: % 73
+index: 3 -> Estimated: 0.3223966081638208  Real: 0.48766  Error: % 16
+index: 4 -> Estimated: 0.4915835854735656  Real: 0.5005  Error: % 0
+index: 5 -> Estimated: 0.542636939879677  Real: 0.50106  Error: % 4
+index: 6 -> Estimated: 0.6949821089333126  Real: 0.50144  Error: % 19
+index: 7 -> Estimated: 0.5705784242203099  Real: 0.5043  Error: % 6
+Global Mean Square Error: 0.2750800582455677
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0010541831553190527  Real: 0.99998  Error: % 99
+index: 1 -> Estimated: 0.872716162887814  Real: 0.05014  Error: % 82
+index: 2 -> Estimated: 0.1461810964264144  Real: 0.89092  Error: % 74
+index: 3 -> Estimated: 0.43333118795042386  Real: 0.48766  Error: % 5
+index: 4 -> Estimated: 0.5079345124433648  Real: 0.5005  Error: % 0
+index: 5 -> Estimated: 0.5200475488578267  Real: 0.50106  Error: % 1
+index: 6 -> Estimated: 0.5227008522328485  Real: 0.50144  Error: % 2
+index: 7 -> Estimated: 0.5087114967670551  Real: 0.5043  Error: % 0
+Global Mean Square Error: 0.2791199087191311
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.01069771856329851  Real: 0.99998  Error: % 98
+index: 1 -> Estimated: 0.8846294987230111  Real: 0.05014  Error: % 83
+index: 2 -> Estimated: 0.15281751190227702  Real: 0.89092  Error: % 73
+index: 3 -> Estimated: 0.4191396928545164  Real: 0.48766  Error: % 6
+index: 4 -> Estimated: 0.5366955378908966  Real: 0.5005  Error: % 3
+index: 5 -> Estimated: 0.49540953174233965  Real: 0.50106  Error: % 0
+index: 6 -> Estimated: 0.5341606664355467  Real: 0.50144  Error: % 3
+index: 7 -> Estimated: 0.4916808310544942  Real: 0.5043  Error: % 1
+Global Mean Square Error: 0.278389300182819
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.005740715368291573  Real: 0.99998  Error: % 99
+index: 1 -> Estimated: 0.8723352599758504  Real: 0.05014  Error: % 82
+index: 2 -> Estimated: 0.13858163846175758  Real: 0.89092  Error: % 75
+index: 3 -> Estimated: 0.41319198573988036  Real: 0.48766  Error: % 7
+index: 4 -> Estimated: 0.5007873538395703  Real: 0.5005  Error: % 0
+index: 5 -> Estimated: 0.48964222818165437  Real: 0.50106  Error: % 1
+index: 6 -> Estimated: 0.5145235781252243  Real: 0.50144  Error: % 1
+index: 7 -> Estimated: 0.4875769560915411  Real: 0.5043  Error: % 1
+Global Mean Square Error: 0.27958207304015853
+
+
+
+ ========================================== 
+Results of Round 49:
+==========================================
+Evaluation for level eps = 0.5
+index: 0 -> Estimated: 0.0596685299354566  Real: 1.0  Error: % 94
+index: 1 -> Estimated: 0.8448149856061268  Real: 0.0486  Error: % 79
+index: 2 -> Estimated: 0.18342224886619796  Real: 0.8908  Error: % 70
+index: 3 -> Estimated: 0.415167093976309  Real: 0.4921  Error: % 7
+index: 4 -> Estimated: 0.48644120821628767  Real: 0.49676  Error: % 1
+index: 5 -> Estimated: 0.5679153739019681  Real: 0.50244  Error: % 6
+index: 6 -> Estimated: 0.5456294536587554  Real: 0.50046  Error: % 4
+index: 7 -> Estimated: 0.5149332479308149  Real: 0.50102  Error: % 1
+Global Mean Square Error: 0.25388886147364603
+Evaluation for level eps = 2
+index: 0 -> Estimated: 0.0009929296748624852  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8795947622252118  Real: 0.0486  Error: % 83
+index: 2 -> Estimated: 0.1519836270473713  Real: 0.8908  Error: % 73
+index: 3 -> Estimated: 0.4363801342589028  Real: 0.4921  Error: % 5
+index: 4 -> Estimated: 0.49041364764954454  Real: 0.49676  Error: % 0
+index: 5 -> Estimated: 0.5044681662064128  Real: 0.50244  Error: % 0
+index: 6 -> Estimated: 0.5106592285665275  Real: 0.50046  Error: % 1
+index: 7 -> Estimated: 0.4777891932761531  Real: 0.50102  Error: % 2
+Global Mean Square Error: 0.279776230259643
+Evaluation for level eps = 5
+index: 0 -> Estimated: 0.00017235484971208362  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8853743611321401  Real: 0.0486  Error: % 83
+index: 2 -> Estimated: 0.15440276537128453  Real: 0.8908  Error: % 73
+index: 3 -> Estimated: 0.43623325870837104  Real: 0.4921  Error: % 5
+index: 4 -> Estimated: 0.5013397636431456  Real: 0.49676  Error: % 0
+index: 5 -> Estimated: 0.48955015855886513  Real: 0.50244  Error: % 1
+index: 6 -> Estimated: 0.5181071707055428  Real: 0.50046  Error: % 1
+index: 7 -> Estimated: 0.4867143188301865  Real: 0.50102  Error: % 1
+Global Mean Square Error: 0.2807439786001605
+Evaluation for level eps = 10
+index: 0 -> Estimated: 0.003723131921110806  Real: 1.0  Error: % 99
+index: 1 -> Estimated: 0.8818201379145529  Real: 0.0486  Error: % 83
+index: 2 -> Estimated: 0.13390742654421414  Real: 0.8908  Error: % 75
+index: 3 -> Estimated: 0.42420196075629946  Real: 0.4921  Error: % 6
+index: 4 -> Estimated: 0.4885274806736331  Real: 0.49676  Error: % 0
+index: 5 -> Estimated: 0.496914700291752  Real: 0.50244  Error: % 0
+index: 6 -> Estimated: 0.5318586214046701  Real: 0.50046  Error: % 3
+index: 7 -> Estimated: 0.47496335785622906  Real: 0.50102  Error: % 2
+Global Mean Square Error: 0.28326037911479196
+Real Mean of rounds is: [ 75.0674   75.06114  74.97424  75.101    74.98218  74.9654   75.00194
+  75.0309   75.05894  75.12436  74.92922  74.99154  75.05704  75.06492
+  74.9723   74.96366  74.95896  74.953    75.07628  74.95804  74.9847
+  75.02864  74.9338   74.92614  74.99862 175.02634 175.00362 174.97144
+ 175.03046 175.00838 175.02976 174.96418 175.0238  174.94454 174.98708
+ 174.9968  174.9818  174.97872 175.04576 175.05542 175.00096 174.95446
+ 175.03308 174.97774 174.9293  174.99514 175.0554  174.93252 175.03382
+ 174.97538]
+Mean Difference at round 0 and level 0.5: 19.695057741957186 0.0
+Mean Difference at round 0 and level 2: 16.040767436787583 0.0
+Mean Difference at round 0 and level 5: 4.444250550022716 0.0
+Mean Difference at round 0 and level 10: 0.21706747583641572 0.0
+Mean Difference at round 1 and level 0.5: 18.432765344911523 0.0
+Mean Difference at round 1 and level 2: 10.8895264366287 0.0
+Mean Difference at round 1 and level 5: 2.0500549469215485 0.0
+Mean Difference at round 1 and level 10: 12.151992907970552 0.0
+Mean Difference at round 2 and level 0.5: 1.2168895104196338 0.0
+Mean Difference at round 2 and level 2: 0.615467217211318 0.0
+Mean Difference at round 2 and level 5: 0.7702732236455319 0.0
+Mean Difference at round 2 and level 10: 1.8137627514270918 0.0
+Mean Difference at round 3 and level 0.5: 9.508247833604159 0.0
+Mean Difference at round 3 and level 2: 10.718046328601872 0.0
+Mean Difference at round 3 and level 5: 3.548535889731369 0.0
+Mean Difference at round 3 and level 10: 11.271072697794182 0.0
+Mean Difference at round 4 and level 0.5: 8.953121303807535 0.0
+Mean Difference at round 4 and level 2: 2.163568103269128 0.0
+Mean Difference at round 4 and level 5: 0.6895967641969065 0.0
+Mean Difference at round 4 and level 10: 0.13866670443320572 0.0
+Mean Difference at round 5 and level 0.5: 7.612209139541875 0.0
+Mean Difference at round 5 and level 2: 0.6593360902275265 0.0
+Mean Difference at round 5 and level 5: 0.24715843678843896 0.0
+Mean Difference at round 5 and level 10: 0.6547500840381133 0.0
+Mean Difference at round 6 and level 0.5: 4.3973438269312055 0.0
+Mean Difference at round 6 and level 2: 0.6475512957389071 0.0
+Mean Difference at round 6 and level 5: 0.5375623813013846 0.0
+Mean Difference at round 6 and level 10: 1.4784439917601588 0.0
+Mean Difference at round 7 and level 0.5: 20.10808283270034 0.0
+Mean Difference at round 7 and level 2: 14.029194573557106 0.0
+Mean Difference at round 7 and level 5: 4.224019768472942 0.0
+Mean Difference at round 7 and level 10: 11.286481085252518 0.0
+Mean Difference at round 8 and level 0.5: 1.0060560536386447 0.0
+Mean Difference at round 8 and level 2: 1.365869441743726 0.0
+Mean Difference at round 8 and level 5: 0.350695251711457 0.0
+Mean Difference at round 8 and level 10: 0.7772804579104502 0.0
+Mean Difference at round 9 and level 0.5: 1.4455963603546564 0.0
+Mean Difference at round 9 and level 2: 1.0158602750042007 0.0
+Mean Difference at round 9 and level 5: 1.7033327880155866 0.0
+Mean Difference at round 9 and level 10: 0.22571018308514113 0.0
+Mean Difference at round 10 and level 0.5: 2.9300916906957752 0.0
+Mean Difference at round 10 and level 2: 0.7981683074648913 0.0
+Mean Difference at round 10 and level 5: 4.026012186019443 0.0
+Mean Difference at round 10 and level 10: 1.1453783054393085 0.0
+Mean Difference at round 11 and level 0.5: 5.145790749911612 0.0
+Mean Difference at round 11 and level 2: 0.9747226465686083 0.0
+Mean Difference at round 11 and level 5: 0.13058759367113737 0.0
+Mean Difference at round 11 and level 10: 0.06169225362337727 0.0
+Mean Difference at round 12 and level 0.5: 0.0907732185122967 0.0
+Mean Difference at round 12 and level 2: 0.7194149330496202 0.0
+Mean Difference at round 12 and level 5: 0.347955967244431 0.0
+Mean Difference at round 12 and level 10: 0.29317976836759385 0.0
+Mean Difference at round 13 and level 0.5: 3.2548457212767374 0.0
+Mean Difference at round 13 and level 2: 0.11232698628344906 0.0
+Mean Difference at round 13 and level 5: 0.08481120040040935 0.0
+Mean Difference at round 13 and level 10: 0.38964410837103003 0.0
+Mean Difference at round 14 and level 0.5: 0.11804068335538886 0.0
+Mean Difference at round 14 and level 2: 1.8493804602324957 0.0
+Mean Difference at round 14 and level 5: 0.12171738082109584 0.0
+Mean Difference at round 14 and level 10: 1.1129608649682012 0.0
+Mean Difference at round 15 and level 0.5: 18.098414796162615 0.0
+Mean Difference at round 15 and level 2: 13.470196122590679 0.0
+Mean Difference at round 15 and level 5: 2.640269806002024 0.0
+Mean Difference at round 15 and level 10: 11.91952406247485 0.0
+Mean Difference at round 16 and level 0.5: 3.291399723458923 0.0
+Mean Difference at round 16 and level 2: 0.5073856575080242 0.0
+Mean Difference at round 16 and level 5: 0.8894478553147138 0.0
+Mean Difference at round 16 and level 10: 1.4205046101725287 0.0
+Mean Difference at round 17 and level 0.5: 0.7954445368116438 0.0
+Mean Difference at round 17 and level 2: 0.05175131237299979 0.0
+Mean Difference at round 17 and level 5: 0.8970471002741078 0.0
+Mean Difference at round 17 and level 10: 2.9337542748207426 0.0
+Mean Difference at round 18 and level 0.5: 0.9270546315946433 0.0
+Mean Difference at round 18 and level 2: 0.6285161483605606 0.0
+Mean Difference at round 18 and level 5: 0.765666266798334 0.0
+Mean Difference at round 18 and level 10: 1.5316584402735742 0.0
+Mean Difference at round 19 and level 0.5: 7.262165253678845 0.0
+Mean Difference at round 19 and level 2: 0.1123063900219563 0.0
+Mean Difference at round 19 and level 5: 0.17820097218468334 0.0
+Mean Difference at round 19 and level 10: 1.5915238294993515 0.0
+Mean Difference at round 20 and level 0.5: 7.076262531855804 0.0
+Mean Difference at round 20 and level 2: 0.8936009493644832 0.0
+Mean Difference at round 20 and level 5: 0.08628409457682551 0.0
+Mean Difference at round 20 and level 10: 2.0076844539806302 0.0
+Mean Difference at round 21 and level 0.5: 6.2171272273846085 0.0
+Mean Difference at round 21 and level 2: 0.7448311996414532 0.0
+Mean Difference at round 21 and level 5: 0.730269813421657 0.0
+Mean Difference at round 21 and level 10: 2.670777533845296 0.0
+Mean Difference at round 22 and level 0.5: 4.025583761237328 0.0
+Mean Difference at round 22 and level 2: 1.0549669941180042 0.0
+Mean Difference at round 22 and level 5: 0.5286306513954173 0.0
+Mean Difference at round 22 and level 10: 1.631515454189639 0.0
+Mean Difference at round 23 and level 0.5: 0.9579567382850485 0.0
+Mean Difference at round 23 and level 2: 3.239418726500503 0.0
+Mean Difference at round 23 and level 5: 0.18400443758997653 0.0
+Mean Difference at round 23 and level 10: 2.3142052769215695 0.0
+Mean Difference at round 24 and level 0.5: 1.8056871116343842 0.0
+Mean Difference at round 24 and level 2: 5.0524971946518065 0.0
+Mean Difference at round 24 and level 5: 0.16207379251230236 0.0
+Mean Difference at round 24 and level 10: 1.2119329724035737 0.0
+Mean Difference at round 25 and level 0.5: 29.78690690769514 0.0
+Mean Difference at round 25 and level 2: 22.112873118882305 0.0
+Mean Difference at round 25 and level 5: 4.634101513590792 0.0
+Mean Difference at round 25 and level 10: 0.23232547652892777 0.0
+Mean Difference at round 26 and level 0.5: 5.98135521345327 0.0
+Mean Difference at round 26 and level 2: 0.47674954653297164 0.0
+Mean Difference at round 26 and level 5: 0.263897403449306 0.0
+Mean Difference at round 26 and level 10: 0.13170302495134933 0.0
+Mean Difference at round 27 and level 0.5: 14.625218405304508 0.0
+Mean Difference at round 27 and level 2: 12.410426843896687 0.0
+Mean Difference at round 27 and level 5: 1.7962604601796386 0.0
+Mean Difference at round 27 and level 10: 0.8566566010123609 0.0
+Mean Difference at round 28 and level 0.5: 0.6648992097264284 0.0
+Mean Difference at round 28 and level 2: 0.25407456850010135 0.0
+Mean Difference at round 28 and level 5: 0.7626561786606203 0.0
+Mean Difference at round 28 and level 10: 0.928588403474464 0.0
+Mean Difference at round 29 and level 0.5: 58.57130932852479 0.0
+Mean Difference at round 29 and level 2: 56.59722102439807 0.0
+Mean Difference at round 29 and level 5: 55.1429520019158 0.0
+Mean Difference at round 29 and level 10: 13.544088202118985 0.0
+Mean Difference at round 30 and level 0.5: 60.94280005530392 0.0
+Mean Difference at round 30 and level 2: 54.30359780981608 0.0
+Mean Difference at round 30 and level 5: 53.96381451452211 0.0
+Mean Difference at round 30 and level 10: 56.08928813106864 0.0
+Mean Difference at round 31 and level 0.5: 46.122033365366576 0.0
+Mean Difference at round 31 and level 2: 40.800220236225414 0.0
+Mean Difference at round 31 and level 5: 19.722482311945782 0.0
+Mean Difference at round 31 and level 10: 12.468731353341298 0.0
+Mean Difference at round 32 and level 0.5: 12.961843631483788 0.0
+Mean Difference at round 32 and level 2: 16.056441109217133 0.0
+Mean Difference at round 32 and level 5: 16.644277865127833 0.0
+Mean Difference at round 32 and level 10: 17.244700672227424 0.0
+Mean Difference at round 33 and level 0.5: 59.733413405312135 0.0
+Mean Difference at round 33 and level 2: 65.66610309891327 0.0
+Mean Difference at round 33 and level 5: 63.75089246435215 0.0
+Mean Difference at round 33 and level 10: 26.511368807207333 0.0
+Mean Difference at round 34 and level 0.5: 61.378833002138094 0.0
+Mean Difference at round 34 and level 2: 62.71979788970438 0.0
+Mean Difference at round 34 and level 5: 60.65217317936559 0.0
+Mean Difference at round 34 and level 10: 62.36221042812139 0.0
+Mean Difference at round 35 and level 0.5: 82.48567065808591 0.0
+Mean Difference at round 35 and level 2: 85.69691985793524 0.0
+Mean Difference at round 35 and level 5: 83.48732320593649 0.0
+Mean Difference at round 35 and level 10: 65.32841482597193 0.0
+Mean Difference at round 36 and level 0.5: 92.55818097872077 0.0
+Mean Difference at round 36 and level 2: 87.57670134889437 0.0
+Mean Difference at round 36 and level 5: 83.39034535264959 0.0
+Mean Difference at round 36 and level 10: 86.21936675174561 0.0
+Mean Difference at round 37 and level 0.5: 87.93238160474428 0.0
+Mean Difference at round 37 and level 2: 96.27166604296835 0.0
+Mean Difference at round 37 and level 5: 93.62321510611204 0.0
+Mean Difference at round 37 and level 10: 88.3515257490229 0.0
+Mean Difference at round 38 and level 0.5: 83.78240729574334 0.0
+Mean Difference at round 38 and level 2: 95.7906964669486 0.0
+Mean Difference at round 38 and level 5: 93.55004366108545 0.0
+Mean Difference at round 38 and level 10: 96.46844566976513 0.0
+Mean Difference at round 39 and level 0.5: 98.22666369033841 0.0
+Mean Difference at round 39 and level 2: 98.36889941311078 0.0
+Mean Difference at round 39 and level 5: 97.99586592949184 0.0
+Mean Difference at round 39 and level 10: 98.56976952443495 0.0
+Mean Difference at round 40 and level 0.5: 96.68916250316697 0.0
+Mean Difference at round 40 and level 2: 100.84027666958096 0.0
+Mean Difference at round 40 and level 5: 97.12732324019383 0.0
+Mean Difference at round 40 and level 10: 100.4045927636793 0.0
+Mean Difference at round 41 and level 0.5: 94.86266622988097 0.0
+Mean Difference at round 41 and level 2: 99.44315907874925 0.0
+Mean Difference at round 41 and level 5: 95.27866359292435 0.0
+Mean Difference at round 41 and level 10: 100.75088403408817 0.0
+Mean Difference at round 42 and level 0.5: 89.40879109320437 0.0
+Mean Difference at round 42 and level 2: 99.19918112671982 0.0
+Mean Difference at round 42 and level 5: 92.32364280325952 0.0
+Mean Difference at round 42 and level 10: 99.33565678489104 0.0
+Mean Difference at round 43 and level 0.5: 90.56342167549009 0.0
+Mean Difference at round 43 and level 2: 100.36492614810382 0.0
+Mean Difference at round 43 and level 5: 96.79977140923502 0.0
+Mean Difference at round 43 and level 10: 100.87092758368321 0.0
+Mean Difference at round 44 and level 0.5: 92.34100319613616 0.0
+Mean Difference at round 44 and level 2: 99.11924582801399 0.0
+Mean Difference at round 44 and level 5: 96.95462872974981 0.0
+Mean Difference at round 44 and level 10: 100.9869441380508 0.0
+Mean Difference at round 45 and level 0.5: 94.13476326955274 0.0
+Mean Difference at round 45 and level 2: 99.560909794084 0.0
+Mean Difference at round 45 and level 5: 98.05601400458163 0.0
+Mean Difference at round 45 and level 10: 101.80135107395631 0.0
+Mean Difference at round 46 and level 0.5: 97.41844205573456 0.0
+Mean Difference at round 46 and level 2: 98.51774961418268 0.0
+Mean Difference at round 46 and level 5: 98.21454810728419 0.0
+Mean Difference at round 46 and level 10: 100.59429076750452 0.0
+Mean Difference at round 47 and level 0.5: 99.45112320273292 0.0
+Mean Difference at round 47 and level 2: 98.81565495261013 0.0
+Mean Difference at round 47 and level 5: 98.34070454970363 0.0
+Mean Difference at round 47 and level 10: 100.69795997756633 0.0
+Mean Difference at round 48 and level 0.5: 100.40063347064135 0.0
+Mean Difference at round 48 and level 2: 99.73617654223604 0.0
+Mean Difference at round 48 and level 5: 97.61662404505783 0.0
+Mean Difference at round 48 and level 10: 99.94237573600475 0.0
+Mean Difference at round 49 and level 0.5: 92.98808030554366 0.0
+Mean Difference at round 49 and level 2: 99.26837250911449 0.0
+Mean Difference at round 49 and level 5: 98.87689143194295 0.0
+Mean Difference at round 49 and level 10: 99.55550201882915 0.0
+Estimated Mean is: [[55.37234225804282, 59.026632563212424, 70.62314944997729, 75.28446747583642], [56.62837465508847, 64.1716135633713, 73.01108505307845, 87.21313290797055], [76.19112951041963, 75.58970721721131, 74.20396677635446, 73.1604772485729], [65.59275216639584, 64.38295367139813, 71.55246411026863, 86.37207269779418], [83.93530130380753, 77.14574810326913, 75.6717767641969, 74.8435132955668], [82.57760913954188, 75.62473609022753, 74.71824156321156, 74.31064991596189], [79.39928382693121, 75.64949129573891, 74.46437761869862, 73.52349600823985], [54.92281716729966, 61.001705426442896, 70.80688023152706, 86.31738108525252], [76.06499605363865, 76.42480944174373, 74.70824474828855, 74.28165954208956], [73.67876363964534, 76.1402202750042, 76.82769278801558, 74.89864981691485], [77.85931169069578, 75.72738830746489, 78.95523218601944, 76.07459830543931], [80.13733074991161, 75.96626264656861, 75.12212759367114, 75.05323225362338], [74.9662667814877, 74.33762506695038, 75.40499596724443, 74.7638602316324], [78.31976572127674, 75.17724698628345, 74.98010879959959, 74.67527589162897], [74.85425931664462, 76.8216804602325, 75.0940173808211, 73.8593391350318], [56.86524520383739, 61.493463877409326, 72.32339019399798, 86.88318406247485], [71.66756027654108, 75.46634565750803, 75.84840785531472, 76.37946461017253], [75.74844453681165, 74.901248687627, 75.85004710027411, 77.88675427482075], [76.00333463159464, 74.44776385163944, 74.31061373320166, 76.60793844027357], [82.22020525367884, 74.84573360997804, 74.77983902781531, 76.54956382949935], [82.06096253185581, 74.09109905063552, 74.89841590542318, 76.99238445398063], [81.2457672273846, 75.77347119964145, 74.29837018657834, 77.69941753384529], [70.90821623876268, 75.98876699411801, 74.40516934860459, 76.56531545418964], [75.88409673828505, 78.1655587265005, 75.11014443758998, 77.24034527692157], [73.19293288836562, 80.05111719465181, 75.1606937925123, 76.21055297240358], [145.23943309230486, 152.9134668811177, 170.3922384864092, 175.25866547652893], [169.02226478654674, 174.52687045346704, 174.7397225965507, 174.87191697504866], [160.3462215946955, 162.56101315610331, 173.17517953982036, 175.82809660101236], [174.36556079027358, 174.7763854314999, 175.79311617866063, 175.95904840347447], [116.4370706714752, 118.41115897560192, 119.86542799808419, 161.464291797881], [114.08695994469609, 120.72616219018393, 121.0659454854779, 118.94047186893137], [128.84214663463342, 134.16395976377459, 155.24169768805422, 187.4329113533413], [162.0619563685162, 158.96735889078286, 158.37952213487216, 157.77909932777257], [115.21112659468785, 109.27843690108672, 111.19364753564784, 148.43317119279266], [113.6082469978619, 112.26728211029561, 114.3349068206344, 112.6248695718786], [92.5111293419141, 89.29988014206477, 91.50947679406352, 109.66838517402807], [82.42361902127922, 87.40509865110562, 91.5914546473504, 88.76243324825438], [87.04633839525573, 78.70705395703166, 81.35550489388797, 86.62719425097711], [91.26335270425666, 79.2550635330514, 81.49571633891455, 78.57731433023487], [76.82875630966159, 76.68652058688922, 77.05955407050816, 76.48565047556505], [78.31179749683302, 74.16068333041903, 77.87363675980616, 74.59636723632069], [80.09179377011904, 75.51130092125076, 79.67579640707567, 74.20357596591184], [85.62428890679564, 75.83389887328019, 82.7094371967405, 75.69742321510897], [84.41431832450992, 74.61281385189619, 78.17796859076499, 74.1068124163168], [82.58829680386386, 75.81005417198602, 77.9746712702502, 73.94235586194921], [80.86037673044726, 75.434230205916, 76.93912599541837, 73.19378892604368], [77.63695794426543, 76.53765038581732, 76.8408518927158, 74.46110923249547], [75.4813967972671, 76.11686504738988, 76.59181545029638, 74.23456002243368], [74.63318652935864, 75.29764345776395, 77.41719595494216, 75.09144426399524], [81.98729969445634, 75.70700749088552, 76.09848856805705, 75.41987798117086]]
