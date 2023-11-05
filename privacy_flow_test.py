@@ -8,10 +8,10 @@ from server.manager import PrivacyFlow
 from WrappedClient import WrappeedClient
 
 # Number of users:
-N = 128000
+N = 50000
 # Privacy Budget Levels:
 # levels = [(i+1)/10 for i in range(0, 10)]
-levels = [0.5, 1, 2]
+levels = [0.5, 2, 5, 10]
 # Determines how many different value types are available in dataset: 
 # (Each bit is responsible for a separate value)
 DATA_SET_SIZE = 8
@@ -21,11 +21,11 @@ ROUND_CHANGES = 50
 # dataSet = [[i for i in np.random.randint(2 ** DATA_SET_SIZE - 1, size=N)]]
 # dataSet = [[math.floor(i) for i in np.random.normal(100, 10, size=N)]]
 # Read dataset from file:
-csvContent = pd.read_csv('./dynamic.csv')
+csvContent = pd.read_csv('./u=50kr=50-dynamic.csv')
 dataSet = np.transpose(csvContent.to_numpy())
 # Determine selected privacy level of each client:
 # clientSelectedLevel = np.random.randint(len(levels), size=N)
-clientSelectedLevel = [0] * 42667 + [1] * 42667 + [2] * 42666
+clientSelectedLevel = [0] * 12500 + [1] * 12500 + [2] * 12500 + [3] * 12500
 # Creates actual clients:
 clients = [WrappeedClient(DATA_SET_SIZE, levels, clientSelectedLevel[i], ROUND_CHANGES) for i in range(N)]
 # Initialize Server:
@@ -92,6 +92,6 @@ for r in range(ROUND_CHANGES):
             REAL_ROUND_MEAN += (normalized[r][index2]*(N) * 2 ** (len(estimationAtL) - 1 - index2))
         ROUND_MEAN /= N
         REAL_ROUND_MEAN /= N
-        print(f'Mean Difference at round {r} and level {levels[index]}:', abs(ROUND_MEAN - meanOfRounds[r]), abs(ROUND_MEAN - REAL_ROUND_MEAN))
+        print(f'Mean Difference at round {r} and level {levels[index]}:', abs(ROUND_MEAN - meanOfRounds[r]), abs(meanOfRounds[r] - REAL_ROUND_MEAN))
         outputMean[r].append(ROUND_MEAN)
 print("Estimated Mean is:", outputMean)
