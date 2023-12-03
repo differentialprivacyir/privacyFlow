@@ -31,7 +31,7 @@ class PrivacyFlow:
         self.levels: List[float] = levels
         self.servers:List[WrappedServer] = [WrappedServer(M, lvl) for lvl in self.levels]
         # self.replication = DRPP(self.data, self.levels)
-        self.replication = None
+        # self.replication = None
 
     def new_data_set(self, data):
         """Get the data of new round and report it to underlying servers.
@@ -47,7 +47,7 @@ class PrivacyFlow:
                 for index,_ in enumerate(user['value']['v']):
                     self.servers[self.levels.index(lvl)].new_value(\
                                 user['value']['v'][index], user['value']['h'][index], index, False)
-        self.replication = DRPP(self.data, self.levels)
+        # self.replication = DRPP(self.data, self.levels)
 
     def estimate(self, l):
         """Computes the result at given level.
@@ -56,12 +56,12 @@ class PrivacyFlow:
             l (float): The budget of level
         """
         level = self.levels.index(l)
-        _, replicated_group_data = self.replication.recycle(l)
-        for user in replicated_group_data:
-            for index,_ in enumerate(user['value']['v']):
-                self.servers[level].new_value(user['value']['v'][index],\
-                                                user['value']['h'][index], index, True)
-        self.servers[level].replica_activasion(True)
+        # _, replicated_group_data = self.replication.recycle(l)
+        # for user in replicated_group_data:
+        #     for index,_ in enumerate(user['value']['v']):
+        #         self.servers[level].new_value(user['value']['v'][index],\
+        #                                         user['value']['h'][index], index, True)
+        # self.servers[level].replica_activasion(True)
         estimation_at_level = self.servers[level].predicate(False)
         estimations = []
         for lvl in self.data:
@@ -79,7 +79,7 @@ class PrivacyFlow:
             raise ValueError('Error! Unable to find index of level')
         # print(level, level_index, self.levels)
         answer = ac.weighted_estimate(level_index)
-        self.servers[level].replica_activasion(False)
+        # self.servers[level].replica_activasion(False)
         return answer
     def next_round(self):
         """Annotate next round to underlying servers.
