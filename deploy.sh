@@ -12,6 +12,6 @@ arg2=$2
 
 # Command to run in the screen
 # echo "$arg1""$arg2" > "results/hpc/$arg1/$arg2.txt"
-screen -dmS "$arg1""$arg2" python3 ./privacy_flow_test.py "$arg1" "$arg2" > "results/hpc/$arg1/$arg2.txt"
+screen -dmS "$arg1""$arg2" bash -c "python3 ./privacy_flow_test.py \"$arg1\" \"$arg2\" > results/hpc/$arg1/$arg2.txt"
 
 echo "Python script started in a screen session."
