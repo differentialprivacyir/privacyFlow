@@ -1,6 +1,7 @@
 """Contains test of Privacy Flow algorithm and result evaluation for it.
 """
 import math
+import sys
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_error
 import numpy as np
@@ -10,8 +11,10 @@ from WrappedClient import WrappeedClient
 from time import time
 from datetime import datetime
 
+print("Script runned with arguments:", sys.argv)
+
 #Overal Algorithm Execution Rounds:
-OAER = 1
+OAER = 50
 # Number of rounds to run the code:
 ROUND_CHANGES = 20
 # Privacy Budget Levels:
@@ -24,7 +27,7 @@ averageME = [[0] * ROUND_CHANGES for i in levels]
 for oaer in range(OAER):
     print(f'Start of round {oaer} at:', datetime.now())
     # Number of users:
-    N = 10000
+    N = int(sys.argv[1]) * 1000
     # Determines how many different value types are available in dataset: 
     # (Each bit is responsible for a separate value)
     DATA_SET_SIZE = 8
@@ -32,11 +35,11 @@ for oaer in range(OAER):
     # dataSet = [[i for i in np.random.randint(2 ** DATA_SET_SIZE - 1, size=N)]]
     # dataSet = [[math.floor(i) for i in np.random.normal(100, 10, size=N)]]
     # Read dataset from file:
-    csvContent = pd.read_csv('./hpcDatasets/normalMu=150Sigma=50N=10kR=20.csv')
+    csvContent = pd.read_csv(f'./hpcDatasets/{sys.argv[2]}.csv')
     dataSet = np.transpose(csvContent.to_numpy())
     # Determine selected privacy level of each client:
     # clientSelectedLevel = np.random.randint(len(levels), size=N)
-    clientSelectedLevel = [0] * 2000 + [1] * 2000 + [2] * 2000 + [3] * 2000 + [4] * 2000
+    clientSelectedLevel = [0] * N/len(levels) + [1] * N/len(levels) + [2] * N/len(levels) + [3] * N/len(levels) + [4] * N/len(levels)
     # Creates actual clients:
     clients = [WrappeedClient(DATA_SET_SIZE, levels, clientSelectedLevel[i], ROUND_CHANGES) for i in range(N)]
     # Initialize Server:
@@ -102,8 +105,8 @@ for oaer in range(OAER):
                 print("index:", i, "-> Estimated:", estimation[i], " Real:", normalized[r][i], " Error: %", int(error[-1]))
             print("Global Mean Square Error:", mean_squared_error(normalized[r], estimation))
             print("Global Mean Absolute Error:", mean_absolute_error(normalized[r], estimation))
-            averageMSE[index][r] = (averageMSE[index][r] * r + mean_squared_error(normalized[r], estimation))/(r+1)
-            averageMAE[index][r] = (averageMAE[index][r] * r + mean_absolute_error(normalized[r], estimation))/(r+1)
+            averageMSE[index][r] = (averageMSE[index][r] * oaer + mean_squared_error(normalized[r], estimation))/(oaer+1)
+            averageMAE[index][r] = (averageMAE[index][r] * oaer + mean_absolute_error(normalized[r], estimation))/(oaer+1)
             
 
 
@@ -121,7 +124,7 @@ for oaer in range(OAER):
             ROUND_MEAN /= N
             REAL_ROUND_MEAN /= N
             print(f'Mean Difference at round {r} and level {levels[index]}:', abs(ROUND_MEAN - meanOfRounds[r]), abs(meanOfRounds[r] - REAL_ROUND_MEAN))
-            averageME[index][r] = (averageME[index][r] * r + abs(ROUND_MEAN - meanOfRounds[r]))/(r+1)
+            averageME[index][r] = (averageME[index][r] * oaer + abs(ROUND_MEAN - meanOfRounds[r]))/(oaer+1)
             outputMean[r].append(ROUND_MEAN)
     print("Estimated Mean is:", outputMean)
 
