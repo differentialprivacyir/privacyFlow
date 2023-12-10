@@ -39,7 +39,7 @@ for oaer in range(OAER):
     dataSet = np.transpose(csvContent.to_numpy())
     # Determine selected privacy level of each client:
     # clientSelectedLevel = np.random.randint(len(levels), size=N)
-    clientSelectedLevel = [0] * N/len(levels) + [1] * N/len(levels) + [2] * N/len(levels) + [3] * N/len(levels) + [4] * N/len(levels)
+    clientSelectedLevel = [0] * int(N/len(levels)) + [1] * int(N/len(levels)) + [2] * int(N/len(levels)) + [3] * int(N/len(levels)) + [4] * int(N/len(levels))
     # Creates actual clients:
     clients = [WrappeedClient(DATA_SET_SIZE, levels, clientSelectedLevel[i], ROUND_CHANGES) for i in range(N)]
     # Initialize Server:
