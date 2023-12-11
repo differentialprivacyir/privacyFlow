@@ -4,7 +4,7 @@
 from typing import List
 import numpy as np
 from server.replicator.drpp import DRPP
-from server.combiner.ac import AC
+from server.combiner.simple import AC
 from server.estimator.estimator import WrappedServer
 
 
@@ -63,7 +63,6 @@ class PrivacyFlow:
         #                                         user['value']['h'][index], index, True)
         # self.servers[level].replica_activasion(True)
         estimation_at_level = self.servers[level].predicate(False)
-        return estimation_at_level
         estimations = []
         for lvl in self.data:
             if lvl < l:
