@@ -63,6 +63,7 @@ class PrivacyFlow:
         #                                         user['value']['h'][index], index, True)
         # self.servers[level].replica_activasion(True)
         estimation_at_level = self.servers[level].predicate(False)
+        return estimation_at_level
         estimations = []
         for lvl in self.data:
             if lvl < l:
