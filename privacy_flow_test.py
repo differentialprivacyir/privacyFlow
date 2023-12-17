@@ -19,7 +19,7 @@ OAER = 50
 ROUND_CHANGES = 20
 # Privacy Budget Levels:
 # levels = [(i+1)/10 for i in range(0, 10)]
-levels = [0.1, 0.5, 1, 5, 10]
+levels = [0.1, 0.3, 0.5, 0.7, 0.9]
 averageMSE = [[0] * ROUND_CHANGES for i in levels]
 averageMAE = [[0] * ROUND_CHANGES for i in levels]
 averageME = [[0] * ROUND_CHANGES for i in levels]
