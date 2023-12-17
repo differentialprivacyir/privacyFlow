@@ -21,7 +21,7 @@ class DRS:
         self.data = data
         self.sampledData = {}
         for eps in self.data:
-            sampledData[eps] = np.array([])
+            self.sampledData[eps] = np.array([])
 
     def recycle(self, target_level):
         """derives level-dp version from data of users with looser privacy
@@ -42,7 +42,7 @@ class DRS:
                 levelData = np.array(self.data[level])
                 sampleSize = math.floor(target_level/level * len(self.data[level]))
                 sampledDataAtThisLevel = np.random.choice(levelData, sampleSize, replace=False)
-                sampledGroup = np.concatenate(sampledGroup, sampledDataAtThisLevel)
-        self.sampledData[target_level]
+                sampledGroup = np.concatenate((sampledGroup, sampledDataAtThisLevel))
+        self.sampledData[target_level] = sampledGroup
         return expanded_group + self.sampledData[target_level].tolist(), self.sampledData[target_level].tolist()
 

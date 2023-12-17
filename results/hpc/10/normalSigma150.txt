@@ -1,0 +1,4 @@
+Script runned with arguments: ['privacy_flow_test.py', '10', 'normalMu=150Sigma=50N=10kR=20']
+Start of round 0 at: 2023-12-17 15:17:03.010908
+round 0 started
+Clients reported at 0.0507020910580953 minutes
