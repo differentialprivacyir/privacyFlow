@@ -3,7 +3,7 @@
 """
 from typing import List
 import numpy as np
-from server.replicator.drpp import DRPP
+from server.replicator.drs import DRS
 from server.combiner.ac import AC
 from server.estimator.estimator import WrappedServer
 
@@ -30,7 +30,7 @@ class PrivacyFlow:
                  to consider a mapping between each level and its position.')
         self.levels: List[float] = levels
         self.servers:List[WrappedServer] = [WrappedServer(M, lvl) for lvl in self.levels]
-        # self.replication = DRPP(self.data, self.levels)
+        # self.replication = DRS(self.data, self.levels)
         self.replication = None
 
     def new_data_set(self, data):
@@ -47,7 +47,7 @@ class PrivacyFlow:
                 for index,_ in enumerate(user['value']['v']):
                     self.servers[self.levels.index(lvl)].new_value(\
                                 user['value']['v'][index], user['value']['h'][index], index, False)
-        self.replication = DRPP(self.data, self.levels)
+        self.replication = DRS(self.data, self.levels)
 
     def estimate(self, l):
         """Computes the result at given level.

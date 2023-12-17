@@ -13,7 +13,7 @@ class DRPP:
         Args:
             data ({eps: [{userID: id, value: {v: val, h: heights}}, ...]}): Contains a dictionary of
                 privacy budget where each privacy budget is a list of users and values which
-                are selected that leve. 
+                are selected that level. 
 
             levels (float[]): The array of privacy budgets which denotes available levels.
         """
