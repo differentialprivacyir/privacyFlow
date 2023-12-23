@@ -79,6 +79,7 @@ class Client:
             v (int): The value of new data
         """
         self.t = self.t + 1
+        self.budget_used = False
         aArray = leaf_nodes_per_tree(self.t)
         aArray = aArray.astype(np.int64)
         previousR = self.R.copy()

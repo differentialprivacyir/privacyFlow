@@ -23,6 +23,9 @@ levels = [0.1, 0.3, 0.5, 0.7, 0.9]
 averageMSE = [[0] * ROUND_CHANGES for i in levels]
 averageMAE = [[0] * ROUND_CHANGES for i in levels]
 averageME = [[0] * ROUND_CHANGES for i in levels]
+avgBudget = 0
+maxBudget = 0
+minBudget = 0
 
 for oaer in range(OAER):
     print(f'Start of round {oaer} at:', datetime.now())
@@ -127,7 +130,15 @@ for oaer in range(OAER):
             averageME[index][r] = (averageME[index][r] * oaer + abs(ROUND_MEAN - meanOfRounds[r]))/(oaer+1)
             outputMean[r].append(ROUND_MEAN)
     print("Estimated Mean is:", outputMean)
+    consumedBudgets = [clients[i].budget_consumption() for i in range(N)]
+    avgBudget = (avgBudget * oaer + np.mean(consumedBudgets))/(oaer + 1)
+    maxBudget = (maxBudget * oaer + np.max(consumedBudgets))/(oaer + 1)
+    minBudget = (minBudget * oaer + np.min(consumedBudgets))/(oaer + 1)
 
 print("Results for Averaged MSE:", averageMSE)
 print("Results for Averaged MAE:", averageMAE)
 print("Results for Averaged ME:", averageME)
+
+print("Averaged mean budget usage:", avgBudget)
+print("Averaged max budget usage:", maxBudget)
+print("Averaged min budget usage:", minBudget)

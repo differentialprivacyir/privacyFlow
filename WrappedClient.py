@@ -64,3 +64,5 @@ class WrappeedClient:
             int: Number of changes till now.
         """
         return self.changes
+    def budget_consumption(self):
+        return self.budget_usage
