@@ -62,7 +62,7 @@ class PrivacyFlow:
         for user in replicated_group_data:
             for index,_ in enumerate(user['value']['v']):
                 self.servers[level].new_value(user['value']['v'][index],\
-                                                user['value']['h'][index], index, True)
+                                                user['value']['h'][index], index, True, user['eps'])
         self.servers[level].replica_activasion(True)
         estimation_at_level = self.servers[level].predicate(False)
         estimations = []

@@ -27,6 +27,8 @@ class Server:
         self.replica_last_root = 0
         self.replica_activated = False
 
+    def coefficient(self, eps):
+        return (1 + math.exp(eps))/(math.exp(eps) - 1)
     def new_value(self, v, h):
         """Get values of clients and after callibrating them, it will store their value.
 
@@ -34,7 +36,7 @@ class Server:
             v (int): The value of client's report which is either 1 of -1
             h (int): The height of estimation.
         """
-        callibrated_v = v * self.coef
+        callibrated_v = v * self.coefficient(eps or self.epsilon)
         self.last_root = max(self.last_root, h)
         if h == 0:
             self.sum_of_users_of1 += 1
@@ -43,12 +45,13 @@ class Server:
             self.sum_of_users_ofh += 1
             self.sum_v_ofh += callibrated_v
         
-    def replica_new_value(self, v, h):
+    def replica_new_value(self, v, h, eps):
         """Get replicated values of clients and after callibrating them, it will store their value.
 
         Args:
             v (int): The value of replicated client's report which is either 1 of -1
             h (int): The height of replicated estimation.
+            eps (float): The epsilon of this data.
         """
         callibrated_v = v * self.coef
         self.replica_last_root = max(self.replica_last_root, h)
