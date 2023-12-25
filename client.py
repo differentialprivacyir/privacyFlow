@@ -66,7 +66,8 @@ class Client:
             Float: Current budget to be used.
         """
         if (self.count * self.epsilon) > self.global_eps or self.budget_consumed:
-            return 0
+            # return 0
+            return self.epsilon
         else:
             return self.epsilon
 
