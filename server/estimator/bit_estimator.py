@@ -36,7 +36,7 @@ class Server:
             v (int): The value of client's report which is either 1 of -1
             h (int): The height of estimation.
         """
-        callibrated_v = v * self.coefficient(eps or self.epsilon)
+        callibrated_v = v * self.coef
         self.last_root = max(self.last_root, h)
         if h == 0:
             self.sum_of_users_of1 += 1
@@ -53,7 +53,7 @@ class Server:
             h (int): The height of replicated estimation.
             eps (float): The epsilon of this data.
         """
-        callibrated_v = v * self.coef
+        callibrated_v = v * self.coefficient(eps or self.epsilon)
         self.replica_last_root = max(self.replica_last_root, h)
         if h == 0:
             self.replica_sum_of_users_of1 += 1

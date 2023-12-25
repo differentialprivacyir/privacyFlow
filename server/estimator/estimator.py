@@ -13,7 +13,7 @@ class WrappedServer:
         self.epsilon = epsilon
         self.servers = [Server(epsilon) for i in range(M)]
 
-    def new_value(self, v, h, m, replicated, eps):
+    def new_value(self, v, h, m, replicated, eps = 0):
         """Transfer given value to corresponding bit_estimator
 
         Args:
@@ -25,6 +25,8 @@ class WrappedServer:
         if replicated is False:
             self.servers[m].new_value(v, h)
         else:
+            if eps == 0:
+                raise Exception('Error! epsilon is not provided')
             self.servers[m].replica_new_value(v, h, eps)
 
     def replica_activasion(self, status):
